@@ -1,0 +1,339 @@
+/* MAIN STUFF*/
+
+body{
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, select, textarea, label, div, .title, .attachment-span, .progress{
+    font-family: "Open Sans"!important; font-style: normal!important; font-variant: normal!important; 
+}
+
+/*general purpose links*/
+
+h4 a{   
+    font-weight: 300;
+    color: rgb(60, 72, 88);
+    border-bottom: 2px solid #ff6f61;
+}
+
+h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
+    /*font-weight: 400;*/
+    text-shadow: 0 0.25px 0px #000, 0px -0.25px 0px #000, -0.25px 0px 0px #000, 0.25px 0px 0px #000;
+    color: #000!important;
+}
+
+
+
+/* HEADER AND FOOTER SECTIONS */
+.header{    
+    padding-bottom: 80px; 
+    min-height: 600px; 
+}
+
+.header-logo{
+    width: auto; 
+    height: 100%; 
+    max-height: 180px; 
+    margin-top: -7px;
+}
+
+.header h1{
+    margin-top: -15px;
+}
+
+.header h4{
+    padding: 0 10px; 
+    margin-top: 30px;
+}
+
+.footer{
+    background: #fff; 
+    position: relative;
+}
+
+.footer .container{
+    height: 320px;
+}
+
+.footer h3{
+    margin-top: -5px; 
+    line-height: 1.1;
+}
+
+.footer h4{
+    margin-top: 5px; 
+    line-height: 1.2; 
+    margin-bottom: 30px;
+}
+
+
+
+/* HEADER BG DECORATIONS */
+
+.ods-header{    
+    max-width: 600px;
+    margin: 0 auto;     
+    background: #fff;
+    margin-top: 10px;
+    z-index: 1111;
+}
+
+.ods-bg-new{
+    position: absolute; 
+    width: calc(50% - 320px); 
+    max-width: 500px;
+    height: 520px;
+    margin-top: 60px;
+    top: 0px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /*background: rgba(255, 0, 0, 0.5);*/   
+}
+
+.header-bg-right{
+    right: 0px; 
+    background-image: url('../img/design/ods-hed-r-compressor.png'); 
+    background-position: center left;
+}
+
+.header-bg-left{
+    left: 0px; 
+    background-image: url('../img/design/ods-hed-l-compressor.png'); 
+    background-position: center right;
+}
+
+.footer-bg-right{
+    max-width: 250px; 
+    top: inherit; 
+    bottom: 0px; 
+    margin: 0px; 
+    right: 0px; 
+    background-image: url('../img/design/ods-bot-r2-compressor.png'); 
+    background-position: bottom left;
+}
+
+.footer-bg-left{
+    max-width: 250px; 
+    top: inherit; 
+    bottom: 0px; 
+    margin: 0px; 
+    left: 0px; 
+    background-image: url('../img/design/ods-bot-l2-compressor.png'); 
+    background-position: bottom right;
+}
+
+
+
+
+
+
+
+/*NAVIGATION FIXES*/
+
+.navbar .container{
+    margin-top: -10px;
+}
+
+.navbar .navbar-toggle .icon-bar{
+    color: #ef645e;
+}
+
+.nav-icon{
+    vertical-align: -0.15em;
+    font-size: 20px;
+}
+
+.navbar.navbar-primary .dropdown-menu .active>a {
+    background: transparent;
+    text-shadow: .5px .5px 0px #3c3839;
+    box-shadow: none;
+    color: #3c3839;
+}
+
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus, .navbar .navbar-collapse .open .dropdown-menu>li>a:hover {
+    background: #eee!important;
+    /*text-shadow: .5px .5px 0px #3c3839!important;*/
+    box-shadow: none;
+    color: #3c3839!important;
+}
+
+.navbar .navbar-nav > li.open > .dropdown-menu {
+    margin-top: -4px;
+}
+
+.navbar .navbar-nav .caret {
+    margin-top: -2px;
+}
+
+.nav-logo{
+    width: 160px; 
+    height: 40px; 
+    margin-top: 5px; 
+    margin-left: -12px;
+}
+
+.navbar-brand{
+    padding: 0px 15px!important;
+}
+
+.dropdown-menu .nav-span{
+    margin-left: 5px;
+}
+
+.ods-nav{
+    height: 30px; 
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+
+
+
+
+/*ICONS AND EMOJI*/
+
+.ods-emoji{
+    width: auto;
+    height: 23px;
+    display: inline-block;
+    margin-top: -2px;
+    margin-right: 2px;
+    margin-left: -1px;
+}
+
+.fa-lg{
+    margin: 0px 2px;
+}
+
+.ods-social-container{
+    width: 25px; 
+    height: 25px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin: 1px 1px; 
+    vertical-align: middle;
+}
+
+.ods-social-fab{
+    color: #fff; 
+    font-size: 19px; 
+    vertical-align: middle; 
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+/* LISTS FOR HEADER AND OTHER CONTENT */
+
+.ods-main-ul{
+    text-align: left; 
+    margin-left: -25px;
+    margin-top: 15px;
+}
+
+.ods-main-ul h4{
+    margin-top: 10px;
+}
+
+.ods-main-ul li{
+    list-style-type: none; 
+    margin-top: 15px;
+}
+
+.ods-main-ul li .nav-icon{
+    margin-right: 6px;
+    font-size: 28px;
+}
+
+.ods-main-ul-sep{
+    display: inline-block; 
+    vertical-align: top; 
+    width: 35px;    
+}
+
+.ods-main-ul-txt{
+    display: inline-block; 
+    vertical-align: top; 
+    width: calc(100% - 50px);
+}
+
+
+
+
+
+/* BUTTONS */
+.button--moema {
+  padding: 1.5em 3em;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.more_button{
+  color: #785cb4; 
+}
+
+.more_button:hover{
+  color: #ffffff;
+}
+
+
+.epic-button{
+    background: linear-gradient(135deg, rgba(255,101,66,1) 0%, rgba(255,0,132,1) 100%)!important; 
+    color: #fff; 
+    font-size: 18px;
+    padding: 30px 60px;
+    border-radius: 72px;
+}
+
+
+
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 991px) {
+ 
+}
+
+
+@media (max-width: 768px) {
+    .epic-button{
+        font-size: 14px;
+        padding: 14px 28px;
+    }
+
+    .navbar .navbar-collapse .open .dropdown-menu > li > a {
+        padding-left: 35px;
+    }
+
+    .navbar .navbar-nav .caret {
+        margin-top: 6px;
+    }
+
+    .nav-open .navbar-collapse {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+}
+@media (max-width: 600px) {
+    
+}
+
+
+
+
+
+
+
+

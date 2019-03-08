@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>///</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/material-kit.min.css" rel="stylesheet"/>
+    <link href="../assets/css/mlboard.css?v=1.8" rel="stylesheet"/>
+    <link href="../assets/css/deephack.css?v=1.5" rel="stylesheet"/>
+</head>
+
+<body class="blog-posts">
+
+	<nav class="navbar navbar-primary navbar-transparent navbar-absolute">
+    	<div class="container">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+
+        		<div class="header-logos">
+        			<a href="http://www.mlboard.com"><div class="header-logo-block"></div></a>        				
+	        		<div class="dropdown header-flags">
+	    	            <a href="#pablo" class="dropdown-toggle " data-toggle="dropdown">
+	    	                <img src="../assets/img/flags/US.png"/>
+	    	                <b class="caret"></b>
+	    	            </a>
+	    	            <ul class="dropdown-menu">
+	    	                <li><a href="#pablo"><img src="../assets/img/flags/RU.png"/> Russian</a></li>
+	    	                <li><a href="#pablo"><img src="../assets/img/flags/US.png"/> English</a></li>
+	    	            </ul>
+	    	        </div>	    	            
+    	        </div>
+
+        	</div>
+
+        	<div class="collapse navbar-collapse">
+        		<ul class="nav navbar-nav navbar-right">
+    				
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<img class="avatar" src="../assets/img/faces/marc.jpg">
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu dropdown-with-icons">
+							<li>
+								<a href="#" data-toggle="modal" data-target="#profileModal">
+									<i class="material-icons">account_circle</i> Profile Page
+								</a>
+							</li>
+							<li>
+								<a href="#" data-toggle="modal" data-target="#loginModal">
+									<i class="material-icons">fingerprint</i> Login Page
+								</a>
+							</li>
+							<li>
+								<a href="#" data-toggle="modal" data-target="#profileModal">
+									<i class="material-icons">person_add</i> Signup Page
+								</a>
+							</li>
+						</ul>
+					</li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+
+	<div class="page-header contest-bg" data-parallax="true"></div>
+	<div class="contest-overview text-center">
+		<div class="contest-logo"></div>
+		<div class="container timeline-container">
+			
+			<div class="progress">
+				
+				<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+					<span class="sr-only">60% Complete</span>
+				</div>
+				<div class="timeline-mark timeline-start"></div>
+				<div class="timeline-date timeline-date-start">29.01</div>
+
+				<div class="timeline-mark timeline-end"></div>
+				<div class="timeline-date timeline-date-end">05.02</div>
+
+				<div class="timeline-extra-holder" style="right: 10%;">
+					<div id="timeline-extra1" class="timeline-mark timeline-extra-mark"></div>
+				</div>				
+				<div class="timeline-date" style="right: 10%;">04.02</div>
+
+			</div>
+			<p class="card-description" style="margin-top: -45px; color: white; font-size: 12px; ">
+				10 days, 0 hours and 52 minutes till deadline
+			</p>
+		</div>
+	</div>
+
+	<div class="container main-container">
+		<div class="main main-raised">
+
+			<div class="section">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-pills nav-pills-primary text-center">
+						  <li class="active" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;"><a href="#pill1" data-toggle="tab">Overview</a></li>
+						  <li><a href="#pill2" data-toggle="tab">Leaderboard</a></li>
+						  <li><a href="#pill3" data-toggle="tab">Discussion</a></li>
+						  <li><a href="#pill4" data-toggle="tab">My solutions</a></li>
+						  <li><a data-toggle="modal" data-target="#joinModal" class="join-button">Join competition</a></li>
+						  <li><a data-toggle="modal" data-target="#submitModal" class="join-button">Submit solution</a></li>
+						</ul>
+						<div class="tab-content tab-space">
+							<div class="tab-pane active" id="pill1">
+
+
+									<div class="row" style="    margin-bottom: 20px;">
+										<div class="col-md-8 col-md-offset-2 text-center">
+											<h3 class="title" style="font-weight: 400;">Competition finale</h3>
+
+											<p>The main goal of hackathon is semi-supervised Machine Translation: Machine Translation which makes use not only from (often scarce) parallel data, but also from untranslated texts in source and target languages.</p>
+
+										</div>
+									</div>
+									
+									
+									<div class="row" style="    margin-bottom: 20px;">
+										<div class="col-md-4">
+											<div class="card card-plain card-blog" style="margin-bottom: 0px;">
+												<div class="card-image">
+													<a href="#pablo">
+														<img class="img img-raised" src="../assets/img/deephack-1.jpg" />
+													</a>
+												</div>
+
+												<div class="card-content">
+													<h4 class="card-title">
+														Competition prizes
+													</h4>
+													<p>
+														Main prize: journey to <a href="http://icml.cc"><b>ICML 2018</b></a> - 35th International Conference on Machine Learning, Stockholm Sweden. Second- and third-best teams will also be awarded valuable prizes.
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="card card-plain card-blog" style="margin-bottom: 0px;">
+												<div class="card-image">
+													<a href="#pablo">
+														<img class="img img-raised" src="../assets/img/deephack-1.jpg" />
+													</a>
+												</div>
+												<div class="card-content">
+													<h4 class="card-title">
+														ML problem
+													</h4>
+													<p>
+														Semi-supervised machine translation for IT-texts from English into German. Evaluation metric is BLEU-4 score: how many words and ngrams overlap in a given translation and a reference translation.
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="card card-plain card-blog" style="margin-bottom: 0px;">
+												<div class="card-image">
+													<a href="#pablo">
+														<img class="img img-raised" src="../assets/img/deephack-1.jpg" />
+													</a>
+												</div>
+
+												<div class="card-content">
+													<h4 class="card-title">
+														Solution format
+													</h4>
+													<p>
+														Container-based. Here be technical limitations on execution time, container size, memory limits, etc. Also how many solutions a day do we send.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="row">
+										<div class="col-md-6">
+											<h3 class="title" style="font-weight: 400;">Dataset</h3>
+
+											<p>This time the topic of our new DeepHack hackathon is machine translation (MT). At the hackathon we will tackle the task of semi-supervised neural MT: we'll try to improve a neural MT model with monolingual data. However, our qualification task is traditional supervised MT It serves for familiarising participants with the MT field.</p>
+
+											<p>For this task we have decided to pick a well-studied language pair (English-German) and put no restrictions on the used data and model architecture.</p>
+										</div>
+
+										<div class="col-md-6">
+											<h3 class="title" style="font-weight: 400;">Submission instructions</h3>
+
+											<p>This time the topic of our new DeepHack hackathon is machine translation (MT). At the hackathon we will tackle the task of semi-supervised neural MT: we'll try to improve a neural MT model with monolingual data. However, our qualification task is traditional supervised MT It serves for familiarising participants with the MT field.</p>
+
+
+											<p>For this task we have decided to pick a well-studied language pair (English-German) and put no restrictions on the used data and model architecture.</p>
+										</div>
+									</div>
+				
+
+
+
+
+
+							</div>
+							<div class="tab-pane" id="pill2">
+
+								
+
+
+								<div class="row" style="    margin-bottom: 20px;">
+										<div class="col-md-8 col-md-offset-2 text-center">
+											<h3 class="title" style="font-weight: 400;">Public leaderboard</h3>
+
+											<p>This leaderboard is calculated with approximately 25% of the test data.<br>
+											The final results will be based on the other 75%, so the final standings may be different. <br></p>
+
+										</div>
+								</div>
+
+
+								<div class="row" style="    margin-bottom: 20px;">
+										<table class="table" style="margin-top: 30px;">
+										    <thead>
+										        <tr>
+										            <th class="text-center">#</th>
+										            <th>Username</th>
+										            <th>Last submission</th>
+										            <th>Submission count</th>
+										            <th class="text-right">Score</th>
+										            <th class="text-right">...</th>
+										        </tr>
+										    </thead>
+										    <tbody>
+										        <tr>
+										            <td class="text-center">1</td>
+										            <td>GolovanovSrg</td>
+										            <td>January 11, 2018 at 11:58 AM</td>
+										            <td>5</td>
+										            <td class="text-right">0.31458</td>
+										            <td class="td-actions text-right">
+										                <button type="button" rel="tooltip" class="btn btn-info btn-simple">
+										                    <i class="material-icons">person</i>
+										                </button>
+										                <button type="button" rel="tooltip" class="btn btn-success btn-simple">
+										                    <i class="material-icons">edit</i>
+										                </button>
+										                <button type="button" rel="tooltip" class="btn btn-danger btn-simple">
+										                    <i class="material-icons">close</i>
+										                </button>
+										            </td>
+										        </tr>
+										        <tr>
+										            <td class="text-center">2</td>
+										            <td>justalex</td>
+										            <td>January 09, 2018 at 7:41 PM	</td>
+										            <td>3</td>
+										            <td class="text-right">0.31458</td>
+										            <td class="td-actions text-right">
+										                <button type="button" rel="tooltip" class="btn btn-info btn-simple">
+										                    <i class="material-icons">person</i>
+										                </button>
+										                <button type="button" rel="tooltip" class="btn btn-success btn-simple">
+										                    <i class="material-icons">edit</i>
+										                </button>
+										                <button type="button" rel="tooltip" class="btn btn-danger btn-simple">
+										                    <i class="material-icons">close</i>
+										                </button>
+										            </td>
+										        </tr>
+										        <tr>
+										            <td class="text-center">3</td>
+										            <td>gellmark</td>
+										            <td>January 12, 2018 at 3:53 PM</td>
+										            <td>1</td>
+										            <td class="text-right">0.31458</td>
+										            <td class="td-actions text-right">
+										                <button type="button" rel="tooltip" class="btn btn-info btn-simple">
+										                    <i class="material-icons">person</i>
+										                </button>
+										                <button type="button" rel="tooltip" class="btn btn-success btn-simple">
+										                    <i class="material-icons">edit</i>
+										                </button>
+										                <button type="button" rel="tooltip" class="btn btn-danger btn-simple">
+										                    <i class="material-icons">close</i>
+										                </button>
+										            </td>
+										        </tr>
+										    </tbody>
+										</table>
+											
+									</div>
+									
+									
+
+
+
+							</div>
+							<div class="tab-pane" id="pill3">
+
+
+								<div class="row" style="margin-top: 50px; margin-bottom: 20px;">
+
+									<div class="col-md-6">
+										<div class="card card-raised card-background" style="background-image: url('../assets/img/examples/office2.jpg')">
+											<div class="card-content">
+												<h6 class="category text-info">Worlds</h6>
+												<a href="#pablo">
+													<h3 class="card-title">The Best Productivity Apps on Market</h3>
+												</a>
+												<p class="card-description">
+													Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+												</p>
+												<a href="#pablo" class="btn btn-danger btn-round">
+													<i class="material-icons">format_align_left</i> Read Article
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="card card-raised card-background" style="background-image: url('../assets/img/examples/blog8.jpg')">
+											<div class="card-content">
+												<h6 class="category text-info">Business</h6>
+												<h3 class="card-title">Working on Wallstreet is Not So Easy</h3>
+												<p class="card-description">
+													Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+												</p>
+												<a href="#pablo" class="btn btn-primary btn-round">
+													<i class="material-icons">format_align_left</i> Read Article
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-12">
+										<div class="card card-raised card-background" style="background-image: url('../assets/img/examples/card-project6.jpg')">
+											<div class="card-content">
+												<h6 class="category text-info">Marketing</h6>
+												<h3 class="card-title">0 to 100.000 Customers in 6 months</h3>
+												<p class="card-description">
+													Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+												</p>
+												<a href="#pablo" class="btn btn-warning btn-round">
+													<i class="material-icons">subject</i> Read Case Study
+												</a>
+												<a href="#pablo" class="btn btn-white btn-just-icon btn-simple" title="Save to Pocket" rel="tooltip">
+													<i class="fa fa-get-pocket"></i>
+												</a>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+							</div>
+
+							<div class="tab-pane" id="pill4">
+
+
+
+								<div class="section">
+									<h3 class="title text-center">Yo dawwwg!</h3>
+								</div>
+
+
+
+							</div>
+							<div class="tab-pane" id="pill5">
+								
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				
+
+
+			
+
+			</div>
+		</div>
+
+
+
+
+    </div>
+
+	<footer class="footer">
+		<div class="container text-center">
+			<div class="footer-copyright">
+				<img class="logo" src="../assets/img/arktur_logo.svg"/>
+				<br>
+				<i class="fa fa-copyright"></i> 2018 — Arktur, <a href="#" class="footer-link">Privacy&nbsp;Policy</a> | <a href="#" class="footer-link">Terms&nbsp;&&nbsp;Conditions</a>
+			</div>
+
+
+			<ul class="social-buttons pull-right">
+				<li>
+					<a href="http://www.mlboard.com" target="_blank" class="btn btn-just-icon btn-round btn-twitter ">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.mlboard.com" target="_blank" class="btn btn-just-icon btn-round btn-google ">
+						<i class="fa fa-youtube-play"></i>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.mlboard.com" target="_blank" class="btn btn-just-icon btn-round btn-facebook ">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:natekin@ods.ai">
+						Contact Us
+					</a>
+				</li>
+			</ul>
+
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="card card-signup card-plain">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+
+					<div class="header header-primary text-center">
+						<h4 class="card-title">Log in</h4>
+					</div>
+				</div>
+				<div class="modal-body">
+					<form class="form" method="" action="">
+						<div class="social text-center" style="margin-top: 20px;">
+								<button class="btn btn-just-icon btn-round btn-google">
+									<i class="fa fa-google"></i>
+								</button>
+								<button class="btn btn-just-icon btn-round btn-github">
+									<i class="fa fa-github"></i>
+								</button>
+								<button class="btn btn-just-icon btn-round btn-facebook">
+									<i class="fa fa-facebook"> </i>
+								</button>
+								<h4> or be classical </h4>
+							</div>
+						<div class="card-content">
+
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="material-icons">email</i>
+								</span>
+								<input type="text" class="form-control" placeholder="Email or login...">
+							</div>
+
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="material-icons">lock_outline</i>
+								</span>
+								<input type="password" placeholder="Password..." class="form-control" />
+							</div>
+
+							<!-- If you want to add a checkbox to this form, uncomment this code
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="optionsCheckboxes" checked>
+									Subscribe to newsletter
+								</label>
+							</div> -->
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer text-center" style="margin-top:10px; margin-bottom: 25px;">
+					<a href="#pablo" class="btn join-button btn-lg">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  End Modal -->
+
+
+<!-- Join Modal -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-signup">
+	    <div class="modal-content">
+			<div class="card card-signup card-plain">
+				<div class="modal-header">
+		        	<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+		      	</div>
+		      	<div class="modal-body">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							
+							
+							<div class="fileinput fileinput-new text-center" data-provides="fileinput">
+								<div class="fileinput-new thumbnail img-circle img-raised">
+									<img src="../assets/img/placeholder.jpg" alt="...">
+								</div>
+								<div class="fileinput-preview fileinput-exists thumbnail img-circle img-raised"></div>
+								<div>
+									<span class="btn btn-raised btn-round btn-default btn-file">
+										<span class="fileinput-new">Update Photo</span>
+										<span class="fileinput-exists">Change</span>
+										<input type="file" name="..." /></span>
+									<br />
+									<a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+								</div>
+							</div>
+
+							
+
+							<div class="social text-center">
+								<button class="btn btn-just-icon btn-round btn-google">
+									<i class="fa fa-google"></i>
+								</button>
+								<button class="btn btn-just-icon btn-round btn-github">
+									<i class="fa fa-github"></i>
+								</button>
+								<button class="btn btn-just-icon btn-round btn-facebook">
+									<i class="fa fa-facebook"> </i>
+								</button>
+								<h4> or be classical </h4>
+							</div>
+
+
+							<div class="info info-horizontal">
+								<div class="icon icon-rose">
+									<i class="material-icons">timeline</i>
+								</div>
+								<div class="description">
+									<h4 class="info-title">Marketing</h4>
+									<p class="description">
+										We've created the marketing campaign of the website. It was a very interesting collaboration.
+									</p>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-5">
+							
+
+							<form class="form" method="" action="">
+								<div class="card-content">
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">person</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Username...">
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Email...">
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">lock_outline</i>
+										</span>
+										<input type="password" placeholder="Password..." class="form-control" />
+									</div>
+						
+
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">face</i>
+										</span>
+										<input type="text" class="form-control" placeholder="First Name...">
+									</div>
+
+								</div>
+							</form>
+						</div>
+					</div>
+		      	</div>
+			</div>
+	    </div>
+	</div>
+</div>
+<!--  End Modal -->
+
+
+
+
+
+<!-- Join Modal -->
+<div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="card card-signup card-plain">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+
+					<div class="header header-primary text-center">
+						<h4 class="card-title">Join competition</h4>						
+					</div>
+				</div>
+				<div class="modal-body">
+					<form class="form" method="" action="">
+						
+						<div class="card-content">
+
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="material-icons">face</i>
+								</span>
+								<input type="text" class="form-control" placeholder="Your Name and Surname...">
+							</div>
+
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="material-icons">location_city</i>
+								</span>
+								<input type="text" class="form-control" placeholder="Your city...">
+							</div>
+
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="material-icons">phone</i>
+								</span>
+								<input type="password" placeholder="Phone number..." class="form-control" />
+							</div>
+
+							
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="optionsCheckboxes" id="accept_join_rules">
+									I agree to the <a href="#something">terms and conditions</a>.
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer text-center" id="join_comp" style="margin-top:10px; margin-bottom: 25px;">
+					<a href="#" id="join_comp_btn" class="btn btn-lg disabled-button">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  End Modal -->
+
+
+<!-- Submit Modal -->
+<div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="card card-signup card-plain">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+
+					<div class="header header-primary text-center">
+						<h4 class="card-title">Submit solution</h4>						
+					</div>
+				</div>
+				<div class="modal-body">
+					<form class="form" method="" action="">
+						
+						<div class="card-content" style="margin-left: 20px;">
+
+							<div class="form-group form-file-upload">
+								<input type="file" id="inputFile2" multiple="">
+								<div class="input-group">
+									<input type="text" readonly="" class="form-control" placeholder="Solution File">
+									<span class="input-group-btn input-group-s">
+										<button type="button" class="btn btn-just-icon btn-round btn-primary" style="background-image: linear-gradient(60deg,#00c84a,#00E676);">
+											<i class="material-icons">attach_file</i>
+										</button>
+									</span>
+								</div>
+							</div>
+
+
+							<div id="textareaTags">
+								<div class="row">
+									<div class="col-md-12">
+				    				    <div class="form-group label-floating">
+										    <label class="control-label"> You can write your comment here...</label>
+										    <textarea class="form-control" rows="5"></textarea>
+				                        </div>
+								    </div>
+								</div>
+							</div>
+
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer text-center" id="join_comp" style="margin-top:10px; margin-bottom: 25px;">
+					<a href="#" id="join_comp_btn" class="btn btn-lg join-button">Submit</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  End Modal -->
+
+
+
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="../assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../assets/js/material.min.js"></script>
+
+	<!-- If you delete the following 2 plugins, parallax stops working -->
+
+	<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/   -->
+	<script src="../assets/js/bootstrap-tagsinput.js"></script>
+
+	<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput   -->
+	<script src="../assets/js/jasny-bootstrap.min.js"></script>
+
+
+	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
+	<script src="../assets/js/material-kit.js?v=1.2.1" type="text/javascript"></script>
+
+	<script type="text/javascript">
+    $(document).ready(function() {
+
+		 $( "#accept_join_rules" ).on( "click", function() {
+		  	$('#join_comp_btn').toggleClass("join-button");
+		    //$('#join_comp_btn').toggleClass("disabled-button");
+		});
+    });
+    </script>
+</html>

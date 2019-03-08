@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+	<!-- TITLE OF SITE -->
+	<title>Open Data Science</title>
+
+	<!-- META DATA -->
+	<meta name="description" content="Data Science Community" />
+	<meta name="keywords" content="ods, open data science, data, data science, machine learning, ai, ml, ds, dl, deep learning, artificial intelligence" />
+	<meta name="author" content="Open Data Science ods.ai">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!--
+	<meta property="og:image" content="http://datafest.ru/images/vk_fest.png"/>
+	-->
+	<link rel="apple-touch-icon" sizes="57x57" href="static/img/fav/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="static/img/fav/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="static/img/fav/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="static/img/fav/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="static/img/fav/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="static/img/fav/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="static/img/fav/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="static/img/fav/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/img/fav/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="static/img/fav/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/img/fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="static/img/fav/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/img/fav/favicon-16x16.png">
+	<link rel="manifest" href="static/img/fav/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="static/img/fav/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400i,500,600,700,800" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
+
+	<!-- CSS Files -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="static/css/material-kit.css?v=1.3" rel="stylesheet"/>
+    <link href="static/css/dataTables.material.css" rel="stylesheet"/>
+    <link href="static/css/ods_main.css?v=1.3" rel="stylesheet"/>
+    <link href="static/css/dt_videos.css?v=1.2" rel="stylesheet"/>
+
+
+</head>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter42489204 = new Ya.Metrika({
+                    id:42489204,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/42489204" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<style type="text/css">
+	
+	/* GENERAL DT STYLING FIXES */
+
+	.dataTables_wrapper{
+		margin-left: -16px;
+		margin-right: -16px;
+	}
+
+	table.dataTable tbody td {
+		vertical-align: top;
+	}
+
+	.form-control, .form-group .form-control, .form-group.is-focused .form-control {
+	    border: 0;
+	    background-image: linear-gradient(#ef645e, #ef645e), linear-gradient(#D2D2D2, #D2D2D2);
+	    font-size: 14px;
+	}
+
+	.mdl-data-table th{
+		font-size: 14px;
+		font-weight: 500;
+		color: rgb(60, 72, 88);
+	}
+
+	.mdl-cell .form-group{
+		vertical-align: baseline;
+    	display: inline-block;
+	}
+
+	.mdl-button--raised.mdl-button--colored{
+		box-shadow: none;
+		background: #ef645e;
+    	background-image: linear-gradient(135deg, #ef645e, #ef645e);
+    	/*box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
+    	background-image: linear-gradient(135deg, #ef645e, #eb1e6f);*/
+	}
+
+/*
+	.mdl-button--colored{
+		background: #ef645e!important;
+		
+	}
+*/
+
+	.form-group .form-control[type="search"]{
+		min-width: 180px;
+	}
+
+	.dataTables_length label, .dataTables_filter label{
+		font-size: 14px;
+		font-weight: 300;
+		color: rgb(60, 72, 88);
+	}
+
+	.pagination{
+		margin-top: 3px;
+	}
+
+	.mdl-button{
+		text-transform: none;
+		font-size: 14px;
+		font-weight: 300;
+		color: rgb(60, 72, 88);
+	}
+
+	table.dataTable tbody tr:hover {
+	    background: none!important;
+	}
+
+	@media (max-width: 768px) {
+
+		.dataTables_paginate, .pagination{
+			text-align: center!important;
+		}
+	}
+	@media (max-width: 839px) and (min-width: 521px) {
+		.mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+		    width: calc(50% - 20px);
+		}
+		.form-group .form-control[type="search"]{
+			min-width: 120px;
+		}
+	}
+	@media (max-width: 520px) {
+		.mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+		    width: calc(100% - 16px);		    
+		}
+		
+		.mdl-cell--6-col .dataTables_filter{
+			text-align: left!important;
+			margin-top: -30px;
+		}
+
+		.mdl-button{
+			min-width: 24px;
+		}
+	}
+
+
+	.badge{
+		font-size: 14px;
+		font-weight: 300;
+		margin: 3px 6px 3px 0px;
+		padding: 5px 10px;
+		background: #bbb;
+		color: #fff;
+		border-radius: 2px;
+		cursor: pointer;
+	}
+
+	.active-badge{
+		background: #ef645e;
+	}
+
+</style>
+
+<body>
+	<nav class="navbar navbar-transparentt navbar-fixed-top navbar-color-on-scrolll ods-nav" color-on-scrolll="100">
+    	<div class="container">
+    		<div class="navbar-header" >
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="http://ods.ai"><img src="static/img/ods_logo_wide.svg" class="nav-logo"></a>
+        	</div>
+
+        	<div class="collapse navbar-collapse">
+        		<ul class="nav navbar-nav navbar-right">
+        			<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
+	                		<span class="nav-icon">💯</span> 
+							<span>Сообщество</span>	
+		    	            <b class="caret"></b>
+	    	            </a>
+	    	            <ul class="dropdown-menu">
+	    	                <li><a href="schedule/">
+	    	                	<span class="nav-icon">🚀</span> 
+	    	                	<span class="nav-span">Open Data Science</span>
+	    	                </a></li>
+	    	                <li><a href="/en">
+	    	                	<span class="nav-icon">🛠</span> 
+	    	                	<span class="nav-span">Проекты</span>
+	    	                </a></li>
+	    	                <li><a href="/en">
+	    	                	<span class="nav-icon">🏆</span> 
+	    	                	<span class="nav-span">Награды</span>
+	    	                </a></li>
+	    	            </ul>
+					</li>
+					<li style="display: none;">
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
+	                		<span class="nav-icon">🎉</span> 
+							<span>Мероприятия</span>	
+		    	            <b class="caret"></b>
+	    	            </a>
+	    	            <ul class="dropdown-menu">
+	    	                <li><a href="schedule/">
+	    	                	<span class="nav-icon">📅</span> 
+	    	                	<span class="nav-span">Все мероприятия</span>
+	    	                </a></li>
+	    	                <li><a href="/en">
+	    	                	<span class="nav-icon">📹</span> 
+	    	                	<span class="nav-span">Видео</span>
+	    	                </a></li>
+	    	            </ul>
+					</li>
+					<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
+	                		<img class="ods-emoji" src="static/img/emoji/slack_new.png" style="max-width: 22px; height: auto;">
+							<span>Slack</span>
+		    	            <b class="caret"></b>
+	    	            </a>
+	    	            <ul class="dropdown-menu">
+	    	                <li><a href="faq/">
+	    	                	<span class="nav-icon">🤔</span> 
+	    	                	<span class="nav-span">FAQ</span>
+	    	                </a></li>
+	    	                <li><a href="map/">
+	    	                	<span class="nav-icon">🔍</span> 
+	    	                	<span class="nav-span">Карта каналов</span>	    	                	
+	    	                </a></li>
+	    	                <li><a href="map/">
+	    	                	<span class="nav-icon">📋</span> 
+	    	                	<span class="nav-span">Регистрация</span>
+	    	                </a></li>
+	    	            </ul>
+					</li>
+					<li class="dropdown" style="display: block;">
+    					<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
+	                		<span class="nav-icon">🇷🇺</span>
+	                		<span href="#" class="text-center hidden-sm hidden-md hidden-lg">
+								Русский
+							</span>
+		    	            <b class="caret"></b>
+	    	            </a>
+	    	            <ul class="dropdown-menu">
+	    	                <li><a href="/ru">
+	    	                	<span class="nav-icon">🇷🇺</span> 
+	    	                	<span class="nav-span">Русский</span>
+	    	                </a></li>
+	    	                <li><a href="/en">
+	    	                	<span class="nav-icon">🇬🇧</span> 
+	    	                	<span class="nav-span">English</span>
+	    	                </a></li>
+	    	                <li><a href="/terminator">
+	    	                	<img class="ods-emoji" src="static/img/emoji/terminator.png">
+	    	                	<span class="nav-span">01000110</span>
+	    	                </a></li>	    	                
+	    	            </ul>
+	    	        </li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+
+
+    <div class="section header">
+    	<div class="ods-header text-center">
+	    	<img src="static/img/ods_birthday.svg" class="header-logo" style="max-height: 200px; margin-bottom: 10px;">
+	    	<h1>Open Data Science</h1>
+
+	    	<a href="https://opendatascience.slack.com"><div class="ods-social-container text-center" style="background: #461b47;"><img src="static/img/emoji/slack_new.png" style="max-width: 22px; height: auto;"></div></a>	    	
+	    	<a href="https://t.me/ods_ru"><div class="ods-social-container text-center" style="background: #00ade9;"><i class="fab fa-telegram-plane ods-social-fab" style="margin-left: -2px;"></i></div></a>
+		    <a href="https://www.kaggle.com/open-data-science"><div class="ods-social-container text-center" style="background: #45c8f0;"><i class="fab fa-kaggle ods-social-fab"></i></div></a>
+		    <a href="https://www.linkedin.com/company/opendatascience/"><div class="ods-social-container text-center" style="background: #007cb6;"><i class="fab fa-linkedin-in ods-social-fab"></i></div></a>
+	    	<a href="https://twitter.com/odsai_en/"><div class="ods-social-container text-center" style="background: #00ceff;"><i class="fab fa-twitter ods-social-fab"></i></div></a>   	
+	    	<div class="ods-social-container text-center" style="background: #02B875; display: none;"><i class="fab fa-medium-m ods-social-fab"></i></div> 	
+	    	<a href="https://github.com/open-data-science"><div class="ods-social-container text-center" style="background: #333;"><i class="fab fa-github ods-social-fab"></i></div></a>	    	
+	    	<a href="https://habr.com/company/ods/"><div class="ods-social-container text-center" style="background: #82a3b1;"><div style="margin-top: 1px; margin-left: 1px;"><b class="ods-social-fab">H</b></div></div></a>
+	    	<a href="http://instagram.com/ods_ai/"><div class="ods-social-container text-center" style="background: #d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);"><i class="fab fa-instagram ods-social-fab"></i></div></a>
+	    	
+	    	<h4>
+	    		Международное сообщество, объединяющее специалистов, исследователей и инженеров, связанных с Data Science
+	    	</h4>		
+
+			<ul class="ods-main-ul">
+				<li>
+					<h4>
+						<div class="ods-main-ul-sep"><span class="nav-icon">🔥</span></div>
+						<div class="ods-main-ul-txt">Вместе делаем крутые <a href="/projects">проекты</a>, <a href="/events">мероприятия</a> и <a href="http://mlcourse.ai">курсы</a></div>
+					</h4>
+				</li>
+				<li>
+					<h4>
+						<div class="ods-main-ul-sep"><span class="nav-icon">💪</span></div>
+						<div class="ods-main-ul-txt">Делимся <a href="/videos">опытом</a>, <a href="/awards">прокачивая себя</a> и друг друга</div>
+					</h4>
+				</li>
+							
+				<li>
+					<h4>
+						<div class="ods-main-ul-sep"><span class="nav-icon">📈</span></div>
+						<div class="ods-main-ul-txt">Продвигаем <a href="/ods">открытый Data Science</a> и развиваем область</div>
+					</h4>
+				</li>
+			</ul>
+
+		</div>
+    	<div class="ods-bg-new hidden-xs header-bg-right"></div>
+	    <div class="ods-bg-new hidden-xs header-bg-left"></div>
+    </div>
+
+    
+    <div>
+    	<div class="container" id="container_video_magic">
+    		<h2 style="margin-left: 14px;">Мероприятия</h2>
+    		<div class="col-md-2" id="lang_filter">    			
+    			<h4>
+    				Языки видео:
+				</h4>	
+				<div id="lang_place" style="margin-top: -5px;">
+					...				
+				</div>
+			</div>
+			<div class="col-md-10" id="fest_filter">    			
+    			<h4>
+    				Список фестов:
+				</h4>	
+				<div id="fest_place" style="margin-top: -5px;">
+					...	
+				</div>
+			</div>					
+    		<div class="col-md-12" id="video_tags" style="margin-top: 10px;">    			
+    			<h4>
+    				Тематические тэги видео:
+				</h4>	
+				<div class="video_description_container">
+					<div id="tag_place" class="video_description" style="min-height: 60px;">
+						...
+					</div>		
+				</div>
+				<div class="video_extend_expand_container">
+					<h6 class="video_description_expand">развернуть</h6>
+					<h6 class="video_description_shrink" style="display: none;">свернуть</h6>
+				</div>
+			</div>
+			<div class="col-lg-12" style="margin-top: 0px;">
+				<table id="dt-events" class="display mdl-data-table" style="width: 100%;">
+					<thead>
+						<tr>
+							<th>Дата</th>
+							<th>event.name</th>
+							<th>event.link</th>		
+							<th>Видео</th>
+							<th>video.len</th>
+							<th>video.img</th>
+							<th>video.link</th>
+							<th>video.lang</th>
+							<th>Описание</th>
+							<th>content.speaker</th>
+							<th>content.description</th>
+							<th>tags</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>				
+				</table>
+			</div>
+		</div
+    </div>
+
+    <!--Super logo-->
+	<div class="section section-white" style="background: transparent; padding-bottom: 60px; display: none;">
+	    <div class="container">
+            <div>
+				
+	        </div>
+
+
+			<div class="col-md-8 col-md-offset-2 text-center" style="margin-top: 10px;">
+				<h4 style="line-height: 1.5; ">					
+					Фотографии с Data Fest⁵: 
+					от <a href="https://cloud.mail.ru/public/MbbK/FdCniYBaf" style="color: rgba(255,0,132,1);"><b>Mail.Ru Group</b></a>, 
+					от <a href="https://yadi.sk/d/Se_0nDqy3VXKz6" style="color: rgba(255,0,132,1);"><b>МТС</b></a>.
+					<br>
+					Видеозаписи залов: 
+					<a href="https://www.youtube.com/watch?v=gFKHZXhFs48" style="color: rgba(255,0,132,1);"><b>Main stage</b></a>, 
+					<a href="https://www.youtube.com/watch?v=4As-5fhDvsU" style="color: rgba(255,0,132,1);"><b>Prod stage</b></a>, 
+					<a href="https://www.youtube.com/watch?v=3Lxb-DqPtv4" style="color: rgba(255,0,132,1);"><b>Space</b></a>, 
+					<a href="https://www.youtube.com/watch?v=YSQqHlQwQDY" style="color: rgba(255,0,132,1);"><b>Lumiere hall 1</b></a>, 
+					<a href="https://www.youtube.com/watch?v=JJCO7eWCy-M" style="color: rgba(255,0,132,1);"><b>Lumiere hall 2</b></a>.
+				</h4> 
+			</div>
+
+	    </div>
+	</div>
+
+
+
+
+<footer class="footer">
+    	<div class="container text-center">
+    		<img src="static/img/ods_logo.svg" class="header-logo">
+	    	<h3>
+				Open Data Science				
+			</h3>
+
+	    	<a href="https://opendatascience.slack.com"><div class="ods-social-container text-center" style="background: #461b47;"><img src="static/img/emoji/slack_new.png" style="max-width: 22px; height: auto;"></div></a>	    	
+	    	<a href="https://t.me/ods_ru"><div class="ods-social-container text-center" style="background: #00ade9;"><i class="fab fa-telegram-plane ods-social-fab" style="margin-left: -2px;"></i></div></a>
+		    <a href="https://www.kaggle.com/open-data-science"><div class="ods-social-container text-center" style="background: #45c8f0;"><i class="fab fa-kaggle ods-social-fab"></i></div></a>
+		    <a href="https://www.linkedin.com/company/opendatascience/"><div class="ods-social-container text-center" style="background: #007cb6;"><i class="fab fa-linkedin-in ods-social-fab"></i></div></a>
+	    	<a href="https://twitter.com/odsai_en/"><div class="ods-social-container text-center" style="background: #00ceff;"><i class="fab fa-twitter ods-social-fab"></i></div></a>   	
+	    	<div class="ods-social-container text-center" style="background: #02B875; display: none;"><i class="fab fa-medium-m ods-social-fab"></i></div> 	
+	    	<a href="https://github.com/open-data-science"><div class="ods-social-container text-center" style="background: #333;"><i class="fab fa-github ods-social-fab"></i></div></a>	    	
+	    	<a href="https://habr.com/company/ods/"><div class="ods-social-container text-center" style="background: #82a3b1;"><div style="margin-top: 1px; margin-left: 1px;"><b class="ods-social-fab">H</b></div></div></a>
+	    	<a href="http://instagram.com/ods_ai/"><div class="ods-social-container text-center" style="background: #d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);"><i class="fab fa-instagram ods-social-fab"></i></div></a>
+
+	    	<h4>
+	    		<br>&copy; 2015–<script>document.write(new Date().getFullYear())</script> 
+	    	</h4>
+	
+		</div>
+    	<div class="ods-bg-new hidden-xs footer-bg-right"></div>
+	    <div class="ods-bg-new hidden-xs footer-bg-left"></div>
+</footer>
+
+
+</body>
+
+	<!--   Core JS Files   -->
+	<!--<script src="static/js/jquery.min.js" type="text/javascript"></script>-->
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="static/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="static/js/material.min.js"></script>
+
+	<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/   -->
+	<script src="static/js/bootstrap-tagsinput.js"></script>
+
+	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
+	<script src="static/js/material-kit.js?v=1.2.1" type="text/javascript"></script>
+
+
+	<script type="text/javascript" language="javascript" src="static/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" language="javascript" src="static/js/dataTables.colReorder.min.js"></script>	
+	<script type="text/javascript" language="javascript" src="static/js/dataTables.material.min.js"></script>
+	<script type="text/javascript" language="javascript" src="static/js/dt-events.js?v=0.2"></script>
+	<script type="text/javascript" language="javascript" class="init">
+	
+
+
+	</script>
+
+
+
+
+</html>
