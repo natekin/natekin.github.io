@@ -46,13 +46,13 @@
 			function render_video_lang(lang){
 				var video_lang = '';
 				if(lang.toLowerCase() === "ru"){
-					video_lang = '🇷🇺';
+					video_lang = '<div class="em_ru_dt"></div>';
 				}
 				if(lang.toLowerCase() === "en"){
-					video_lang = '🇬🇧';
+					video_lang = '<div class="em_gb_dt"></div>';
 				}
 				if(lang.toLowerCase() === "ua"){
-					video_lang = '🇺🇦';
+					video_lang = '<div class="em_ua_dt"></div>';
 				}				
 				return video_lang;
 			}
@@ -84,7 +84,8 @@
 
 			function render_video(row){
 				var shadow_sort = render_shadow_order(row.event.date + "-" + row.event.name + "-", row.video.order, 3);
-				var video_container = '<a target="_blank" href="' + row.video.link + '"><div class="video_container_main" style="background-image: url(static/data/vid_img/' + row.video.img + ');">';
+				var video_container = '<a target="_blank" href="' + row.video.link + '"><div class="video_container_main" style="background-image: url(../static/data/vid_img/' + row.video.img + ');">';
+				//var video_container = '<a target="_blank" href="' + row.video.link + '"><div class="video_container_main" style="background-image: url(static/data/vid_img/' + row.video.img + ');">';				
 		        var video_header = render_video_header(row);
 		        var video_footer = render_video_footer(row);
 		        var video_event = '<a target="_blank" href="' + row.event.link + '"><h4 class="event_name">' + row.event.name + '</h4></a>';
@@ -121,7 +122,8 @@
 			
 			//build the table
 			var table_events = $('#dt-events').DataTable( {
-				"ajax": "static/data/videos.txt",
+				//"ajax": "static/data/videos.txt",
+				"ajax": "../static/data/videos.txt",
 				"autoWidth": false,
 				"deferRender": true,
 				"responsive": true,
@@ -176,9 +178,7 @@
 		        ],
 		        "initComplete": function( settings, json){
 		        	//collect all tags from videos and place them 
-		        	console.log(table_events);
-		        	
-					all_video_tags = all_video_tags.unique().sort();
+		        	all_video_tags = all_video_tags.unique().sort();
 					var new_video_tags = Array(all_video_tags.length).fill("");
 
 					all_langs = all_langs.unique().sort();

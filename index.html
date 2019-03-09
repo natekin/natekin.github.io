@@ -42,7 +42,7 @@
     <link href="static/css/bootstrap.min.css" rel="stylesheet" />
     <link href="static/css/material-kit.css?v=1.3" rel="stylesheet"/>
     <link href="static/css/dataTables.material.css" rel="stylesheet"/>
-    <link href="static/css/ods_main.css?v=1.3" rel="stylesheet"/>
+    <link href="static/css/ods_main.css?v=1.4" rel="stylesheet"/>
     <link href="static/css/dt_videos.css?v=1.2" rel="stylesheet"/>
 
 
@@ -202,14 +202,16 @@
 
 /* fancy Button */
 
-.bg-btn-partner span, .bg-btn-partner:before {
-  background: #ef645e;
-  background-image: linear-gradient(45deg, #ef645e, #eb1e6f);
+.bg-btn-main-l span, .bg-btn-main-l:before {
+	color: #fff;
+  	background: #ef645e;
+  	background-image: linear-gradient(45deg, #ef645e, #eb1e6f);
 }
 
-.bg-btn-speaker span, .bg-btn-speaker:before {
-  background: #ef645e;
-  background-image: linear-gradient(215deg, #ef645e, #eb1e6f);
+.bg-btn-main-r span, .bg-btn-main-r:before {
+	color: #fff;
+  	background: #ef645e;
+  	background-image: linear-gradient(215deg, #ef645e, #eb1e6f);
 }
 
 .fancy-button {
@@ -240,7 +242,7 @@
 .fancy-button span {
   font-weight: 400;
   display: inline-block;
-  padding: 15px 45px;
+  padding: 20px 40px;
   border-radius: 5px;
   position: relative;
   z-index: 2;
@@ -306,6 +308,12 @@
         	<div class="collapse navbar-collapse">
         		<ul class="nav navbar-nav navbar-right">
         			<li>
+        				<a href="/video/">
+        					<span class="nav-icon">🎥</span> 
+							<span>Видео</span>	
+						</a>
+        			</li>
+        			<li>
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
 	                		<span class="nav-icon">💯</span> 
 							<span>Сообщество</span>	
@@ -323,23 +331,6 @@
 	    	                <li><a href="/en">
 	    	                	<span class="nav-icon">🏆</span> 
 	    	                	<span class="nav-span">Награды</span>
-	    	                </a></li>
-	    	            </ul>
-					</li>
-					<li style="display: none;">
-						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
-	                		<span class="nav-icon">🎉</span> 
-							<span>Мероприятия</span>	
-		    	            <b class="caret"></b>
-	    	            </a>
-	    	            <ul class="dropdown-menu">
-	    	                <li><a href="schedule/">
-	    	                	<span class="nav-icon">📅</span> 
-	    	                	<span class="nav-span">Все мероприятия</span>
-	    	                </a></li>
-	    	                <li><a href="/en">
-	    	                	<span class="nav-icon">📹</span> 
-	    	                	<span class="nav-span">Видео</span>
 	    	                </a></li>
 	    	            </ul>
 					</li>
@@ -394,12 +385,12 @@
 
 
     <div class="section header">
-    	<div class="ods-header text-center" style="max-width: 730px;">
+    	<div class="ods-header text-center" style="max-width: 660px;">
 	    	
 	    	<img src="static/img/fest-logo.svg" class="header-logo" style="max-height: 210px; margin-bottom: 15px; margin-top: -10px;">
-	    	<h1>Data Fest</h1>
+	    	<h1>Data Fest<span style="font-weight: 200; font-size: 80%; margin-left: 3px;">⁶</span></h1>
 	    	<h4 style="margin-top: 20px;">
-	    		Международная серия бесплатных конференций, объединяющих всех связанных с Data&nbsp;Science исследователей, инженеров и разработчиков.
+	    		Международная серия бесплатных конференций, объединяющих всех связанных с Data Science исследователей, инженеров и разработчиков.
 	    	</h4>		
 
 	    	<!--<img src="static/img/ods_birthday.svg" class="header-logo" style="max-height: 200px; margin-bottom: 10px;">
@@ -415,31 +406,6 @@
 	    	<a href="https://habr.com/company/ods/"><div class="ods-social-container text-center" style="background: #82a3b1;"><div style="margin-top: 1px; margin-left: 1px;"><b class="ods-social-fab">H</b></div></div></a>
 	    	<a href="http://instagram.com/ods_ai/"><div class="ods-social-container text-center" style="background: #d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);"><i class="fab fa-instagram ods-social-fab"></i></div></a>
 			
-	    	<h4>
-	    		Международное сообщество, объединяющее специалистов, исследователей и инженеров, связанных с Data Science
-	    	</h4>		
-
-			<ul class="ods-main-ul">
-				<li>
-					<h4>
-						<div class="ods-main-ul-sep"><span class="nav-icon">🔥</span></div>
-						<div class="ods-main-ul-txt">Вместе делаем крутые <a href="/projects">проекты</a>, <a href="/events">мероприятия</a> и <a href="http://mlcourse.ai">курсы</a></div>
-					</h4>
-				</li>
-				<li>
-					<h4>
-						<div class="ods-main-ul-sep"><span class="nav-icon">💪</span></div>
-						<div class="ods-main-ul-txt">Делимся <a href="/videos">опытом</a>, <a href="/awards">прокачивая себя</a> и друг друга</div>
-					</h4>
-				</li>
-							
-				<li>
-					<h4>
-						<div class="ods-main-ul-sep"><span class="nav-icon">📈</span></div>
-						<div class="ods-main-ul-txt">Продвигаем <a href="/ods">открытый Data Science</a> и развиваем область</div>
-					</h4>
-				</li>
-			</ul>
 			-->
 			<ul class="ods-main-ul" style="margin-top: 15px;">
 				<li>
@@ -460,101 +426,15 @@
 						<div class="ods-main-ul-sep"><span class="nav-icon">🔥</span></div>
 						<div class="ods-main-ul-txt">Отличная компания и нетворкинг с Data Science сообществом.</div>
 					</h4>
-				</li>
-
-				 
+				</li>				 
 			</ul>
-
+		
 		</div>
     	<div class="ods-bg-new hidden-xs header-bg-right"></div>
 	    <div class="ods-bg-new hidden-xs header-bg-left"></div>
     </div>
 
     
-    <div>
-    	<div class="container" id="container_video_magic">
-    		<h2 style="margin-left: 14px;">Мероприятия</h2>
-    		<div class="col-md-2" id="lang_filter">    			
-    			<h4>
-    				Языки видео:
-				</h4>	
-				<div id="lang_place" style="margin-top: -5px;">
-					...				
-				</div>
-			</div>
-			<div class="col-md-10" id="fest_filter">    			
-    			<h4>
-    				Список фестов:
-				</h4>	
-				<div id="fest_place" style="margin-top: -5px;">
-					...	
-				</div>
-			</div>					
-    		<div class="col-md-12" id="video_tags" style="margin-top: 10px;">    			
-    			<h4>
-    				Тематические тэги видео:
-				</h4>	
-				<div class="video_description_container">
-					<div id="tag_place" class="video_description" style="min-height: 60px;">
-						...
-					</div>		
-				</div>
-				<div class="video_extend_expand_container">
-					<h6 class="video_description_expand">развернуть</h6>
-					<h6 class="video_description_shrink" style="display: none;">свернуть</h6>
-				</div>
-			</div>
-			<div class="col-lg-12" style="margin-top: 0px;">
-				<table id="dt-events" class="display mdl-data-table" style="width: 100%;">
-					<thead>
-						<tr>
-							<th>Дата</th>
-							<th>event.name</th>
-							<th>event.link</th>		
-							<th>Видео</th>
-							<th>video.len</th>
-							<th>video.img</th>
-							<th>video.link</th>
-							<th>video.lang</th>
-							<th>Описание</th>
-							<th>content.speaker</th>
-							<th>content.description</th>
-							<th>tags</th>
-						</tr>
-					</thead>
-					<tbody>
-					</tbody>				
-				</table>
-			</div>
-		</div
-    </div>
-
-    <!--Super logo-->
-	<div class="section section-white" style="background: transparent; padding-bottom: 60px; display: none;">
-	    <div class="container">
-            <div>
-				
-	        </div>
-
-
-			<div class="col-md-8 col-md-offset-2 text-center" style="margin-top: 10px;">
-				<h4 style="line-height: 1.5; ">					
-					Фотографии с Data Fest⁵: 
-					от <a href="https://cloud.mail.ru/public/MbbK/FdCniYBaf" style="color: rgba(255,0,132,1);"><b>Mail.Ru Group</b></a>, 
-					от <a href="https://yadi.sk/d/Se_0nDqy3VXKz6" style="color: rgba(255,0,132,1);"><b>МТС</b></a>.
-					<br>
-					Видеозаписи залов: 
-					<a href="https://www.youtube.com/watch?v=gFKHZXhFs48" style="color: rgba(255,0,132,1);"><b>Main stage</b></a>, 
-					<a href="https://www.youtube.com/watch?v=4As-5fhDvsU" style="color: rgba(255,0,132,1);"><b>Prod stage</b></a>, 
-					<a href="https://www.youtube.com/watch?v=3Lxb-DqPtv4" style="color: rgba(255,0,132,1);"><b>Space</b></a>, 
-					<a href="https://www.youtube.com/watch?v=YSQqHlQwQDY" style="color: rgba(255,0,132,1);"><b>Lumiere hall 1</b></a>, 
-					<a href="https://www.youtube.com/watch?v=JJCO7eWCy-M" style="color: rgba(255,0,132,1);"><b>Lumiere hall 2</b></a>.
-				</h4> 
-			</div>
-
-	    </div>
-	</div>
-
 
 
 
@@ -598,12 +478,6 @@
 
 	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
 	<script src="static/js/material-kit.js?v=1.2.1" type="text/javascript"></script>
-
-
-	<script type="text/javascript" language="javascript" src="static/js/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" language="javascript" src="static/js/dataTables.colReorder.min.js"></script>	
-	<script type="text/javascript" language="javascript" src="static/js/dataTables.material.min.js"></script>
-	<script type="text/javascript" language="javascript" src="static/js/dt-events.js?v=0.2"></script>
 	<script type="text/javascript" language="javascript" class="init">
 	
 

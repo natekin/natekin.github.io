@@ -6,6 +6,7 @@ body{
 
 h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, select, textarea, label, div, .title, .attachment-span, .progress{
     font-family: "Open Sans"!important; font-style: normal!important; font-variant: normal!important; 
+    color: #000;
 }
 
 /*general purpose links*/
@@ -35,6 +36,23 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
     height: 100%; 
     max-height: 180px; 
     margin-top: -7px;
+}
+
+/*logo patch*/
+.header-logo{
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    transition: all 0.15s ease-out;
+    cursor: pointer;
+    will-change: transform, filter;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.header-logo:hover{
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+        
+      transition: all 0.15s ease-out;
 }
 
 .header h1{
@@ -124,10 +142,6 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 
 
 
-
-
-
-
 /*NAVIGATION FIXES*/
 
 .navbar .container{
@@ -157,6 +171,10 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
     color: #3c3839!important;
 }
 
+.dropdown-menu li > a{
+    padding: 10px 15px;
+}
+
 .navbar .navbar-nav > li.open > .dropdown-menu {
     margin-top: -4px;
 }
@@ -175,11 +193,11 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 .navbar-brand{
     padding: 0px 15px!important;
 }
-
+/*
 .dropdown-menu .nav-span{
     margin-left: 5px;
 }
-
+*/
 .ods-nav{
     height: 30px; 
     box-shadow: none;
@@ -315,11 +333,13 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
     }
 
     .navbar .navbar-collapse .open .dropdown-menu > li > a {
-        padding-left: 35px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .navbar .navbar-nav .caret {
-        margin-top: 6px;
+        margin-top: 11px;
     }
 
     .nav-open .navbar-collapse {
@@ -329,6 +349,248 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 @media (max-width: 600px) {
     
 }
+
+
+
+
+
+/* fancy Button */
+
+.bg-btn-main-l span, .bg-btn-main-l:before {
+    color: #fff;
+    background: #ef645e;
+    background-image: linear-gradient(45deg, #ef645e, #eb1e6f);
+}
+
+.bg-btn-main-r span, .bg-btn-main-r:before {
+    color: #fff;
+    background: #ef645e;
+    background-image: linear-gradient(215deg, #ef645e, #eb1e6f);
+}
+
+.fancy-button {
+  display: inline-block;
+  margin: 30px;  
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;  
+}
+.fancy-button:before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  z-index: -1;
+  border-radius: 5px;
+  -webkit-filter: blur(20px) brightness(0.95);
+          filter: blur(20px) brightness(0.95);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.3s ease-out;
+}
+.fancy-button span {
+  font-weight: 400;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+  will-change: transform, filter;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.3s ease-out;
+}
+.fancy-button:focus, .fancy-button:active, .fancy-button:hover {
+  color: #ffffff;
+}
+.fancy-button.pop-onhover:before {
+  opacity: 0;
+  bottom: 10px;
+}
+.fancy-button.pop-onhover:hover:before {
+  bottom: -7px;
+  opacity: 1;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+.fancy-button.pop-onhover:hover span {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+.fancy-button.pop-onhover:hover:active span {
+  -webkit-filter: brightness(1) contrast(1);
+          filter: brightness(1) contrast(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: all 0.15s ease-out;
+}
+.fancy-button.pop-onhover:hover:active:before {
+  bottom: 0;
+  -webkit-filter: blur(10px) brightness(0.95);
+          filter: blur(10px) brightness(0.95);
+  transition: all 0.2s ease-out;
+}
+
+
+
+
+
+
+
+/*EMOJI SPRITES*/
+.ods_emoji{
+    background: url(../img/design/ods_emoji_icons.png); 
+    width: 25px; 
+    height: 25px; 
+    margin: 0; 
+    background-size: 150px 150px; 
+    display: inline-block; 
+    margin-bottom: -4px;
+    margin-right: 2px;
+}
+
+.em_catshake{
+    background: url(../img/design/ods_emoji_shake.gif); 
+    width: 25px; 
+    height: 25px; 
+    margin: 0; 
+    background-size: 25px 25px; 
+    display: inline-block; 
+    margin-bottom: -4px;
+    margin-right: 2px;
+}
+
+.em_fireball{
+    background: url(../img/design/ods_emoji_fireball.gif); 
+    width: 25px; 
+    height: 25px; 
+    margin: 0; 
+    background-size: 25px 25px; 
+    display: inline-block; 
+    margin-bottom: -4px;
+    margin-right: 2px;
+}
+
+.em_top{
+    background-position: 0px 0px;
+}
+
+.em_calendar{
+    background-position: -25px 0px;
+}
+
+.em_popcorn{
+    background-position: -50px 0px;
+}
+
+.em_bot{
+    background-position: 0px -25px;
+}
+
+.em_homer{
+    background-position: -25px -25px;
+}
+
+.em_tada{
+    background-position: -50px -25px;
+}
+
+.em_search{
+    background-position: 0px -50px;
+}
+
+.em_telebot{
+    background-position: -25px -50px;
+}
+
+.em_movie{
+    background-position: -50px -50px;
+}
+
+.em_100{
+    background-position: 0px -75px;
+}
+
+.em_terminator{
+    background-position: -25px -75px;
+}
+
+.em_diamond{
+    background-position: -50px -75px;
+}
+
+.em_fire{
+    background-position: 0px -100px;
+}
+
+.em_muscle{
+    background-position: -25px -100px;
+}
+
+.em_faq{
+    background-position: -50px -100px;
+}
+
+.em_flag_ru{
+    background-position: 0px -125px;
+}
+
+.em_flag_ua{
+    background-position: -25px -125px;
+}
+
+.em_flag_gb{
+    background-position: -50px -125px;
+}
+
+.em_ru_dt{
+    background: url(../img/design/ods_emoji_icons.png); 
+    width: 18px; 
+    height: 18px; 
+    margin: 0; 
+    background-size: 108px 108px; 
+    background-position: 0px -90px;
+    display: inline-block; 
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.em_ua_dt{
+    background: url(../img/design/ods_emoji_icons.png); 
+    width: 18px; 
+    height: 18px; 
+    margin: 0; 
+    background-size: 108px 108px; 
+    background-position: -18px -90px;
+    display: inline-block; 
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.em_gb_dt{
+    background: url(../img/design/ods_emoji_icons.png); 
+    width: 18px; 
+    height: 18px; 
+    margin: 0; 
+    background-size: 108px 108px; 
+    background-position: -36px -90px;
+    display: inline-block; 
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
 
 
 

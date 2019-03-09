@@ -13,8 +13,14 @@
 
         .video_container_main:after{
             position: absolute;
-            background: #000;
-            content: '🔥';
+            content: ' ';
+            background: url(../img/design/ods_emoji_fireball.gif);
+            background-size:  50px 50px;
+            background-color: #000;            
+            background-position: center center;
+            background-repeat: no-repeat;
+            /*content: '🔥';*/
+            /*content: '<div class="em_fireball" style="margin-bottom: -1px;"></div>';*/
             padding-top: 25%;
             vertical-align: middle;
             text-align: center;
@@ -28,7 +34,7 @@
         }
 
         .video_container_main:hover:after  {
-            opacity: .75;           
+            opacity: .8;           
             transition: all 0.2s ease-in-out;
         }
 
@@ -253,4 +259,118 @@
             }
         }
 
+
+
+
+    /* GENERAL DT STYLING FIXES */
+
+    .dataTables_wrapper{
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+
+    table.dataTable tbody td {
+        vertical-align: top;
+    }
+
+    .form-control, .form-group .form-control, .form-group.is-focused .form-control {
+        border: 0;
+        background-image: linear-gradient(#ef645e, #ef645e), linear-gradient(#D2D2D2, #D2D2D2);
+        font-size: 14px;
+    }
+
+    .mdl-data-table th{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(60, 72, 88);
+    }
+
+    .mdl-cell .form-group{
+        vertical-align: baseline;
+        display: inline-block;
+    }
+
+    .mdl-button--raised.mdl-button--colored{
+        box-shadow: none;
+        background: #ef645e;
+        background-image: linear-gradient(135deg, #ef645e, #ef645e);
+        /*box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
+        background-image: linear-gradient(135deg, #ef645e, #eb1e6f);*/
+    }
+
+
+    .form-group .form-control[type="search"]{
+        min-width: 180px;
+    }
+
+    .dataTables_length label, .dataTables_filter label{
+        font-size: 14px;
+        font-weight: 300;
+        color: rgb(60, 72, 88);
+    }
+
+    .pagination{
+        margin-top: 3px;
+    }
+
+    .mdl-button{
+        text-transform: none;
+        font-size: 14px;
+        font-weight: 300;
+        color: rgb(60, 72, 88);
+    }
+
+    table.dataTable tbody tr:hover {
+        background: none!important;
+    }
+
+    @media (max-width: 768px) {
+
+        .dataTables_paginate, .pagination{
+            text-align: center!important;
+        }
+    }
+    @media (max-width: 839px) and (min-width: 521px) {
+        .mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+            width: calc(50% - 20px);
+        }
+        .form-group .form-control[type="search"]{
+            min-width: 120px;
+        }
+    }
+    @media (max-width: 520px) {
+        .mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+            width: calc(100% - 16px);           
+        }
+        
+        .mdl-cell--6-col .dataTables_filter{
+            text-align: left!important;
+            margin-top: -30px;
+        }
+
+        .mdl-button{
+            min-width: 24px;
+        }
+    }
+
+
+    .badge{
+        font-size: 14px;
+        font-weight: 300;
+        margin: 3px 6px 3px 0px;
+        padding: 5px 10px;
+        background: #aaa;
+        color: #fff;
+        font-weight: 400;
+        border-radius: 2px;
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none;
+    }
+
+    .active-badge{
+        background: #ef645e;
+    }
 
