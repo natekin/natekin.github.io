@@ -1,0 +1,48 @@
+
+/*
+customizable color scheme everywhere
+*/
+
+.header-flags{
+    display: none;
+}
+
+footer a:hover, footer a:focus {
+    color: #2196F3;
+}
+
+.main-container a{
+    color: #2196F3;
+}
+
+.contest-bg{
+    /*background-color: rgb(6, 103, 184); */
+    background-color: #2196F3; 
+    min-height: 420px; 
+    max-height: 420px; 
+    height: 420px;
+}
+
+.contest-logo{
+    background-image: url("../img/deephack_babel.svg");
+    height: 140px;
+}
+
+
+.timeline-mark{
+    background: #2196F3; 
+    //background-color: rgba(224, 224, 224, 0.5); 
+    //background: #90caf9;     
+}
+
+.progress{
+    background-color: rgba(224, 224, 224, 0.5); 
+}
+
+/*
+affects the pills, doesn't affect the menu
+*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: #2196F3;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2), 0 13px 24px -11px rgba(33,150,243,.6)
+}

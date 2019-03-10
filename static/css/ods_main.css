@@ -601,7 +601,30 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 }
 
 
+/*team page*/
 
+.team_block{
+    margin: 10px 5px; 
+    display: inline-block; 
+    width: 130px; 
+    height: auto; 
+    vertical-align: top;
+}
+
+.team_block img{
+    display: inline-block;
+    width: 80px;
+    height: 80px; 
+    border-radius: 50px; 
+    margin-bottom: 20px;
+}
+
+.team_block h5{
+    margin-top: -5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    white-space: normal;
+}
 
 
 
