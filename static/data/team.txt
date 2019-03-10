@@ -52,7 +52,7 @@
             "display": 1
         },
         {
-            "name": "Medical<br>applications",
+            "name": "Healthcare<br>applications",
             "order": 131,
             "org": "Евгений<br>Бурнаев",
             "photo": "eb",

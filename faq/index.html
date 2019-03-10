@@ -107,22 +107,30 @@
 					<li>
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
 	                		<span class="nav-icon"><div class="ods_emoji em_fire"></div></span> 
-							<span>Программа</span>
+							<span>Data Fest⁶</span>
 		    	            <b class="caret"></b>
 	    	            </a>
 	    	            <ul class="dropdown-menu">
 	    	                <li><a href="../schedule/">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_calendar"></div></span> 
-	    	                	<span class="nav-span">Расписание</span>
+	    	                	<span class="nav-span">Программа</span>
+	    	                </a></li>	    	                
+	    	                <li><a href="../team/">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_top"></div></span> 
+	    	                	<span class="nav-span">Команда</span>
 	    	                </a></li>
 	    	                <li><a href="#" style="display: none;">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_search"></div></span> 
 	    	                	<span class="nav-span">Как добраться</span>	    	                	
-	    	                </a></li>
-	    	                <li style="opacity: 0.33; background: #fff!important;"><a style="background: #fff!important;">
+	    	                </a></li>	
+	    	                <li><a href="">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_tada"></div></span> 
+	    	                	<span class="nav-span">Регистрация</span>
+	    	                </a></li>  
+	    	                <li style="display: none;"><a style="background: #fff!important;">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_popcorn"></div></span> 
 	    	                	<span class="nav-span">Трансляция</span>
-	    	                </a></li>	    	                
+	    	                </a></li>  	                
 	    	            </ul>
 					</li>
         			<li>
@@ -131,11 +139,7 @@
 							<span>О фесте</span>	
 		    	            <b class="caret"></b>
 	    	            </a>
-	    	            <ul class="dropdown-menu">
-	    	                <li><a href="../faq/">
-	    	                	<span class="nav-icon"><div class="ods_emoji em_faq"></div></span> 
-	    	                	<span class="nav-span">FAQ</span>
-	    	                </a></li>
+	    	            <ul class="dropdown-menu">	    	                
 	    	                <li><a href="../fests/">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_100"></div></span> 
 	    	                	<span class="nav-span">Все Data Fest-ы</span>
@@ -144,9 +148,9 @@
 	    	                	<span class="nav-icon"><div class="ods_emoji em_movie"></div></span> 
 	    	                	<span class="nav-span">Все видеозаписи</span>
 	    	                </a></li>
-	    	                <li><a href="./">
-	    	                	<span class="nav-icon"><div class="ods_emoji em_top"></div></span> 
-	    	                	<span class="nav-span">Команда Data Fest⁶</span>
+	    	                <li><a href="../faq/">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_faq"></div></span> 
+	    	                	<span class="nav-span">F.A.Q.</span>
 	    	                </a></li>
 	    	            </ul>
 					</li>
@@ -326,7 +330,7 @@
 		}
 
 		//render all orgs from one single data list
-		$.getJSON( "../static/data/faq.txt?v=0.4", function( data ) {
+		$.getJSON( "../static/data/faq.txt?v=0.5", function( data ) {
 			
 			
 		  	var orgs_section = render_faq(data.main);
