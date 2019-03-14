@@ -10,8 +10,15 @@
         {
             "name": "Мета-програмнный комитет",
             "order": 2,
-            "org": "Павел<br>нестеров",
+            "org": "Павел<br>Нестеров",
             "photo": "pn",
+            "display": 1
+        },
+        {
+            "name": "Мета-ПК, главный по докладчикам",
+            "order": 2,
+            "org": "Кирилл<br>Власов",
+            "photo": "kv2",
             "display": 1
         },
         {
@@ -19,6 +26,13 @@
             "order": 3,
             "org": "Сергей<br>Свиридов",
             "photo": "ss",
+            "display": 1
+        },
+        {
+            "name": "Координатор команд",
+            "order": 3,
+            "org": "Яна<br>Плескова",
+            "photo": "ip",
             "display": 1
         },
         {
@@ -75,9 +89,9 @@
         {
             "name": "Industry CV & video analytics",
             "order": 134,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Александр Чигорин",
+            "photo": "ac2",
+            "display": 1
         },
         {
             "name": "E-commerce applications",
@@ -139,15 +153,22 @@
             "name": "DS education, PyData, SysML",
             "order": 161,
             "org": "Петр<br>Ермаков",
-            "photo": "pe",
+            "photo": "pe2",
             "display": 1
         },
         {
             "name": "Data Collection & labeling",
             "order": 162,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Константин Лопухин",
+            "photo": "kl2",
+            "display": 1
+        },
+        {
+            "name": "Data Collection & labeling",
+            "order": 162,
+            "org": "Михаил Коробов",
+            "photo": "mk",
+            "display": 1
         },
         {
             "name": "Pitch-session",
@@ -164,11 +185,18 @@
             "display": 1
         },
         {
-            "name": "Data Engineering",
+            "name": "ML4SG",
+            "order": 214,
+            "org": "Кирилл<br>Власов",
+            "photo": "kv2",
+            "display": 1
+        },
+        {
+            "name": "Big Data, Sigbovik",
             "order": 221,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Михаил Свешников",
+            "photo": "ms",
+            "display": 1
         },
         {
             "name": "Fit ML,<br> ML art gallery",
@@ -192,7 +220,7 @@
             "display": 1
         },
         {
-            "name": "Black ML",
+            "name": "Black ML, Industry CV/Video",
             "order": 232,
             "org": "Артур<br>Кузин",
             "photo": "ak3",
@@ -220,11 +248,11 @@
             "display": 1
         },
         {
-            "name": "",
+            "name": "BigARTM workshop",
             "order": 243,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Константин Воронцов",
+            "photo": "kv",
+            "display": 1
         },
         {
             "name": "Reproducible ML",
@@ -299,7 +327,6 @@
     ]
 
 }
-
 
 
 

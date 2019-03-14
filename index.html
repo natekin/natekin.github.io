@@ -307,75 +307,87 @@
 
         	<div class="collapse navbar-collapse">
         		<ul class="nav navbar-nav navbar-right">
-        			<li>
-        				<a href="/video/">
-        					<span class="nav-icon">🎥</span> 
-							<span>Видео</span>	
-						</a>
-        			</li>
-        			<li>
-						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
-	                		<span class="nav-icon">💯</span> 
-							<span>Сообщество</span>	
-		    	            <b class="caret"></b>
+					<li class="hidden-md hidden-lg hidden-sm">
+						<a href="./" class="dropdown-toggle " data-toggle="dropdown">             
+	                		<span class="nav-icon">
+	                			<div style="background: url(../static/img/fest-logo.svg); background-size: 25px; width: 25px; height: 25px; display: inline-block; margin-bottom: -4px; margin-right: 1px;"></div>
+	                		</span> 
+							<span>Главная</span>
 	    	            </a>
-	    	            <ul class="dropdown-menu">
-	    	                <li><a href="schedule/">
-	    	                	<span class="nav-icon">🚀</span> 
-	    	                	<span class="nav-span">Open Data Science</span>
-	    	                </a></li>
-	    	                <li><a href="/en">
-	    	                	<span class="nav-icon">🛠</span> 
-	    	                	<span class="nav-span">Проекты</span>
-	    	                </a></li>
-	    	                <li><a href="/en">
-	    	                	<span class="nav-icon">🏆</span> 
-	    	                	<span class="nav-span">Награды</span>
-	    	                </a></li>
-	    	            </ul>
 					</li>
 					<li>
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
-	                		<img class="ods-emoji" src="static/img/emoji/slack_new.png" style="max-width: 22px; height: auto;">
-							<span>Slack</span>
+	                		<span class="nav-icon"><div class="ods_emoji em_fire"></div></span> 
+							<span>Data Fest⁶</span>
 		    	            <b class="caret"></b>
 	    	            </a>
 	    	            <ul class="dropdown-menu">
-	    	                <li><a href="faq/">
-	    	                	<span class="nav-icon">🤔</span> 
-	    	                	<span class="nav-span">FAQ</span>
+	    	                <li><a href="/schedule/">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_calendar"></div></span> 
+	    	                	<span class="nav-span">Программа</span>
+	    	                </a></li>	    	                
+	    	                <li><a href="/team/">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_muscle"></div></span> 
+	    	                	<span class="nav-span">Команда</span>
 	    	                </a></li>
-	    	                <li><a href="map/">
-	    	                	<span class="nav-icon">🔍</span> 
-	    	                	<span class="nav-span">Карта каналов</span>	    	                	
-	    	                </a></li>
-	    	                <li><a href="map/">
-	    	                	<span class="nav-icon">📋</span> 
+	    	                <li><a href="#" style="display: none;">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_search"></div></span> 
+	    	                	<span class="nav-span">Как добраться</span>	    	                	
+	    	                </a></li>	
+	    	                <li><a href="">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_homer"></div></span> 
 	    	                	<span class="nav-span">Регистрация</span>
+	    	                </a></li>  
+	    	                <li style="display: none;"><a style="background: #fff!important;">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_popcorn"></div></span> 
+	    	                	<span class="nav-span">Трансляция</span>
+	    	                </a></li>  	                
+	    	            </ul>
+					</li>
+        			<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
+	                		<span class="nav-icon"><div class="ods_emoji em_tada"></div></span> 
+							<span>О фесте</span>	
+		    	            <b class="caret"></b>
+	    	            </a>
+	    	            <ul class="dropdown-menu">	    	                
+	    	                <li><a href="/faq/">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_faq"></div></span> 
+	    	                	<span class="nav-span">F.A.Q.</span>
+	    	                </a></li>
+	    	                <li><a href="/fests/">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_100"></div></span> 
+	    	                	<span class="nav-span">Все Data Fest-ы</span>
+	    	                </a></li>
+	    	                <li style="opacity: 0.33; background: #fff!important; pointer-events: none;"><a href="./">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_movie"></div></span> 
+	    	                	<span class="nav-span">Все видеозаписи</span>
 	    	                </a></li>
 	    	            </ul>
 					</li>
-					<li class="dropdown" style="display: block;">
+	    	        <li style="opacity: 0.33">
+        				<a>
+        					<span class="nav-icon"><div class="ods_emoji em_bot"></div></span> 
+							<span>Fest-бот</span>	
+						</a>
+        			</li>
+					<li class="dropdown" >
     					<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
-	                		<span class="nav-icon">🇷🇺</span>
-	                		<span href="#" class="text-center hidden-sm hidden-md hidden-lg">
+	                		<span class="nav-icon"><div class="ods_emoji em_flag_ru"></div></span>
+	                		<span href="./" class="text-center hidden-sm hidden-md hidden-lg">
 								Русский
 							</span>
 		    	            <b class="caret"></b>
 	    	            </a>
 	    	            <ul class="dropdown-menu">
-	    	                <li><a href="/ru">
-	    	                	<span class="nav-icon">🇷🇺</span> 
+	    	                <li><a href="./">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_flag_ru"></div></span> 
 	    	                	<span class="nav-span">Русский</span>
 	    	                </a></li>
-	    	                <li><a href="/en">
-	    	                	<span class="nav-icon">🇬🇧</span> 
+	    	                <li><a href="http://fest.ai" target="_blank">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_flag_gb"></div></span> 
 	    	                	<span class="nav-span">English</span>
-	    	                </a></li>
-	    	                <li><a href="/terminator">
-	    	                	<img class="ods-emoji" src="static/img/emoji/terminator.png">
-	    	                	<span class="nav-span">01000110</span>
-	    	                </a></li>	    	                
+	    	                </a></li>   	                
 	    	            </ul>
 	    	        </li>
         		</ul>
@@ -387,27 +399,22 @@
     <div class="section header">
     	<div class="ods-header text-center" style="max-width: 660px;">
 	    	
-	    	<img src="static/img/fest-logo.svg" class="header-logo" style="max-height: 210px; margin-bottom: 15px; margin-top: -10px;">
-	    	<h1>Data Fest<span style="font-weight: 200; font-size: 80%; margin-left: 3px;">⁶</span></h1>
+	    	<a href="./"><img src="../static/img/fest-logo.svg" class="header-logo" style="max-height: 210px; margin-bottom: 15px; margin-top: -10px;"></a>
+	    	<h1 style="margin-bottom: 00px;">Data Fest<span style="font-weight: 200; font-size: 80%; margin-left: 3px;">⁶</span></h1>
+
+	    	<a href="https://opendatascience.slack.com/messages/data_fest/"><div class="ods-social-container text-center" style="background: #461b47;"><img src="../static/img/emoji/slack_new.png" style="max-width: 21px; height: auto;"></div></a>	    
+	    	<a href="https://t.me/datafest"><div class="ods-social-container text-center" style="background: #00ade9;"><i class="fab fa-telegram-plane ods-social-fab" style="margin-left: -2px;"></i></div></a>
+	    	<a href="https://vk.com/datafest"><div class="ods-social-container text-center" style="background: #4c75a3;"><i class="fab fa-vk ods-social-fab" style="margin-left: -1px;"></i></div></a>
+	    	<a href="https://www.patreon.com/datafest"><div class="ods-social-container text-center" style="background: #f96854;"><i class="fab fa-patreon ods-social-fab" style="margin-left: 1px;"></i></div></a>
+	    	<a href="https://www.youtube.com/channel/UCM9ECBAZtlLeEr-m3ldZ7Tw?view_as=subscriber"><div class="ods-social-container text-center" style="background: red;"><i class="fas fa-play ods-social-fab" style="margin-left: 0px; font-size: 11px;"></i></div></a>
+	    	<a href="https://www.instagram.com/explore/tags/datafest/"><div class="ods-social-container text-center" style="background: #d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);"><i class="fab fa-instagram ods-social-fab"></i></div></a>
+
+	    	
 	    	<h4 style="margin-top: 20px;">
 	    		Международная серия бесплатных конференций, объединяющих всех связанных с Data Science исследователей, инженеров и разработчиков.
 	    	</h4>		
 
-	    	<!--<img src="static/img/ods_birthday.svg" class="header-logo" style="max-height: 200px; margin-bottom: 10px;">
-	    	<h1>Open Data Science</h1>
-
-	    	<a href="https://opendatascience.slack.com"><div class="ods-social-container text-center" style="background: #461b47;"><img src="static/img/emoji/slack_new.png" style="max-width: 22px; height: auto;"></div></a>	    	
-	    	<a href="https://t.me/ods_ru"><div class="ods-social-container text-center" style="background: #00ade9;"><i class="fab fa-telegram-plane ods-social-fab" style="margin-left: -2px;"></i></div></a>
-		    <a href="https://www.kaggle.com/open-data-science"><div class="ods-social-container text-center" style="background: #45c8f0;"><i class="fab fa-kaggle ods-social-fab"></i></div></a>
-		    <a href="https://www.linkedin.com/company/opendatascience/"><div class="ods-social-container text-center" style="background: #007cb6;"><i class="fab fa-linkedin-in ods-social-fab"></i></div></a>
-	    	<a href="https://twitter.com/odsai_en/"><div class="ods-social-container text-center" style="background: #00ceff;"><i class="fab fa-twitter ods-social-fab"></i></div></a>   	
-	    	<div class="ods-social-container text-center" style="background: #02B875; display: none;"><i class="fab fa-medium-m ods-social-fab"></i></div> 	
-	    	<a href="https://github.com/open-data-science"><div class="ods-social-container text-center" style="background: #333;"><i class="fab fa-github ods-social-fab"></i></div></a>	    	
-	    	<a href="https://habr.com/company/ods/"><div class="ods-social-container text-center" style="background: #82a3b1;"><div style="margin-top: 1px; margin-left: 1px;"><b class="ods-social-fab">H</b></div></div></a>
-	    	<a href="http://instagram.com/ods_ai/"><div class="ods-social-container text-center" style="background: #d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);"><i class="fab fa-instagram ods-social-fab"></i></div></a>
-			
-			-->
-			<ul class="ods-main-ul" style="margin-top: 15px;">
+	    	<ul class="ods-main-ul" style="margin-top: 15px;">
 				<li>
 					<h4>
 						<div class="ods-main-ul-sep"><span class="nav-icon">🎉</span></div>
@@ -428,6 +435,7 @@
 					</h4>
 				</li>				 
 			</ul>
+
 		
 		</div>
     	<div class="ods-bg-new hidden-xs header-bg-right"></div>
@@ -435,6 +443,37 @@
     </div>
 
     
+	<div style="background: transparent; padding-bottom: 50px; margin-top: -30px; ">
+		<div class="text-center" style="margin-bottom: 10px; margin-top: -30px;">
+    		<h1 style="margin-bottom: 40px;">Регистрация открыта!</h1>
+    	</div>
+	    <div class="container">
+			<div class="col-md-5" style="margin-bottom: 15px;">				
+                <h4 style="line-height: 1.5; ">
+					...
+				</h4>
+			</div>
+			<div class="col-md-7 text-center">
+				<img src="static/img/design/from-fest-opt.jpg" class="header-logo" style="width: 100%; height: auto; max-height: 560px; max-width: 624px;">
+			</div>
+	    </div>
+	</div>
+
+
+    <div class="container">
+    	<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center" style="margin-top: 30px; margin-bottom: 30px;">
+				<h2>Партнеры конференции</h2>
+				<h4>
+					Мы начнем анонсировать партнеров в ближайше время! 
+				
+					Data Fest живет целиком за счет поддержки классных компаний-партнеров и мы им безмерно признательны! 
+				</h4>
+				<a href="a@datasouls.com" class="fancy-button pop-onhover bg-btn-main-l"><span>Стать&nbsp;партнером</span></a>
+
+			</div>
+		</div>
+	</div>
 
 
 
