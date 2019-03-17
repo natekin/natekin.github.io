@@ -460,11 +460,11 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 
 /*EMOJI SPRITES*/
 .ods_emoji{
-    background: url(../img/design/ods_emoji_icons.png); 
+    background: url(../img/design/ods_emoji_icons.png?v=12); 
     width: 25px; 
     height: 25px; 
     margin: 0; 
-    background-size: 150px 150px; 
+    background-size: 300px 150px; 
     display: inline-block; 
     margin-bottom: -4px;
     margin-right: 2px;
@@ -562,6 +562,10 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 
 .em_flag_gb{
     background-position: -50px -125px;
+}
+
+.em_slack{
+    background-position: -75px 0px;
 }
 
 .em_ru_dt{
