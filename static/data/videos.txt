@@ -68,8 +68,7 @@
             },
             "tags": [
                 "time series",
-                "overview",
-                "tutorial"
+                "overview"
             ]
         },
         {
@@ -490,7 +489,7 @@
                 "description": "Секция открытых проектов. <br>Как прокачаться в анализе данных, найти единомышленников и при этом неплохо угареть? Организовать проект! Наше сообщество OpenDataScience началось с таких совместных проектов, и мы вновь готовы их запускать. На лекции я расскажу о том, что мы придумали и как к этому присоединиться. От лайтовых небольших исследований алгоритмов, до попыток сделать реальный симулятор козла с много-камерной съемкой и электроэнцефалографом"
             },
             "tags": [
-                "ods projects",
+                "projects",
                 "sigbovik"
             ]
         },        
@@ -513,7 +512,7 @@
                 "description": "Секция открытых проектов. <br>"
             },
             "tags": [
-                "ods projects",
+                "projects",
                 "e-sport"
             ]
         },        
@@ -536,7 +535,7 @@
                 "description": "Секция открытых проектов. <br>Многие алгоритмы для генерации текста на выходе дают бессвязную чушь. По крайней мере, так утверждают люди, оценивающие результаты. Эту проблему можно решить, посмотрев на неё с другой стороны: проблема не в алгоритмах, а в людях! Мы расскажем, как родившаяся на «Датасауне» идея генерировать сообщения для slack-чата переросла в эпичнейшую битву чатботов на просторах Двача. Этот проект начался как прикол, но в итоге позволил нам ответить на важные вопросы. Поймут ли люди, что пост написал робот, если он написан в /b? Как оценить, какой из алгоритмов больше похож на человека? Кто из собеседников-людей скорее просто подвыпил, а кто строчит прямиком из «жёлтого дома»?"
             },
             "tags": [
-                "ods projects",
+                "projects",
                 "nlp",
                 "sigbovik"
             ]
@@ -611,6 +610,523 @@
                 "ds tools",
                 "overview"
             ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "111",
+                "length": "32:08",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=iGAMPnv-0VY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Рекомендательная система сервиса Яндекс.Дзен",
+                "speaker": "Игорь Лифарь, Дмитрий Ушанов",
+                "description": "Секция Information Retrieval. <br>Команда Яндекс.Дзена расскажет о том, как строятся рекомендации, которыми ежедневно пользуются несколько миллионов человек из более чем 40 стран мира. Отдельное внимание будет уделено техникам работы с текстами, применению нейронных сетей (в том числе глубоких), коллаборативной фильтрации, а также связи между офлайн- и онлайн-метриками качества."
+            },
+            "tags": [
+                "recsys",
+                "nlp",
+                "computer vision",
+                "multimodal"
+            ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "112",
+                "length": "29:59",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=SCtIriYyBYI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Использование кликовых данных для улучшения исправления опечаток",
+                "speaker": "Георгий Иванов",
+                "description": "Секция Information Retrieval. <br>Обучающее множество для корректора опечаток традиционно собирают с использованием асессоров. Мы реализовали сбор из данных о кликах на страницах результатов поиска по исходному и исправленному запросу. Новый метод требует меньших затрат и даёт результат сопоставимого качества."
+            },
+            "tags": [
+                "information retrieval",
+                "nlp",
+                "labeling"
+            ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "113",
+                "length": "37:34",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=PUEVKLX-bFc",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Модели специализированного поиска и поисковый индекс",
+                "speaker": "Евгений Соколов",
+                "description": "Секция Information Retrieval. <br>Доклад посвящён технологии специализированного поиска, которая сейчас активно разрабатывается в Yandex Data Factory. Цель этой технологии — дать возможность пользователям «обучать» свои собственные поисковые движки и ориентировать их не на общую релевантность, а на узкие тематики. Речь пойдёт о примерах применения этой технологии к поиску медицинских статей и обнаружению сайтов, предлагающих потребительские займы."
+            },
+            "tags": [
+                "information retrieval",
+                "nlp"
+            ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "121",
+                "length": "79:49",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=J2OPbFwBxHU",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Панельный chop shop",
+                "speaker": "Дмитрий Бабаев, Владислав Беляев, Александр Петров, Вадим Смахтин",
+                "description": "Панельная дискуссия chop-shop. <br>Участники дискуссии обсудят, как можно было бы реализовать конкретные проекты — каждый слушатель сможет предложить свою идею."
+            },
+            "tags": [
+                "discussion",
+                "projects"
+            ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "131",
+                "length": "31:19",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=wBbtVPJRMEg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как Яндекс металлургам помогал",
+                "speaker": "Виктор Лобачев",
+                "description": "Секция кейсов анализа данных. <br>Речь пойдёт о том, как можно применить технологии больших данных в промышленных задачах. Какую модель команда Yandex Data Factory построила для описания производства стали и какая задача оптимизации была решена с помощью этой модели. И, конечно, немного о том, как применить найденный подход к более широкому кругу промышленных задач."
+            },
+            "tags": [
+                "manufacturing",
+                "optimisation"
+            ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "132",
+                "length": "33:37",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=oum3txTxXDw",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Generative Adversarial Nets",
+                "speaker": "Артур Кадурин",
+                "description": "Секция кейсов анализа данных. <br>Доклад о современной и перспективной архитектуре нейронных сетей, которая уже показала себя неплохо в целом ряде задач на supervised learning и unsupervised learning."
+            },
+            "tags": [
+                "gan",
+                "deep learning",
+                "overview"
+            ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "133",
+                "length": "25:20",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=kXedl3nxvMY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Рекомендации с онлайн-дообучением",
+                "speaker": "Александр Петров",
+                "description": "Секция кейсов анализа данных. <br>В каких ситуациях дообучение важно и нужно, какие известны подходы и методы, что используется в E-Contenta."
+            },
+            "tags": [
+                "recsys",
+                "active learning"
+            ]
+        },        
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "211",
+                "length": "35:19",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=UC8wdwhh8b4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Большие данные Большого адронного коллайдера",
+                "speaker": "Федор Ратников",
+                "description": "Секция Big Data. <br>В результате физических экспериментов на Большом адронном коллайдере данные производятся со скоростью около 100 Гбит/с на протяжении вот уже четырёх лет. Зачем столько данных? Как их собрать и сохранить, где обработать? Что получается на выходе?"
+            },
+            "tags": [
+                "big data",
+                "physics"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "212",
+                "length": "36:44",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=L6l95Mj-WTg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "ML Pipelines: Spark 2.0 vs Scikit-Learn",
+                "speaker": "Дмитрий Бабаев",
+                "description": "Секция Big Data. <br>Расскажу о применениии Spark для машинного обучения, о различиях между Spark MLLib и популярной Python-библиотекой Scikit-Learn."
+            },
+            "tags": [
+                "big data",
+                "ml in prod",
+                "sysml"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "213",
+                "length": "20:50",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=rKV5W6RlBnk",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Apache Zeppelin: интерактивный анализ больших данных",
+                "speaker": "Наталья Притыковская",
+                "description": "Секция Big Data. <br>Мы рассмотрим технологию Apache Zeppelin, которая упрощает интерактивный анализ больших объёмов данных, выполняя ту же роль, что и IPython или Jupiter Notebook в экосистеме Python. Помимо удобного веб-интефейса, соединённого с Apache Spark и другими технологиями Hadoop Stack, Zeppelin предоставляет гибкие инструменты построения интерактивных визуализаций на базе AngularJS, что существенно расширяет возможности исследователя. Стоит упомянуть и интеграцию Zeppelin со Spark Streaming, позволяющую проводить анализ данных, поступающих с сервиса в реальном времени. Функциональность Zeppelin мы продемонстрируем на примере реальных задач аналитики «Одноклассников»."
+            },
+            "tags": [
+                "big data",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "231",
+                "length": "34:28",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=P4mN65sIfKQ",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "How to build a defensible business in machine learning",
+                "speaker": "Анатолий Марин, Дмитрий Мацкевич",
+                "description": "Секция AI бизнес. <br>Почти все крупные бизнесы используют сетевой эффект. Он помогает удерживать позиции и увеличивать маржу. Мы поговорим о том, как создать такой эффект в бизнесе, связанном с машинным обучением."
+            },
+            "tags": [
+                "business"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "232",
+                "length": "26:04",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=hJSDuPI5rhA",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Creating a deep learning startup",
+                "speaker": "Виктор Осыка",
+                "description": "Секция AI бизнес. <br>Почти все крупные бизнесы используют сетевой эффект. Он помогает удерживать позиции и увеличивать маржу. Мы поговорим о том, как создать такой эффект в бизнесе, связанном с машинным обучением."
+            },
+            "tags": [
+                "business",
+                "deep learning"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.09.11",
+                "name": "Data Fest³",
+                "link": "http://datafest.ru/3/"
+            },
+            "video": {
+                "order": "233",
+                "length": "22:40",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=-PnKega5D6k",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "How to launch a deep learning startup and avoid failure. Technology vs. Product",
+                "speaker": "Владислав Беляев",
+                "description": "Секция AI бизнес. <br>Технологии машинного интеллекта и анализа данных сейчас у всех на слуху. Новые разработки, библиотеки и сервисы появляются каждые несколько недель. С одной стороны, это открывает двери и мотивирует создавать интересные продукты, но с другой — заказчики и рынок зачастую хотят космос, который нам пока только снится. В докладе будет освещено, как взаимодействовать со всеми причастными — от инвесторов до разработчиков — на пути развития научно-технологического стартапа в области машинного интеллекта."
+            },
+            "tags": [
+                "business",
+                "deep learning"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "1",
+                "length": "43:07",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=dCIM1EZ1WX4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "My path from Data Science newbie to Kaggle Master",
+                "speaker": "Евгений Бабахин",
+                "description": "Overview of what Kaggle is, its pros and cons for the real life. Summary of competitions process and pipeline to handle them (with example for Kaggle competition: Two Sigma Connect: Rental Listing Inquiries)"
+            },
+            "tags": [
+                "ml models",
+                "categorical",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "2",
+                "length": "60:46",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=AYK7_RGZ4Vw",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "How to build a self-driving car (in 100 lines of code)",
+                "speaker": "Федор Червинский",
+                "description": "Overview of the technology stack inside a modern autonomous vehicle with focus on perception. Different approaches and problem formulations; deep learning for self-driving cars. Mediated perception: semantic segmentation, object detection, depth estimation. Training data: real and simulated"
+            },
+            "tags": [
+                "self-driving",
+                "computer vision",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "3",
+                "length": "41:19",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=7VRAWuf-bFs",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Objects segmentation on satellite images",
+                "speaker": "Артур Кузин",
+                "description": "An overview of objects segmentation approaches on satellite images from Kaggle competition (Dstl Satellite Imagery Feature Detection). The speech will be dedicated to hacks and tricks of training and design deep convolutional neural networks collected from top-5 teams."
+            },
+            "tags": [
+                "segmentation",
+                "computer vision",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "4",
+                "length": "45:04",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=a_Bh0lLq36E",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "How machine learning helps to find effective prices for goods",
+                "speaker": "Алексей Чернобровов",
+                "description": "Review of approaches to pricing. How it was before and how machine learning will change it. The theory and practice. A few examples of the implementation of this approach at a large online stores."
+            },
+            "tags": [
+                "ml economics",
+                "pricing",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "5",
+                "length": "42:01",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=3kbm-Doo89Y",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "ARIMA vs long term forecasts",
+                "speaker": "Антон Лебедевич",
+                "description": "Every textbook that has a time series chapter mentions ARIMA so it became a goto model for forecasting. But in real world it struggles with missing data, public holidays, non-stationarity, several steps ahead predictions. Anton will show better alternatives to ARIMA for long term forecasting."
+            },
+            "tags": [
+                "time series",
+                "ml models"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "6",
+                "length": "35:04",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=9vYkwD0feb4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Explain me like I'm 5",
+                "speaker": "Михаил Коробов",
+                "description": "ELI5 is a Python library which allows to visualize and debug various Machine Learning models. It has built-in support for several ML frameworks and provides a way to explain black-box models. Mike is ELI5 core developer who will tell us more how this magic works."
+            },
+            "tags": [
+                "ds tools",
+                "ml models",
+                "visualisation"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "7",
+                "length": "41:36",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=vZjm28HmqUY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "From Jupyter notebook to production environment",
+                "speaker": "Петр Ермаков",
+                "description": "In his speech Petr will overview the long way from the proof of concept models to highload production maintenance."
+            },
+            "tags": [
+                "ds tools",
+                "ml in prod"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.05.13",
+                "name": "Data Fest Minsk¹",
+                "link": "https://2017.datafest.by/"
+            },
+            "video": {
+                "order": "8",
+                "length": "42:13",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=d_-y7v-qHVE",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Sentiment analysis: best practices and challenges",
+                "speaker": "Виталий Радченко",
+                "description": "Sentiment analysis is a very interesting task where there are many techniques which work well. We will cover data preprocessing, traditional ML, word- and char-based neural networks. Moreover, you will find out different tricks how to deal with small datasets, dataset absence and transfer learning."
+            },
+            "tags": [
+                "nlp",
+                "deep learning",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "1",
+                "length": "61:05",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=v6Wv01GJQnI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как быстро надо бежать, чтобы не отстать: ML edition",
+                "speaker": "Владимир Игловиков",
+                "description": "Как быть востребованным на конкурентном рынке труда Кремниевой Долины. Статьи, технологии, конкурсы, соратники, настрой и другие важные аспекты становления дата сайнтиста."
+            },
+            "tags": [
+                "career",
+                "ml competition"
+            ]
         }
+
     ]
 }

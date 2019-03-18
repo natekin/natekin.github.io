@@ -182,7 +182,7 @@
 					var new_video_tags = Array(all_video_tags.length).fill("");
 
 					all_langs = all_langs.unique().sort();
-					all_fests = all_fests.unique().sort();
+					all_fests = all_fests.unique().sort().reverse();
 					tag_filter = Array(all_video_tags.length).fill(0);
 					//console.log(tag_filter)
 

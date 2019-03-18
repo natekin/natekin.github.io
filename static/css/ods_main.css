@@ -573,7 +573,7 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
     width: 18px; 
     height: 18px; 
     margin: 0; 
-    background-size: 108px 108px; 
+    background-size: 216px 108px; 
     background-position: 0px -90px;
     display: inline-block; 
     margin-bottom: 0px;
@@ -585,7 +585,7 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
     width: 18px; 
     height: 18px; 
     margin: 0; 
-    background-size: 108px 108px; 
+    background-size: 216px 108px; 
     background-position: -18px -90px;
     display: inline-block; 
     margin-bottom: 0px;
@@ -597,7 +597,7 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
     width: 18px; 
     height: 18px; 
     margin: 0; 
-    background-size: 108px 108px; 
+    background-size: 216px 108px; 
     background-position: -36px -90px;
     display: inline-block; 
     margin-bottom: 0px;
