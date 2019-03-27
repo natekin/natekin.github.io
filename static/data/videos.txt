@@ -917,7 +917,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -941,7 +941,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -965,7 +965,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -989,7 +989,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -1013,7 +1013,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -1036,7 +1036,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -1060,7 +1060,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -1083,7 +1083,7 @@
         {
             "event": {
                 "date": "2017.05.13",
-                "name": "Data Fest Minsk¹",
+                "name": "Data Fest Minsk<sup>¹</sup>",
                 "link": "https://2017.datafest.by/"
             },
             "video": {
@@ -1126,6 +1126,69 @@
                 "career",
                 "ml competition",
                 "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "1",
+                "length": "00:00",
+                "img": "",
+                "link": "",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Dummy",
+                "speaker": "Dummy",
+                "description": "Dummy"
+            },
+            "tags": [
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "1",
+                "length": "00:00",
+                "img": "",
+                "link": "",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Dummy",
+                "speaker": "Dummy",
+                "description": "Dummy"
+            },
+            "tags": [
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.04.28",
+                "name": "Data Fest⁵",
+                "link": "https://datafest.ru/5/"
+            },
+            "video": {
+                "order": "1",
+                "length": "00:00",
+                "img": "",
+                "link": "",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Dummy",
+                "speaker": "Dummy",
+                "description": "Dummy"
+            },
+            "tags": [
             ]
         }
 
