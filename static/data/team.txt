@@ -29,10 +29,10 @@
             "display": 1
         },
         {
-            "name": "Площадка и расположение",
+            "name": "Партнеры и расположение",
             "order": 3,
-            "org": "Сергей<br>Свиридов",
-            "photo": "ss",
+            "org": "Ольга<br>Алемаскина",
+            "photo": "oa",
             "display": 1
         },
         {
@@ -82,9 +82,9 @@
         {
             "name": "Manufacturing applications",
             "order": 132,
-            "org": "Команда Газпромнефть",
-            "photo": "",
-            "display": 0
+            "org": "Сергей<br>Свиридов",
+            "photo": "ss",
+            "display": 1
         },
         {
             "name": "Biometric applications",
@@ -129,11 +129,18 @@
             "display": 1
         },
         {
-            "name": "Media applications",
+            "name": "Media applications, Unsolved ML",
             "order": 151,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Евгений<br>Соколов",
+            "photo": "es",
+            "display": 1
+        },
+        {
+            "name": "Media applications, Unsolved ML",
+            "order": 151,
+            "org": "Святослав<br>Скоблов",
+            "photo": "ss2",
+            "display": 1
         },
         {
             "name": "Telecom applications",
@@ -150,11 +157,11 @@
             "display": 1
         },
         {
-            "name": "Industry Speech Analytics",
+            "name": "Industry Audio & Speech",
             "order": 154,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Антон<br>Репушко",
+            "photo": "ar",
+            "display": 1
         },
         {
             "name": "DS education, PyData, SysML",
@@ -178,11 +185,11 @@
             "display": 1
         },
         {
-            "name": "Pitch-session",
+            "name": "Project pitch-session",
             "order": 163,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Ирина<br>Голощапова",
+            "photo": "ig",
+            "display": 1
         },
         {
             "name": "ML puzzler,<br>ML4SG",
@@ -192,10 +199,24 @@
             "display": 1
         },
         {
+            "name": "ML puzzler",
+            "order": 164,
+            "org": "Павел<br>Плесков",
+            "photo": "pp",
+            "display": 1
+        },
+        {
             "name": "ML4SG",
             "order": 214,
             "org": "Кирилл<br>Власов",
             "photo": "kv2",
+            "display": 1
+        },
+        {
+            "name": "ML4SG",
+            "order": 214,
+            "org": "Александр<br>Ложечник",
+            "photo": "al3",
             "display": 1
         },
         {
@@ -290,17 +311,17 @@
             "display": 1
         },
         {
-            "name": "Unsolved ML",
-            "order": 254,
-            "org": "",
-            "photo": "",
-            "display": 0
-        },
-        {
             "name": "EDA & visualisation",
             "order": 262,
             "org": "Андрей<br>Лукьяненко",
             "photo": "al2",
+            "display": 1
+        },
+        {
+            "name": "Unconference",
+            "order": 273,
+            "org": "Павел<br>Голубев",
+            "photo": "pg",
             "display": 1
         },
         {
@@ -315,13 +336,6 @@
             "order": 301,
             "org": "Антон<br>Лебедевич",
             "photo": "al",
-            "display": 1
-        },
-        {
-            "name": "В программном комитете",
-            "order": 302,
-            "org": "Ирина<br>Голощапова",
-            "photo": "ig",
             "display": 1
         },
         {
