@@ -129,6 +129,13 @@
             "display": 1
         },
         {
+            "name": "Industry Audio & Speech",
+            "order": 154,
+            "org": "Антон<br>Репушко",
+            "photo": "ar",
+            "display": 1
+        },
+        {
             "name": "Media applications, Unsolved ML",
             "order": 151,
             "org": "Евгений<br>Соколов",
@@ -154,13 +161,6 @@
             "order": 153,
             "org": "Анастасия Манохина",
             "photo": "am",
-            "display": 1
-        },
-        {
-            "name": "Industry Audio & Speech",
-            "order": 154,
-            "org": "Антон<br>Репушко",
-            "photo": "ar",
             "display": 1
         },
         {
