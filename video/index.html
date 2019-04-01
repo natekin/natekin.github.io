@@ -160,8 +160,8 @@
 	    	                </a></li>
 	    	            </ul>
 					</li>
-	    	        <li style="opacity: 0.33">
-        				<a>
+	    	        <li>
+        				<a href="https://tele.gg/ODS_DataFest_bot" target="_blank">
         					<span class="nav-icon"><div class="ods_emoji em_bot"></div></span> 
 							<span>Fest-бот</span>	
 						</a>
@@ -230,15 +230,13 @@
     	<div class="ods-bg-new hidden-xs header-bg-right"></div>
 	    <div class="ods-bg-new hidden-xs header-bg-left"></div>
     </div>
-
     
     <div style="margin-top: -30px;">
-    	<div class="text-center col-md-8 col-md-offset-2" style="margin-bottom: 30px;">
+    	<div class="text-center col-md-8 col-md-offset-2" style="margin-bottom: 10px;">
     		<h1>Все видео с Data Fest-ов</h1>
-
-    		<h4>Будут опубликованы 18 марта вместе с обзорной статьей по лучшим видео на Хабре.</h4>
+    		<!--<h4 >Будут опубликованы 18 марта вместе с обзорной статьей по лучшим видео на Хабре.</h4>-->
     	</div>
-    	<div class="container" id="container_video_magic" style="display: ;">
+    	<div class="container" id="container_video_magic" style="margin-top: 0px;">
     		<div class="col-md-2" id="lang_filter">    			
     			<h4>
     				Языки видео:
@@ -255,12 +253,22 @@
 					...	
 				</div>
 			</div>					
-    		<div class="col-md-12" id="video_tags" style="margin-top: 10px;">    			
+    		<div class="col-md-12 tag_storage" id="video_tags_white" style="margin-top: 10px;">    			
     			<h4>
-    				Тематические тэги видео:
+    				Ключевые тэги выступлений:
 				</h4>	
 				<div class="video_description_container">
-					<div id="tag_place" class="video_description" style="min-height: 60px;">
+					<div id="tag_place_white" style="min-height: 10px;">
+						...
+					</div>		
+				</div>
+			</div>				
+    		<div class="col-md-12 tag_storage" id="video_tags" style="margin-top: 10px;">    			
+    			<h4>
+    				Остальные тэги:
+				</h4>	
+				<div class="video_description_container">
+					<div id="tag_place" class="video_description" style="min-height: 30px;">
 						...
 					</div>		
 				</div>
@@ -337,7 +345,7 @@
 	<script type="text/javascript" language="javascript" src="../static/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" language="javascript" src="../static/js/dataTables.colReorder.min.js"></script>	
 	<script type="text/javascript" language="javascript" src="../static/js/dataTables.material.min.js"></script>
-	<script type="text/javascript" language="javascript" src="../static/js/dt-events.js?v=0.6"></script>
+	<script type="text/javascript" language="javascript" src="../static/js/dt-events.js?v=0.7"></script>
 	<script type="text/javascript" language="javascript" class="init">
 	$(document).ready(function() {
 
@@ -357,7 +365,7 @@
 			return all_links;
 		}
 
-		$.getJSON( "/static/data/social.txt?v=1.0.3", function( data ) {
+		$.getJSON( "/static/data/social.txt?v=1.0.4", function( data ) {
 			var ods_footer = render_social_links(data.ods);
 		  	$("#ods_social_footer_container").html(ods_footer);
 		  	var fest_header = render_social_links(data.fest);

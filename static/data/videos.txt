@@ -114,7 +114,7 @@
             },
             "tags": [
                 "sysml",
-                "ml in prod"
+                "overview"
             ]
         },
         {            
@@ -819,7 +819,6 @@
             },
             "tags": [
                 "big data",
-                "ml in prod",
                 "sysml"
             ]
         },
@@ -1077,7 +1076,7 @@
             },
             "tags": [
                 "ds tools",
-                "ml in prod"
+                "sysml"
             ]
         },
         {
@@ -1130,6 +1129,382 @@
         },
         {
             "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "2",
+                "length": "24:11",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=ldAJHmT7hgY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как решать задачи NLP без знания языка",
+                "speaker": "Арсений Анисимович",
+                "description": "Char-level CNN для обработки текстов: советы, трюки и подводные камни, подходы. Можно ли сделать модель для решения специфических проблем в многоязычных ситуациях, не опираясь на большие датасеты."
+            },
+            "tags": [
+                "deep learning",
+                "nlp",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "3",
+                "length": "33:43",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=GkuAU-RRG5o",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "DeepPavlov: библиотека для создания диалоговых систем",
+                "speaker": "Валентин Малых",
+                "description": "Библиотека DeepPavlov содержит в себе отдельные код, тренированные модели и вспомогательные утилиты для создания диалоговых систем (чатботов)."
+            },
+            "tags": [
+                "deep learning",
+                "nlp",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "4",
+                "length": "44:37",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=cpv3VF_olGw",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Распознавание и учёт светофоров беспилотным автомобилем",
+                "speaker": "Виктор Отлига",
+                "description": "Светофоры - один из главных типов объектов, влияющих на движение автомобиля в городе. Обычно у человека не возникает проблем с тем, чтобы определить цвет светофора и понять, как он влияет на дорожную ситуацию. А сложно ли беспилотному автомобилю справиться с задачей учёта светофоров при планировании своего поведения? Думаете, что это крайне простая и понятная задача? На самом деле, всё не так тривиально, как может показаться на первый взгляд. В докладе мы попробуем разобраться, какие есть подводные камни у этой задачи и как можно с ними бороться."
+            },
+            "tags": [
+                "computer vision",
+                "self-driving"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "5",
+                "length": "31:25",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=Dlih_a2-4gU",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Superresolution для видео с помощью Generative Adversarial",
+                "speaker": "Сергей Овчаренко",
+                "description": "Как можно улучшать видео и изображения с помощью GAN'ов, почему подходы из статей про superresolution не работает на реальных данных и как это исправить."
+            },
+            "tags": [
+                "deep learning",
+                "gan"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "6",
+                "length": "26:50",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=vxkZ0JULC88",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Анализ и разметка больших данных в приложениях eCommerce",
+                "speaker": "Евгений Бабахин",
+                "description": "Часто бывает, что удается скачать большие объемы неструктурированных данных (текстов, картинок) из открытых источников, однако возникает вопрос их разметки под конкретную задачу. Как справляются  с проблемой разметки и пополнения тренировочного множества в компании Profitero на примере использования такого подхода в задаче по определению брендов продуктов в онлайн-магазинах."
+            },
+            "tags": [
+                "nlp",
+                "big data"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "7",
+                "length": "26:40",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=VoBrYyeV-iA",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как безопасно использовать стекинг в продакшене",
+                "speaker": "Дмитрий Палевский",
+                "description": "To stack or not to stack? Или как увеличить точность предсказания для задачи извлечения информации до 99%-100% за счет применения валидационной модели 2-го уровня."
+            },
+            "tags": [
+                "ml models",
+                "sysml"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "8",
+                "length": "46:55",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=N8Yvn9MDD0g",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как анализировать гигабайты данных на обычном ноутбуке",
+                "speaker": "Дима Королев",
+                "description": "Часто бывает, что данных — единицы или десятки гигабайт, что не очень мало, но и не очень много. В такой ситуации анализировать их с помощью sed / jq / grep / awk уже выходит слишком медленно, а заливать их в Hadoop-кластер — слишком расточительно. \"От баша и скриптов\" к нативному коду, который двумя разными способами приводит нас к возможности локально, на обычном ноутбуке, \"бегать\" по данным со скоростью больше гигабайта в секунду, сводя время одной итерации \"идея - имплементация - обработка - результат\" к единицам секунд."
+            },
+            "tags": [
+                "ds tools",
+                "sysml"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "9",
+                "length": "31:06",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=AWAJiv5ZCPY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Доставка и эксплуатация обученных моделей на production.",
+                "speaker": "Александр Радионов",
+                "description": "2ГИС — справочник и карта организаций России, Украины, Казахстана и других стран, с более чем 40 миллионами пользователей в месяц. Справочник содержит миллионы организаций и каждый день их сайты меняются. Расскажем о процессе непрерывной (почти) интеграции Machine Learning-сервисов с бекендами для выверки работоспособности и отсутствия 18+ контента на сайтах компаний."
+            },
+            "tags": [
+                "reproducibility",
+                "sysml"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "10",
+                "length": "31:22",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=K3Q9gfrCGkI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как сегментировать 150 млн человек",
+                "speaker": "Дмитрий Щегрикович",
+                "description": "Варианты применения методов кластеризации для нужд описания пользователей от идеи до финального решения на примере реальных задач команды Data Science компании Wargaming. О тонкостях продажи бизнесу идей проектов, подходах к решению непосредственно аналитических задач, проверке устойчивости решений, виде автоматизированного решения."
+            },
+            "tags": [
+                "big data",
+                "business"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "11",
+                "length": "23:22",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=53--DNGmHng",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Доменная адаптация в компьютерном зрении",
+                "speaker": "Влад Павлович",
+                "description": "Одна из основных проблем методов глубинного обучения - недостаточные объёмы обучающей выборки. В докладе  -  о возможностях применения доменной адаптации изображений для решения этой проблемы."
+            },
+            "tags": [
+                "deep learning",
+                "gan",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "12",
+                "length": "33:59",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=PjTVS9n2yLQ",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Трекинг состояния человека: в поиске лучшего решения",
+                "speaker": "Денис Пирштук",
+                "description": "Об особенностях задач, в которых камера используется для отслеживания состояния человека, будь то его активность, эмоциональное или физическое состояние человека, и сравним возможные подходы к их решению. В этой области обычно модели обучают на датасетах, созданных в лабораторных условиях. Однако у некоторых исследователей получаются модели, которые точнее и намного более устойчивы на новых реальных данных, чем у большинства коллег. В чем же отличия?"
+            },
+            "tags": [
+                "tracking",
+                "face recognition",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "13",
+                "length": "39:14",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=uK4hPD12YmI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "О некоторых косяках в анализе данных",
+                "speaker": "Юрий Кашницкий",
+                "description": "Всем людям свойственно косячить. Data Scientist-ы – не исключение. О граблях, на которые наступают специалисты по анализу данных, откуда они берутся – только ли невнимательность или неумение программировать? Или плохое знание математики? Порой эти косяки можно поправить за один вечер, а порой и весь проект может загнуться."
+            },
+            "tags": [
+                "failconf",
+                "career",
+                "recsys"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "14",
+                "length": "39:13",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=HuJyLIis6ts",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как работать с научными статьями",
+                "speaker": "Николай Карелин",
+                "description": "Для того чтобы подобрать хороший алгоритм или модель для работы с данными, зачастую приходится обработать десятки, а то и сотни статей из arXiv.org, NIPS и массы других мест. Но как оценить, насколько хорошая та или иная статья? Как  пишут статьи, где и как их искать, чем отличаются публикации из разнных источников, как практически работать со статьями."
+            },
+            "tags": [
+                "science",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "15",
+                "length": "17:22",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=oEZSg79e03I",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как идентифицировать токсичные комментарии",
+                "speaker": "Артур Степаненко",
+                "description": "Хаки и трюки обучения нейронных сетей для классификации и анализа тональности текстов, файнтюнинг в задачах NLP, оптимизация ROC AUC и продвинутые техники ансамблирования на примере Kaggle-соревнования."
+            },
+            "tags": [
+                "nlp",
+                "ml models",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "16",
+                "length": "26:20",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=hqxLSXMgaF4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Еще один вариант решения задачи Instance segmentation",
+                "speaker": "Александр Буслаев",
+                "description": "Задача instance segmentation считается на порядок более сложной, чем semantic segmentation. Обычно под эту задачу больше подходят решения, так или иначе использующие детекторы. Как в некоторых случаях можно свести эту задачу к более простой и обкатанной задаче семантической сегментации с классическими архитектурами encoder-decoder и победить с таким подходом в двух конкурсах."
+            },
+            "tags": [
+                "segmentation",
+                "computer vision",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.05.19",
+                "name": "Data Fest Minsk²",
+                "link": "https://2018.datafest.by/"
+            },
+            "video": {
+                "order": "17",
+                "length": "30:45",
+                "img": "",
+                "link": "https://www.youtube.com/watch?v=TwIi7zoiiPs",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Изобразительные лики",
+                "speaker": "Евгений Нижибицкий",
+                "description": "Обзор различных ликов, обнаруженных в deep learning соревнованиях на kaggle и не только. Рассказы о том, как по недосмотру или лени организаторов занять первое место с моделью-бейзлайном или получить значительную часть ответов теста, включены."
+            },
+            "tags": [
+                "deep learning",
+                "failconf",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
                 "date": "2017.02.11",
                 "name": "Data Fest⁴",
                 "link": "https://datafest.ru/4/"
@@ -1156,18 +1531,233 @@
                 "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
             },
             "video": {
-                "order": "1",
-                "length": "00:00",
+                "order": "101",
+                "length": "31:12",
                 "img": "",
-                "link": "",
+                "link": "https://www.youtube.com/watch?v=N83glMWVHlI",
                 "lang": "ru"
             },
             "content": {
-                "title": "Dummy",
-                "speaker": "Dummy",
-                "description": "Dummy"
+                "title": "От наивного байеса к topic modeling",
+                "speaker": "Сергей Николенко",
+                "description": "Выступление Сергея было посвящено введению в тематическое моделирование."
             },
             "tags": [
+                "bayesian",
+                "topic modelling",
+                "nlp"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "102",
+                "length": "44:23",
+                "img": "",
+                "link": "https://youtu.be/5UPJObYwrZE",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Последние хиты глубокого обучения",
+                "speaker": "Михаил Бурцев",
+                "description": "Доклад Михаила представляет собой обзор интересных работ в области глубокого обучения."
+            },
+            "tags": [
+                "deep learning",
+                "reinforcement learning",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "103",
+                "length": "35:49",
+                "img": "",
+                "link": "https://youtu.be/GuLWPyAffvQ",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Текущие тенденции в сфере исследования глубокого обучения",
+                "speaker": "Иван Лобов",
+                "description": "Иван рассказал об одном из трендов — исследование внимания и памяти в нейронных сетях."
+            },
+            "tags": [
+                "deep learning",
+                "attention",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "104",
+                "length": "45:46",
+                "img": "",
+                "link": "https://youtu.be/yghmC_plPsE",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Методы оптимизации больших сумм функций",
+                "speaker": "Дмитрий Кропотов",
+                "description": "Дмитрий представил вниманию публики небольшой обзор методов стохастической оптимизации, применяемой при глубоком обучении."
+            },
+            "tags": [
+                "deep learning",
+                "optimisation",
+                "bayesian"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "105",
+                "length": "23:05",
+                "img": "",
+                "link": "https://youtu.be/otVHGG6rm3o",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "SNA Hackathon 2016",
+                "speaker": "Дмитрий Бугайченко",
+                "description": "Рассказ о хакатоне SNA Hackathon 2016, проводимом Одноклассниками."
+            },
+            "tags": [
+                "sna",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "106",
+                "length": "40:47",
+                "img": "",
+                "link": "https://youtu.be/FMoFg9pikWE",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Анализ данных в социальных сетях",
+                "speaker": "Дмитрий Бугайченко",
+                "description": "Второе выступление Дмитрия на Data Fest, посвященное теме анализа данных в социальных сетях на практике"
+            },
+            "tags": [
+                "sna",
+                "big data",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "107",
+                "length": "40:57",
+                "img": "",
+                "link": "https://youtu.be/XSB2FDukrrY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Данные кликов в поиске",
+                "speaker": "Владимир Гулин",
+                "description": "Владимир в своём докладе рассказал о том, как можно использовать «кликовые» данные для улучшения ранжирования в поисковых системах"
+            },
+            "tags": [
+                "information retrieval",
+                "sysml"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "108",
+                "length": "30:21",
+                "img": "",
+                "link": "https://youtu.be/G0iBCGoBri4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Определение взлома аккаунтов",
+                "speaker": "Александр Щусь",
+                "description": "Выступление Александра было посвящено решению актуальных проблем в сфере взлома аккаунтов различных сетевых сервисов."
+            },
+            "tags": [
+                "security",
+                "sysml"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "109",
+                "length": "37:34",
+                "img": "",
+                "link": "https://youtu.be/wuii1EOOhaY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Анализ социальных сетей в телекоме",
+                "speaker": "Александр Семёнов",
+                "description": "Александр рассказал о том, в каком виде сегодня представлен в телекоме сетевой анализ."
+            },
+            "tags": [
+                "sna",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2016.03.05",
+                "name": "Data Fest²",
+                "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
+            },
+            "video": {
+                "order": "110",
+                "length": "83:07",
+                "img": "",
+                "link": "https://youtu.be/_K21c8IqbwM",
+                "lang": "en"
+            },
+            "content": {
+                "title": "From information extraction to knowledgeable machines",
+                "speaker": "Peter Clark",
+                "description": "Выступление Питера было посвящено проекту Aristo, а также методикам автоматизации извлечения информации."
+            },
+            "tags": [
+                "information retrieval",
+                "nlp",
+                "overview"
             ]
         },
         {

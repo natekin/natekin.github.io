@@ -145,7 +145,7 @@
 		            { "data": "content.description" },		            
 		            { "data": "tags" }
 		        ],
-		        //"order": [[0,"desc"],[1,"asc"],[3,"desc"]],
+		        "order": [[0,"desc"],[1,"asc"],[3,"desc"]],
 		        "columnDefs": [
 		            {
 		            	"render": function ( data, type, row ) { return render_video(row) },
@@ -179,15 +179,25 @@
 		        "initComplete": function( settings, json){
 		        	//collect all tags from videos and place them 
 		        	all_video_tags = all_video_tags.unique().sort();
-					var new_video_tags = Array(all_video_tags.length).fill("");
-
 					all_langs = all_langs.unique().sort();
 					all_fests = all_fests.unique().sort().reverse();
 					tag_filter = Array(all_video_tags.length).fill(0);
 					//console.log(tag_filter)
 
+					var white_list = ["big data", "computer vision", "deep learning", "ds tools", "ml competition", "ml models", "nlp", "overview", "sysml"];
+					var white_video_tags = [];//Array(white_list.length).fill("")
+					var new_video_tags = [];//Array(all_video_tags.length - white_list.length).fill("");
+
+					//pass all colected tags into 
 					$.each(all_video_tags, function( index, value ){
-						new_video_tags[index] = '<span class="badge badge-pill events_tag_filter" id="' + "ef" + index + '">' + value + '</span>';
+						var tag_content = '<span class="badge badge-pill events_tag_filter" id="' + "ef" + index + '">' + value + '</span>';
+
+						if(white_list.includes(value)){
+							white_video_tags.push(tag_content)
+						}else{
+							new_video_tags.push(tag_content)
+						}
+						//new_video_tags[index] = '<span class="badge badge-pill events_tag_filter" id="' + "ef" + index + '">' + value + '</span>';
 					});
 
 					$.each(all_langs, function( index, value ){
@@ -199,6 +209,8 @@
 					});
 			
 					$("#tag_place").html(new_video_tags);
+					$("#tag_place_white").html(white_video_tags);
+					
 					$("#lang_place").html(all_langs);
 					$("#fest_place").html(all_fests);
 
@@ -211,31 +223,6 @@
 
 		    } );
 
-			//also delegate events to all shrink/expand utilities
-			/*
-		    $("#dt-events").delegate(".video_description_expand", "click", function() {
-				$( this ).parent().prev().find(".video_description").toggleClass( "open_description", 300 );
-				$( this ).next().toggle();
-				$( this ).toggle();
-			});
-		    $("#dt-events").delegate(".video_description_shrink", "click", function() {
-				$( this ).parent().prev().find(".video_description").toggleClass( "open_description", 300 );
-				$( this ).prev().toggle();
-				$( this ).toggle();
-			});
-
-		    //similar delegate to tag collection
-			$("#video_tags").delegate(".video_description_expand", "click", function() {
-				$( this ).parent().prev().find(".video_description").toggleClass( "open_description", 300 );
-				$( this ).next().toggle();
-				$( this ).toggle();
-			});
-		    $("#video_tags").delegate(".video_description_shrink", "click", function() {
-				$( this ).parent().prev().find(".video_description").toggleClass( "open_description", 300 );
-				$( this ).prev().toggle();
-				$( this ).toggle();
-			});
-			*/
 			//now within one big container, seems to work fine
 			$("#container_video_magic").delegate(".video_description_expand", "click", function() {
 				$( this ).parent().prev().find(".video_description").toggleClass( "open_description", 300 );
@@ -330,7 +317,7 @@
 			}
 
 			//tags are way more complicated
-			$("#tag_place").delegate(".events_tag_filter", "click", function() {
+			$(".tag_storage").delegate(".events_tag_filter", "click", function() {
 				//tag_filter all_video_tags
 				var this_tag = $(this).attr('id').slice(2);	
 				if(tag_filter[this_tag] == 0)			{
@@ -340,7 +327,7 @@
 				}
 
 				tag_filter_query = construct_or_filter(tag_filter, all_video_tags);
-				console.log(tag_filter_query);
+				//console.log(tag_filter_query);
 				$( this).toggleClass("active-badge");		
 				table_events.columns( 11 ).search( tag_filter_query, true, false ).draw();		
 			});
