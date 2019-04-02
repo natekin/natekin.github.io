@@ -234,7 +234,7 @@
     <div style="margin-top: -30px;">
     	<div class="text-center col-md-8 col-md-offset-2" style="margin-bottom: 10px;">
     		<h1>Все видео с Data Fest-ов</h1>
-    		<!--<h4 >Будут опубликованы 18 марта вместе с обзорной статьей по лучшим видео на Хабре.</h4>-->
+    		<h4 style="max-width: 660px; margin: auto; margin-top:15px; margin-bottom: 30px;">Вы можете выбирать интересующие вас Фесты, темы выступлений, а также просто искать интересующие вас вещи среди всех видео.</h4>
     	</div>
     	<div class="container" id="container_video_magic" style="margin-top: 0px;">
     		<div class="col-md-2" id="lang_filter">    			
@@ -282,17 +282,17 @@
 					<thead>
 						<tr>
 							<th>Дата</th>
-							<th>event.name</th>
-							<th>event.link</th>		
+							<th style="display: none;">event.name</th>
+							<th style="display: none;">event.link</th>		
 							<th>Видео</th>
-							<th>video.len</th>
-							<th>video.img</th>
-							<th>video.link</th>
-							<th>video.lang</th>
+							<th style="display: none;">video.len</th>
+							<th style="display: none;">video.img</th>
+							<th style="display: none;">video.link</th>
+							<th style="display: none;">video.lang</th>
 							<th>Описание</th>
-							<th>content.speaker</th>
-							<th>content.description</th>
-							<th>tags</th>
+							<th style="display: none;">content.speaker</th>
+							<th style="display: none;">content.description</th>
+							<th style="display: none;">tags</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -345,7 +345,7 @@
 	<script type="text/javascript" language="javascript" src="../static/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" language="javascript" src="../static/js/dataTables.colReorder.min.js"></script>	
 	<script type="text/javascript" language="javascript" src="../static/js/dataTables.material.min.js"></script>
-	<script type="text/javascript" language="javascript" src="../static/js/dt-events.js?v=0.7"></script>
+	<script type="text/javascript" language="javascript" src="../static/js/dt-events.js?v=0.8.2"></script>
 	<script type="text/javascript" language="javascript" class="init">
 	$(document).ready(function() {
 

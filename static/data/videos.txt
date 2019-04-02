@@ -90,7 +90,7 @@
                 "description": "Indexing and searching multimedia content is becoming increasingly important for many analytical tasks. One such technique is speaker diarization, the purpose of which is to answer the question \"Who spoke when?\" without any a priori information about the speakers present in the audio recording. In this talk, we'll discuss the approaches and challenges of speaker diarization for phone conversations."
             },
             "tags": [
-                "speech recognition",
+                "audio & speech",
                 "speaker diarization"
             ]
         },
@@ -114,6 +114,7 @@
             },
             "tags": [
                 "sysml",
+                "testing",
                 "overview"
             ]
         },
@@ -620,7 +621,7 @@
             "video": {
                 "order": "111",
                 "length": "32:08",
-                "img": "",
+                "img": "fest-3-2-111.jpg",
                 "link": "https://www.youtube.com/watch?v=iGAMPnv-0VY",
                 "lang": "ru"
             },
@@ -645,7 +646,7 @@
             "video": {
                 "order": "112",
                 "length": "29:59",
-                "img": "",
+                "img": "fest-3-2-112.jpg",
                 "link": "https://www.youtube.com/watch?v=SCtIriYyBYI",
                 "lang": "ru"
             },
@@ -669,7 +670,7 @@
             "video": {
                 "order": "113",
                 "length": "37:34",
-                "img": "",
+                "img": "fest-3-2-113.jpg",
                 "link": "https://www.youtube.com/watch?v=PUEVKLX-bFc",
                 "lang": "ru"
             },
@@ -692,7 +693,7 @@
             "video": {
                 "order": "121",
                 "length": "79:49",
-                "img": "",
+                "img": "fest-3-2-121.jpg",
                 "link": "https://www.youtube.com/watch?v=J2OPbFwBxHU",
                 "lang": "ru"
             },
@@ -715,7 +716,7 @@
             "video": {
                 "order": "131",
                 "length": "31:19",
-                "img": "",
+                "img": "fest-3-2-131.jpg",
                 "link": "https://www.youtube.com/watch?v=wBbtVPJRMEg",
                 "lang": "ru"
             },
@@ -738,7 +739,7 @@
             "video": {
                 "order": "132",
                 "length": "33:37",
-                "img": "",
+                "img": "fest-3-2-132.jpg",
                 "link": "https://www.youtube.com/watch?v=oum3txTxXDw",
                 "lang": "ru"
             },
@@ -762,7 +763,7 @@
             "video": {
                 "order": "133",
                 "length": "25:20",
-                "img": "",
+                "img": "fest-3-2-133.jpg",
                 "link": "https://www.youtube.com/watch?v=kXedl3nxvMY",
                 "lang": "ru"
             },
@@ -785,7 +786,7 @@
             "video": {
                 "order": "211",
                 "length": "35:19",
-                "img": "",
+                "img": "fest-3-2-211.jpg",
                 "link": "https://www.youtube.com/watch?v=UC8wdwhh8b4",
                 "lang": "ru"
             },
@@ -808,7 +809,7 @@
             "video": {
                 "order": "212",
                 "length": "36:44",
-                "img": "",
+                "img": "fest-3-2-212.jpg",
                 "link": "https://www.youtube.com/watch?v=L6l95Mj-WTg",
                 "lang": "ru"
             },
@@ -831,7 +832,7 @@
             "video": {
                 "order": "213",
                 "length": "20:50",
-                "img": "",
+                "img": "fest-3-2-213.jpg",
                 "link": "https://www.youtube.com/watch?v=rKV5W6RlBnk",
                 "lang": "ru"
             },
@@ -854,7 +855,7 @@
             "video": {
                 "order": "231",
                 "length": "34:28",
-                "img": "",
+                "img": "fest-3-2-231.jpg",
                 "link": "https://www.youtube.com/watch?v=P4mN65sIfKQ",
                 "lang": "ru"
             },
@@ -876,7 +877,7 @@
             "video": {
                 "order": "232",
                 "length": "26:04",
-                "img": "",
+                "img": "fest-3-2-232.jpg",
                 "link": "https://www.youtube.com/watch?v=hJSDuPI5rhA",
                 "lang": "ru"
             },
@@ -899,7 +900,7 @@
             "video": {
                 "order": "233",
                 "length": "22:40",
-                "img": "",
+                "img": "fest-3-2-233.jpg",
                 "link": "https://www.youtube.com/watch?v=-PnKega5D6k",
                 "lang": "ru"
             },
@@ -922,7 +923,7 @@
             "video": {
                 "order": "1",
                 "length": "43:07",
-                "img": "",
+                "img": "fest-minsk-1-1.jpg",
                 "link": "https://www.youtube.com/watch?v=dCIM1EZ1WX4",
                 "lang": "ru"
             },
@@ -946,7 +947,7 @@
             "video": {
                 "order": "2",
                 "length": "60:46",
-                "img": "",
+                "img": "fest-minsk-1-2.jpg",
                 "link": "https://www.youtube.com/watch?v=AYK7_RGZ4Vw",
                 "lang": "ru"
             },
@@ -970,7 +971,7 @@
             "video": {
                 "order": "3",
                 "length": "41:19",
-                "img": "",
+                "img": "fest-minsk-1-3.jpg",
                 "link": "https://www.youtube.com/watch?v=7VRAWuf-bFs",
                 "lang": "ru"
             },
@@ -994,7 +995,7 @@
             "video": {
                 "order": "4",
                 "length": "45:04",
-                "img": "",
+                "img": "fest-minsk-1-4.jpg",
                 "link": "https://www.youtube.com/watch?v=a_Bh0lLq36E",
                 "lang": "ru"
             },
@@ -1018,7 +1019,7 @@
             "video": {
                 "order": "5",
                 "length": "42:01",
-                "img": "",
+                "img": "fest-minsk-1-5.jpg",
                 "link": "https://www.youtube.com/watch?v=3kbm-Doo89Y",
                 "lang": "ru"
             },
@@ -1041,7 +1042,7 @@
             "video": {
                 "order": "6",
                 "length": "35:04",
-                "img": "",
+                "img": "fest-minsk-1-6.jpg",
                 "link": "https://www.youtube.com/watch?v=9vYkwD0feb4",
                 "lang": "ru"
             },
@@ -1065,7 +1066,7 @@
             "video": {
                 "order": "7",
                 "length": "41:36",
-                "img": "",
+                "img": "fest-minsk-1-7.jpg",
                 "link": "https://www.youtube.com/watch?v=vZjm28HmqUY",
                 "lang": "ru"
             },
@@ -1088,7 +1089,7 @@
             "video": {
                 "order": "8",
                 "length": "42:13",
-                "img": "",
+                "img": "fest-minsk-1-8.jpg",
                 "link": "https://www.youtube.com/watch?v=d_-y7v-qHVE",
                 "lang": "ru"
             },
@@ -1112,7 +1113,7 @@
             "video": {
                 "order": "1",
                 "length": "61:05",
-                "img": "",
+                "img": "fest-minsk-2-1.jpg",
                 "link": "https://www.youtube.com/watch?v=v6Wv01GJQnI",
                 "lang": "ru"
             },
@@ -1136,7 +1137,7 @@
             "video": {
                 "order": "2",
                 "length": "24:11",
-                "img": "",
+                "img": "fest-minsk-2-2.jpg",
                 "link": "https://www.youtube.com/watch?v=ldAJHmT7hgY",
                 "lang": "ru"
             },
@@ -1160,7 +1161,7 @@
             "video": {
                 "order": "3",
                 "length": "33:43",
-                "img": "",
+                "img": "fest-minsk-2-3.jpg",
                 "link": "https://www.youtube.com/watch?v=GkuAU-RRG5o",
                 "lang": "ru"
             },
@@ -1184,7 +1185,7 @@
             "video": {
                 "order": "4",
                 "length": "44:37",
-                "img": "",
+                "img": "fest-minsk-2-4.jpg",
                 "link": "https://www.youtube.com/watch?v=cpv3VF_olGw",
                 "lang": "ru"
             },
@@ -1207,7 +1208,7 @@
             "video": {
                 "order": "5",
                 "length": "31:25",
-                "img": "",
+                "img": "fest-minsk-2-5.jpg",
                 "link": "https://www.youtube.com/watch?v=Dlih_a2-4gU",
                 "lang": "ru"
             },
@@ -1230,7 +1231,7 @@
             "video": {
                 "order": "6",
                 "length": "26:50",
-                "img": "",
+                "img": "fest-minsk-2-6.jpg",
                 "link": "https://www.youtube.com/watch?v=vxkZ0JULC88",
                 "lang": "ru"
             },
@@ -1253,7 +1254,7 @@
             "video": {
                 "order": "7",
                 "length": "26:40",
-                "img": "",
+                "img": "fest-minsk-2-7.jpg",
                 "link": "https://www.youtube.com/watch?v=VoBrYyeV-iA",
                 "lang": "ru"
             },
@@ -1276,7 +1277,7 @@
             "video": {
                 "order": "8",
                 "length": "46:55",
-                "img": "",
+                "img": "fest-minsk-2-8.jpg",
                 "link": "https://www.youtube.com/watch?v=N8Yvn9MDD0g",
                 "lang": "ru"
             },
@@ -1299,7 +1300,7 @@
             "video": {
                 "order": "9",
                 "length": "31:06",
-                "img": "",
+                "img": "fest-minsk-2-9.jpg",
                 "link": "https://www.youtube.com/watch?v=AWAJiv5ZCPY",
                 "lang": "ru"
             },
@@ -1322,7 +1323,7 @@
             "video": {
                 "order": "10",
                 "length": "31:22",
-                "img": "",
+                "img": "fest-minsk-2-10.jpg",
                 "link": "https://www.youtube.com/watch?v=K3Q9gfrCGkI",
                 "lang": "ru"
             },
@@ -1345,7 +1346,7 @@
             "video": {
                 "order": "11",
                 "length": "23:22",
-                "img": "",
+                "img": "fest-minsk-2-11.jpg",
                 "link": "https://www.youtube.com/watch?v=53--DNGmHng",
                 "lang": "ru"
             },
@@ -1369,7 +1370,7 @@
             "video": {
                 "order": "12",
                 "length": "33:59",
-                "img": "",
+                "img": "fest-minsk-2-12.jpg",
                 "link": "https://www.youtube.com/watch?v=PjTVS9n2yLQ",
                 "lang": "ru"
             },
@@ -1393,7 +1394,7 @@
             "video": {
                 "order": "13",
                 "length": "39:14",
-                "img": "",
+                "img": "fest-minsk-2-13.jpg",
                 "link": "https://www.youtube.com/watch?v=uK4hPD12YmI",
                 "lang": "ru"
             },
@@ -1417,7 +1418,7 @@
             "video": {
                 "order": "14",
                 "length": "39:13",
-                "img": "",
+                "img": "fest-minsk-2-14.jpg",
                 "link": "https://www.youtube.com/watch?v=HuJyLIis6ts",
                 "lang": "ru"
             },
@@ -1440,7 +1441,7 @@
             "video": {
                 "order": "15",
                 "length": "17:22",
-                "img": "",
+                "img": "fest-minsk-2-15.jpg",
                 "link": "https://www.youtube.com/watch?v=oEZSg79e03I",
                 "lang": "ru"
             },
@@ -1464,7 +1465,7 @@
             "video": {
                 "order": "16",
                 "length": "26:20",
-                "img": "",
+                "img": "fest-minsk-2-16.jpg",
                 "link": "https://www.youtube.com/watch?v=hqxLSXMgaF4",
                 "lang": "ru"
             },
@@ -1488,7 +1489,7 @@
             "video": {
                 "order": "17",
                 "length": "30:45",
-                "img": "",
+                "img": "fest-minsk-2-17.jpg",
                 "link": "https://www.youtube.com/watch?v=TwIi7zoiiPs",
                 "lang": "ru"
             },
@@ -1505,27 +1506,6 @@
         },
         {
             "event": {
-                "date": "2017.02.11",
-                "name": "Data Fest⁴",
-                "link": "https://datafest.ru/4/"
-            },
-            "video": {
-                "order": "1",
-                "length": "00:00",
-                "img": "",
-                "link": "",
-                "lang": "ru"
-            },
-            "content": {
-                "title": "Dummy",
-                "speaker": "Dummy",
-                "description": "Dummy"
-            },
-            "tags": [
-            ]
-        },
-        {
-            "event": {
                 "date": "2016.03.05",
                 "name": "Data Fest²",
                 "link": "https://www.meetup.com/Moscow-Data-Fest/events/229121517/"
@@ -1533,7 +1513,7 @@
             "video": {
                 "order": "101",
                 "length": "31:12",
-                "img": "",
+                "img": "fest-2-1-101.jpg",
                 "link": "https://www.youtube.com/watch?v=N83glMWVHlI",
                 "lang": "ru"
             },
@@ -1557,7 +1537,7 @@
             "video": {
                 "order": "102",
                 "length": "44:23",
-                "img": "",
+                "img": "fest-2-1-102.jpg",
                 "link": "https://youtu.be/5UPJObYwrZE",
                 "lang": "ru"
             },
@@ -1581,7 +1561,7 @@
             "video": {
                 "order": "103",
                 "length": "35:49",
-                "img": "",
+                "img": "fest-2-1-103.jpg",
                 "link": "https://youtu.be/GuLWPyAffvQ",
                 "lang": "ru"
             },
@@ -1605,7 +1585,7 @@
             "video": {
                 "order": "104",
                 "length": "45:46",
-                "img": "",
+                "img": "fest-2-1-104.jpg",
                 "link": "https://youtu.be/yghmC_plPsE",
                 "lang": "ru"
             },
@@ -1629,7 +1609,7 @@
             "video": {
                 "order": "105",
                 "length": "23:05",
-                "img": "",
+                "img": "fest-2-1-105.jpg",
                 "link": "https://youtu.be/otVHGG6rm3o",
                 "lang": "ru"
             },
@@ -1652,7 +1632,7 @@
             "video": {
                 "order": "106",
                 "length": "40:47",
-                "img": "",
+                "img": "fest-2-1-106.jpg",
                 "link": "https://youtu.be/FMoFg9pikWE",
                 "lang": "ru"
             },
@@ -1676,7 +1656,7 @@
             "video": {
                 "order": "107",
                 "length": "40:57",
-                "img": "",
+                "img": "fest-2-1-107.jpg",
                 "link": "https://youtu.be/XSB2FDukrrY",
                 "lang": "ru"
             },
@@ -1699,7 +1679,7 @@
             "video": {
                 "order": "108",
                 "length": "30:21",
-                "img": "",
+                "img": "fest-2-1-108.jpg",
                 "link": "https://youtu.be/G0iBCGoBri4",
                 "lang": "ru"
             },
@@ -1722,7 +1702,7 @@
             "video": {
                 "order": "109",
                 "length": "37:34",
-                "img": "",
+                "img": "fest-2-1-109.jpg",
                 "link": "https://youtu.be/wuii1EOOhaY",
                 "lang": "ru"
             },
@@ -1745,7 +1725,7 @@
             "video": {
                 "order": "110",
                 "length": "83:07",
-                "img": "",
+                "img": "fest-2-1-110.jpg",
                 "link": "https://youtu.be/_K21c8IqbwM",
                 "lang": "en"
             },
@@ -1758,6 +1738,1113 @@
                 "information retrieval",
                 "nlp",
                 "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "111",
+                "length": "30:23",
+                "img": "fest-4-1-111.jpg",
+                "link": "https://www.youtube.com/watch?v=GT4G7Vawt0Q",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Чему учит kaggle",
+                "speaker": "Стас Семенов",
+                "description": "Секция ML соревнования: опыт чемпиона и top-1 в глобальном рейтинге Kaggle "
+            },
+            "tags": [
+                "ml competition",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "112",
+                "length": "45:33",
+                "img": "fest-4-1-112.jpg",
+                "link": "https://www.youtube.com/watch?v=hyAfowJCafE",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "10 причин любить и ненавидеть соревнования по анализу данных",
+                "speaker": "Александр Фонарев",
+                "description": "Секция ML соревнования: зачем участвовать в конкурсах по машинному обучению и чему никогда не научат в университете."
+            },
+            "tags": [
+                "ml competition",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "121",
+                "length": "30:00",
+                "img": "fest-4-1-121.jpg",
+                "link": "https://www.youtube.com/watch?v=qVWe-YjX090",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Технологии гиперлокальных прогнозов погоды",
+                "speaker": "Дмитрий Соломенцев",
+                "description": "Секция ML в индустрии: как машинное обучение решает реальные практические задачи компаний?"
+            },
+            "tags": [
+                "geospatial",
+                "time series"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "122",
+                "length": "25:09",
+                "img": "fest-4-1-122.jpg",
+                "link": "https://www.youtube.com/watch?v=WdpHIZhH7s8",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Сегментация юзеров в пространственно-денежных измерениях",
+                "speaker": "Евгений Некрасов, Дмитрий Болкунов",
+                "description": "Секция ML в индустрии: как машинное обучение решает реальные практические задачи компаний?"
+            },
+            "tags": [
+                "business",
+                "pricing"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "123",
+                "length": "26:18",
+                "img": "fest-4-1-123.jpg",
+                "link": "https://www.youtube.com/watch?v=vcz8ywJMAog",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Machine Learning in engineering and industrial applications",
+                "speaker": "Евгений Бурнаев",
+                "description": "Секция ML в индустрии. <br>Машинное обучение в инженерных задачах - моделирование поверхности крыла, аэродинамика самолета, оптимизация запаса прочности материалов"
+            },
+            "tags": [
+                "manufacturing",
+                "physics"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "131",
+                "length": "36:39",
+                "img": "fest-4-1-131.jpg",
+                "link": "https://www.youtube.com/watch?&v=J_xj08hwpZQ",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Machine Learning at VK",
+                "speaker": "Павел Калайдин",
+                "description": "Секция ML in the wild: взгляд от первого лица, как выглядит машинное обучение в двух самых популярных в России социальных сетях"
+            },
+            "tags": [
+                "recsys",
+                "nlp",
+                "computer vision"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "141",
+                "length": "50:49",
+                "img": "fest-4-1-141.jpg",
+                "link": "https://www.youtube.com/watch?v=yRn_w2bXccI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Deep Architectures for Natural Language Processing",
+                "speaker": "Сергей Николенко",
+                "description": "Секция NLP: последние достижения и результаты новых подходов машинного обучения в задачах работы с текстами."
+            },
+            "tags": [
+                "nlp",
+                "overview"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "142",
+                "length": "11:47",
+                "img": "fest-4-1-142.jpg",
+                "link": "https://www.youtube.com/watch?v=PuyDl03yyeM",
+                "lang": "en"
+            },
+            "content": {
+                "title": "Machine Learning behind Google Translate",
+                "speaker": "Mike Schuster",
+                "description": "Секция NLP: последние достижения и результаты новых подходов машинного обучения в задачах работы с текстами."
+            },
+            "tags": [
+                "nlp",
+                "deep learning"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "211",
+                "length": "41:47",
+                "img": "fest-4-1-211.jpg",
+                "link": "https://www.youtube.com/watch?v=KEXWC-ICH_Y",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Векторные представления слов и документов",
+                "speaker": "Анна Потапенко",
+                "description": "Секция NLP-инструменты: обзоры и мастер-класс по современным методам анализа и обработки текста и практическому решению задач в NLP."
+            },
+            "tags": [
+                "nlp",
+                "topic modelling",
+                "factorization"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "212",
+                "length": "38:16",
+                "img": "fest-4-1-212.jpg",
+                "link": "https://www.youtube.com/watch?v=pn2e1QrrIWM",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "BigARTM workshop",
+                "speaker": "Анна Потапенко",
+                "description": "Секция NLP-инструменты: обзоры и мастер-класс по современным методам анализа и обработки текста и практическому решению задач в NLP."
+            },
+            "tags": [
+                "nlp",
+                "topic modelling",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "241",
+                "length": "25:43",
+                "img": "fest-4-1-241.jpg",
+                "link": "https://www.youtube.com/watch?v=M_GquetPmRU",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как собрать датасет из интернета в 2 частях",
+                "speaker": "Михаил Коробов, Константин Лопухин",
+                "description": "Секция скрапинг и сбор данных: с помощью каких инструментов можно добывать данные"
+            },
+            "tags": [
+                "crawling",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.11",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "242",
+                "length": "16:45",
+                "img": "fest-4-1-242.jpg",
+                "link": "https://www.youtube.com/watch?v=zdLIvtngDyU",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Написание пауков, или что делать, когда тебя вычисляют по IP",
+                "speaker": "Дмитрий Сергеев",
+                "description": "Секция скрапинг и сбор данных: с помощью каких инструментов можно добывать данные"
+            },
+            "tags": [
+                "crawling",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "111",
+                "length": "45:58",
+                "img": "fest-4-2-111.jpg",
+                "link": "https://www.youtube.com/watch?v=RpRkHq5sxkM",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Научные вызовы анализу данных",
+                "speaker": "Олег Бартунов",
+                "description": "Секция Data & Science: как применяют машинное обучение в различных научных отраслях."
+            },
+            "tags": [
+                "science",
+                "big data"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "112",
+                "length": "42:34",
+                "img": "fest-4-2-112.jpg",
+                "link": "https://www.youtube.com/watch?v=_KYu6z_1Wc4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Обучение машинному обучению на задачах Большого Адронного Коллайдера",
+                "speaker": "Андрей Устюжанин",
+                "description": "Секция Data & Science: как применяют машинное обучение в различных научных отраслях."
+            },
+            "tags": [
+                "science",
+                "physics",
+                "big data"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "121",
+                "length": "16:01",
+                "img": "fest-4-2-121.jpg",
+                "link": "https://www.youtube.com/watch?v=TQZW810GYHI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Make ML great again! Big Data",
+                "speaker": "Вячеслав Баранов",
+                "description": "Секция Make ML great again! <br>Разбор известных мифов, предрассудков и плохих практик, захлестнувших на волне популярности DS, ML, BigData и AI"
+            },
+            "tags": [
+                "puzzle",
+                "ds tools",
+                "big data"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "122",
+                "length": "24:31",
+                "img": "fest-4-2-122.jpg",
+                "link": "https://www.youtube.com/watch?v=oxMyYhILbYU",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Make ML great again! ML in practice",
+                "speaker": "Юрий Кашницкий",
+                "description": "Секция Make ML great again! <br>Разбор известных мифов, предрассудков и плохих практик, захлестнувших на волне популярности DS, ML, BigData и AI"
+            },
+            "tags": [
+                "puzzle",
+                "ml models",
+                "e-sport"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "123",
+                "length": "15:46",
+                "img": "fest-4-2-123.jpg",
+                "link": "https://www.youtube.com/watch?v=U6OyTu_l2Ys",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Make ML great again! Common sense",
+                "speaker": "Михаил Трофимов",
+                "description": "Секция Make ML great again! <br>Разбор известных мифов, предрассудков и плохих практик, захлестнувших на волне популярности DS, ML, BigData и AI"
+            },
+            "tags": [
+                "puzzle",
+                "sysml",
+                "security"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "124",
+                "length": "20:44",
+                "img": "fest-4-2-124.jpg",
+                "link": "https://www.youtube.com/watch?v=qiphX_HC6Qg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Make ML great again! Common sense",
+                "speaker": "Павел Нестеров",
+                "description": "Секция Make ML great again! <br>Разбор известных мифов, предрассудков и плохих практик, захлестнувших на волне популярности DS, ML, BigData и AI"
+            },
+            "tags": [
+                "puzzle",
+                "ml models",
+                "education"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "131",
+                "length": "40:58",
+                "img": "fest-4-2-131.jpg",
+                "link": "https://www.youtube.com/watch?v=ou0Wu8hOsBA",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Neural style transfer for music",
+                "speaker": "Дмитрий Ульянов",
+                "description": "Секция Artistic Intelligence: обзоры и демонстрации последних исследований и разработок в машинном преобразовании медийного контента"
+            },
+            "tags": [
+                "deep learning",
+                "style transfer",
+                "audio & speech"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "132",
+                "length": "6:51",
+                "img": "fest-4-2-132.jpg",
+                "link": "https://www.youtube.com/watch?v=yVHHNVRnulk",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Нейросети и творчество. Кто виноват и где грань?",
+                "speaker": "Иван Ямщиков",
+                "description": "Секция Artistic Intelligence: обзоры и демонстрации последних исследований и разработок в машинном преобразовании медийного контента"
+            },
+            "tags": [
+                "nlp",
+                "audio & speech"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "221",
+                "length": "42:13",
+                "img": "fest-4-2-221.jpg",
+                "link": "https://www.youtube.com/watch?v=Bl-_hkgCRIk",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "ML vs онкология: задачи дизайна и оптимизации терапевтических белков",
+                "speaker": "Елена Еричева",
+                "description": "Секция ML в науке: продолжение секции Data & Science - кейсы, инструменты и решения с машинным обучением в науке"
+            },
+            "tags": [
+                "medicine",
+                "biology",
+                "science"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "222",
+                "length": "26:00",
+                "img": "fest-4-2-222.jpg",
+                "link": "https://www.youtube.com/watch?v=YQ8ci13tQD4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Путь из экономики в Data Science",
+                "speaker": "Леонид Данильченко",
+                "description": "Секция ML в науке: продолжение секции Data & Science - кейсы, инструменты и решения с машинным обучением в науке"
+            },
+            "tags": [
+                "finance",
+                "time series",
+                "science"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "231",
+                "length": "20:21",
+                "img": "fest-4-2-231.jpg",
+                "link": "https://www.youtube.com/watch?v=cti4JQjSFoM",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Борьба с выбросами, сроками и ветряными мельницами",
+                "speaker": "Илья Сайтанов",
+                "description": "Секция Failconf: когда машинное обучение оказывалось в роли микроскопа, которым забивали гвозди"
+            },
+            "tags": [
+                "medicine",
+                "failconf"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "232",
+                "length": "29:05",
+                "img": "fest-4-2-232.jpg",
+                "link": "https://www.youtube.com/watch?v=NFavmOU7cD0",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "RL и застенчивый market maker",
+                "speaker": "Андрей Черток",
+                "description": "Секция Failconf: когда машинное обучение оказывалось в роли микроскопа, которым забивали гвозди"
+            },
+            "tags": [
+                "reinforecement learning",
+                "finance",
+                "failconf"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "233",
+                "length": "33:07",
+                "img": "fest-4-2-233.jpg",
+                "link": "https://www.youtube.com/watch?v=AYBA0LDC_9Y",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Анализ данных в командной строке",
+                "speaker": "Николай Марков",
+                "description": "Секция Failconf: когда машинное обучение оказывалось в роли микроскопа, которым забивали гвозди"
+            },
+            "tags": [
+                "ds tools",
+                "big data",
+                "failconf"
+            ]
+        },
+        {
+            "event": {
+                "date": "2017.02.12",
+                "name": "Data Fest⁴",
+                "link": "https://datafest.ru/4/"
+            },
+            "video": {
+                "order": "234",
+                "length": "22:04",
+                "img": "fest-4-2-234.jpg",
+                "link": "https://www.youtube.com/watch?v=k8BJJEkxxQU",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Fedor score vs Machine Learning",
+                "speaker": "Дмитрий Бугайченко",
+                "description": "Секция Failconf: когда машинное обучение оказывалось в роли микроскопа, которым забивали гвозди"
+            },
+            "tags": [
+                "ml competition",
+                "sna",
+                "failconf"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "111",
+                "length": "29:53",
+                "img": "fest-sib-1-111.jpg",
+                "link": "https://www.youtube.com/watch?v=Gd9FkLavngM",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Data Science Siberia",
+                "speaker": "Иван Комаров",
+                "description": "Секция Life of a Data Scientist"
+            },
+            "tags": [
+                "overview",
+                "education",
+                "career"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "112",
+                "length": "34:32",
+                "img": "fest-sib-1-112.jpg",
+                "link": "https://www.youtube.com/watch?v=iKRV-pZ1y4s&t",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как пить из брандcпойта знаний и не утонуть",
+                "speaker": "Сергей Мушинский",
+                "description": "Секция Life of a Data Scientist"
+            },
+            "tags": [
+                "overview",
+                "education",
+                "career"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "113",
+                "length": "30:38",
+                "img": "fest-sib-1-113.jpg",
+                "link": "https://www.youtube.com/watch?v=leD0agQkO9s",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "How To Win Kaggle Competitions",
+                "speaker": "Павел Плесков",
+                "description": "Секция Life of a Data Scientist"
+            },
+            "tags": [
+                "overview",
+                "ml competition",
+                "career"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "121",
+                "length": "28:03",
+                "img": "fest-sib-1-121.jpg",
+                "link": "https://www.youtube.com/watch?v=jFcpDrxaHZ8",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Natural Language Understanding",
+                "speaker": "Павел Калайдин",
+                "description": "Секция Natural Language Processing"
+            },
+            "tags": [
+                "deep learning",
+                "nlp",
+                "nlu"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "122",
+                "length": "30:09",
+                "img": "fest-sib-1-122.jpg",
+                "link": "https://www.youtube.com/watch?v=fzzUA5lvtZI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Named entity recognition для диалоговых систем",
+                "speaker": "Давид Дале",
+                "description": "Секция Natural Language Processing"
+            },
+            "tags": [
+                "dialog",
+                "nlp",
+                "ner"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "123",
+                "length": "34:00",
+                "img": "fest-sib-1-123.jpg",
+                "link": "https://www.youtube.com/watch?v=YP41yPx3LSg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Мечтают ли нейронные сети о маленьких корабликах?",
+                "speaker": "Иван Бондаренко",
+                "description": "Секция Natural Language Processing"
+            },
+            "tags": [
+                "bayesian",
+                "nlp",
+                "deep learning"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "41",
+                "length": "29:04",
+                "img": "fest-sib-1-41.jpg",
+                "link": "https://www.youtube.com/watch?v=1AkfKk8YLFk",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "user2vec: автоматизированная генерация признаков пользователей",
+                "speaker": "Никита Селезнев",
+                "description": "Секция ML in industry"
+            },
+            "tags": [
+                "embedding",
+                "sysml"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "42",
+                "length": "28:16",
+                "img": "fest-sib-1-42.jpg",
+                "link": "https://www.youtube.com/watch?v=QT6A7kBuvR0",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Методы оценки моделей и тестирования гипотез, основанные на симуляциях",
+                "speaker": "Артем Дуплинский",
+                "description": "Секция ML in industry"
+            },
+            "tags": [
+                "simulation",
+                "testing"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "43",
+                "length": "26:01",
+                "img": "fest-sib-1-43.jpg",
+                "link": "https://www.youtube.com/watch?v=sgkXmbcGN7I",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "DeepPavlov",
+                "speaker": "Валентин Малых",
+                "description": "Секция ML in industry"
+            },
+            "tags": [
+                "deep learning",
+                "nlp",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "51",
+                "length": "25:59",
+                "img": "fest-sib-1-51.jpg",
+                "link": "https://www.youtube.com/watch?v=uXs2-4cTH5k",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Может ли беспилотный автомобиль предсказывать намерения?",
+                "speaker": "Виктор Отлига",
+                "description": "Секция Computer Vision"
+            },
+            "tags": [
+                "self-driving",
+                "computer vision"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "52",
+                "length": "22:18",
+                "img": "fest-sib-1-52.jpg",
+                "link": "https://www.youtube.com/watch?v=dsNUvhQzm8E",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как нейросети учили людей руки мыть",
+                "speaker": "Антон Кудинов",
+                "description": "Секция Computer Vision"
+            },
+            "tags": [
+                "manufacturing",
+                "computer vision"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "53",
+                "length": "22:17",
+                "img": "fest-sib-1-53.jpg",
+                "link": "https://www.youtube.com/watch?v=T9uSkwlMly8",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Нейронные сети на мобильных устройствах",
+                "speaker": "Александр Гончаренко",
+                "description": "Секция Computer Vision"
+            },
+            "tags": [
+                "deep learning",
+                "sysml",
+                "mobile"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "11",
+                "length": "30:39",
+                "img": "fest-sib-1-11.jpg",
+                "link": "https://www.youtube.com/watch?v=xx63BIMYep4",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Медицинские снимки",
+                "speaker": "Юрий Терещенко",
+                "description": "Секция Computer Vision in the wild"
+            },
+            "tags": [
+                "medicine",
+                "computer vision"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "12",
+                "length": "32:27",
+                "img": "fest-sib-1-12.jpg",
+                "link": "https://www.youtube.com/watch?v=9NyaKLPDS5g",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "\"Soroka\". NER и Sentiment Analysis",
+                "speaker": "Иван Бондаренко",
+                "description": "Секция Computer Vision in the wild"
+            },
+            "tags": [
+                "nlp",
+                "ner",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "13",
+                "length": "28:07",
+                "img": "fest-sib-1-13.jpg",
+                "link": "https://www.youtube.com/watch?v=tv2c73vBjNY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "OCR и мониторинг цен",
+                "speaker": "Евгений Кашин",
+                "description": "Секция Computer Vision in the wild"
+            },
+            "tags": [
+                "pricing",
+                "computer vision",
+                "deep learning"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "21",
+                "length": "26:35",
+                "img": "fest-sib-1-21.jpg",
+                "link": "https://www.youtube.com/watch?v=6AfReFY7YuI",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Классик AI: backstage",
+                "speaker": "Алексей Натекин",
+                "description": "Секция ML training Siberia"
+            },
+            "tags": [
+                "nlp",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "22",
+                "length": "18:16",
+                "img": "fest-sib-1-22.jpg",
+                "link": "https://www.youtube.com/watch?v=TfQqyuYR1Qw",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Автопоэт для русского языка",
+                "speaker": "Анна Мосолова",
+                "description": "Секция ML training Siberia"
+            },
+            "tags": [
+                "nlp",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "23",
+                "length": "20:30",
+                "img": "fest-sib-1-23.jpg",
+                "link": "https://www.youtube.com/watch?v=9O_J-V7_lss",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "ЦФТ contest",
+                "speaker": "Георгий Шушуев, Эмиль Каюмов",
+                "description": "Секция ML training Siberia"
+            },
+            "tags": [
+                "nlp",
+                "ml competition"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "31",
+                "length": "38:57",
+                "img": "fest-sib-1-31.jpg",
+                "link": "https://www.youtube.com/watch?v=Qr8tnKlYg1E",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "DeepPavlov workshop",
+                "speaker": "Мария Вихрева",
+                "description": "Секция Workshops, part 1"
+            },
+            "tags": [
+                "nlp",
+                "deep learning",
+                "ds tools"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "32",
+                "length": "42:29",
+                "img": "fest-sib-1-32.jpg",
+                "link": "https://www.youtube.com/watch?v=ls5_sf_RxfY",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Самообучающийся ассистент оператора колл-центра",
+                "speaker": "Дмитрий Малков",
+                "description": "Секция Workshops, part 1"
+            },
+            "tags": [
+                "nlp",
+                "dialog",
+                "business"
+            ]
+        },
+        {
+            "event": {
+                "date": "2018.09.29",
+                "name": "Data Fest Siberia<sup>¹</sup>",
+                "link": "http://datafest.ru/siberia/"
+            },
+            "video": {
+                "order": "54",
+                "length": "30:27",
+                "img": "fest-sib-1-54.jpg",
+                "link": "https://www.youtube.com/watch?v=ILtxrgEOU1k",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Интеллектуальный контроль ручных операций на сборочном производстве",
+                "speaker": "Евгений Михантьев",
+                "description": "Секция Computer Vision"
+            },
+            "tags": [
+                "manufacturing",
+                "computer vision"
             ]
         },
         {

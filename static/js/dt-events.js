@@ -184,7 +184,7 @@
 					tag_filter = Array(all_video_tags.length).fill(0);
 					//console.log(tag_filter)
 
-					var white_list = ["big data", "computer vision", "deep learning", "ds tools", "ml competition", "ml models", "nlp", "overview", "sysml"];
+					var white_list = ["failconf", "puzzle", "big data", "computer vision", "deep learning", "ds tools", "ml competition", "ml models", "nlp", "overview", "sysml"];
 					var white_video_tags = [];//Array(white_list.length).fill("")
 					var new_video_tags = [];//Array(all_video_tags.length - white_list.length).fill("");
 
