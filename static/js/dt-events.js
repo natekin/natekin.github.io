@@ -84,7 +84,13 @@
 
 			function render_video(row){
 				var shadow_sort = render_shadow_order(row.event.date + "-" + row.event.name + "-", row.video.order, 3);
-				var video_container = '<a target="_blank" href="' + row.video.link + '"><div class="video_container_main" style="background-image: url(../static/data/vid_img/' + row.video.img + ');">';
+				var video_container = '<a target="_blank" href="' + row.video.link + '"><div class="video_container_main" style="background-image: url(';
+				if(row.video.img.substr(0,3)=="___"){
+					var video_container = video_container + 'https://img.youtube.com/vi/' + row.video.img.substr(3) + '/0.jpg);">';
+				}else{
+					video_container = video_container + '../static/data/vid_img/' + row.video.img + ');">';
+				}
+				
 				//var video_container = '<a target="_blank" href="' + row.video.link + '"><div class="video_container_main" style="background-image: url(static/data/vid_img/' + row.video.img + ');">';				
 		        var video_header = render_video_header(row);
 		        var video_footer = render_video_footer(row);

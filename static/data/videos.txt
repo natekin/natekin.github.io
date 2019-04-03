@@ -585,7 +585,7 @@
             "tags": [
                 "visualisation",
                 "ds tools",
-                "geospatial"
+                "geo-spatial"
             ]
         },        
         {
@@ -1805,7 +1805,7 @@
                 "description": "Секция ML в индустрии: как машинное обучение решает реальные практические задачи компаний?"
             },
             "tags": [
-                "geospatial",
+                "geo-spatial",
                 "time series"
             ]
         },
@@ -2299,7 +2299,7 @@
                 "description": "Секция Failconf: когда машинное обучение оказывалось в роли микроскопа, которым забивали гвозди"
             },
             "tags": [
-                "reinforecement learning",
+                "reinforcement learning",
                 "finance",
                 "failconf"
             ]
@@ -2848,26 +2848,1845 @@
             ]
         },
         {
-            "event": {
-                "date": "2018.04.28",
-                "name": "Data Fest⁵",
-                "link": "https://datafest.ru/5/"
-            },
-            "video": {
-                "order": "1",
-                "length": "00:00",
-                "img": "",
-                "link": "",
-                "lang": "ru"
-            },
-            "content": {
-                "title": "Dummy",
-                "speaker": "Dummy",
-                "description": "Dummy"
-            },
-            "tags": [
-            ]
-        }
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 211,
+      "length": "36:21",
+      "img": "___5rwK7yh6Yd0",
+      "link": "https://www.youtube.com/watch?v=5rwK7yh6Yd0",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "OK ML Pipelines",
+      "speaker": "Дмитрий Бугайченко",
+      "description": "Prod stage. Секция Big Data"
+   },
+   "tags": ["big data", "sysml"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 212,
+      "length": "26:24",
+      "img": "___I1vnRBZqIUQ",
+      "link": "https://www.youtube.com/watch?v=I1vnRBZqIUQ",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Billion-scale randomized SVD in Spark",
+      "speaker": "Иван Лобов",
+      "description": "Prod stage. Секция Big Data"
+   },
+   "tags": ["big data", "factorization"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 213,
+      "length": "29:28",
+      "img": "___dfHWqTARzGk",
+      "link": "https://www.youtube.com/watch?v=dfHWqTARzGk",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Катим ML в прод на spark. Унижения. Боль. Костыли.",
+      "speaker": "Михаил Свешников",
+      "description": "Prod stage. Секция Big Data"
+   },
+   "tags": ["big data", "failconf"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 221,
+      "length": "35:55",
+      "img": "___TJeEOlQHPIQ",
+      "link": "https://www.youtube.com/watch?v=TJeEOlQHPIQ",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Глобальный прогноз погоды - чего нам это стоило",
+      "speaker": "Светлана Поспелова",
+      "description": "Prod stage. Секция SysML, part 1"
+   },
+   "tags": ["geo-spatial", "sysml"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 222,
+      "length": "38:16",
+      "img": "___y4dycLL6w2U",
+      "link": "https://www.youtube.com/watch?v=y4dycLL6w2U",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Криптовалюты, алготрейдинг и ML",
+      "speaker": "Михаил Горкунов, Евгений Сидоров, Андрей Шапулин",
+      "description": "Prod stage. Секция SysML, part 1"
+   },
+   "tags": ["sysml", "finance", "time series"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 231,
+      "length": "28:18",
+      "img": "___oWMrSKdTp6E",
+      "link": "https://www.youtube.com/watch?v=oWMrSKdTp6E",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Как Алиса учится понимать, чего хочет пользователь",
+      "speaker": "Николай Любимов",
+      "description": "Prod stage. Секция SysML, part 2"
+   },
+   "tags": ["dialog", "sysml"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 232,
+      "length": "28:35",
+      "img": "___RZVMsaweU9s",
+      "link": "https://www.youtube.com/watch?v=RZVMsaweU9s",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "ВКонтакте с Лентой Рекомендаций",
+      "speaker": "Андрей Якушев",
+      "description": "Prod stage. Секция SysML, part 2"
+   },
+   "tags": ["recsys", "sysml"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 233,
+      "length": "24:54",
+      "img": "___4vsbzo-zmhQ",
+      "link": "https://www.youtube.com/watch?v=4vsbzo-zmhQ",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Знакомство с бандитами",
+      "speaker": "Влад Грозин",
+      "description": "Prod stage. Секция SysML, part 2"
+   },
+   "tags": ["recsys", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 234,
+      "length": "31:06",
+      "img": "___Lk-H96MTXGw",
+      "link": "https://www.youtube.com/watch?v=Lk-H96MTXGw",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Smart Reply: behind the scene",
+      "speaker": "Дмитрий Парпулов",
+      "description": "Prod stage. Секция SysML, part 2"
+   },
+   "tags": ["nlp", "sysml"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 241,
+      "length": "29:09",
+      "img": "___3K4oQKXaI-k",
+      "link": "https://www.youtube.com/watch?v=3K4oQKXaI-k",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Щи, или Распознавание 330 млн лиц на скорости 400 фото / сек",
+      "speaker": "Александр Тоболь",
+      "description": "Prod stage. Секция Fit ML"
+   },
+   "tags": ["sysml", "face recognition"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 242,
+      "length": "25:00",
+      "img": "___I3EEI-r7KnE",
+      "link": "https://www.youtube.com/watch?v=I3EEI-r7KnE",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Как мы ускорили Style Transfer на Huawei NPU",
+      "speaker": "Артем Семьянов",
+      "description": "Prod stage. Секция Fit ML"
+   },
+   "tags": ["sysml", "style transfer", "mobile"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 243,
+      "length": "32:55",
+      "img": "___jVo136kHjVU",
+      "link": "https://www.youtube.com/watch?v=jVo136kHjVU",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Локализация беспилотника в окружающем мире",
+      "speaker": "Виктор Юрченко",
+      "description": "Prod stage. Секция Fit ML"
+   },
+   "tags": ["sysml", "self-driving"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 251,
+      "length": "26:22",
+      "img": "___hCLI7a74lFs",
+      "link": "https://www.youtube.com/watch?v=hCLI7a74lFs",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Как мы не сделали рекомендательную систему в банке",
+      "speaker": "Валерий Бабушкин",
+      "description": "Prod stage. Секция Failconf"
+   },
+   "tags": ["recsys", "failconf"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 252,
+      "length": "30:42",
+      "img": "___yGY47uRgsZ8",
+      "link": "https://www.youtube.com/watch?v=yGY47uRgsZ8",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Ну где же ручки: шаловливые vs умелые",
+      "speaker": "Иван Комаров",
+      "description": "Prod stage. Секция Failconf"
+   },
+   "tags": ["ml economics", "business", "failconf"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 253,
+      "length": "23:39",
+      "img": "___G4ut1RZd2Mw",
+      "link": "https://www.youtube.com/watch?v=G4ut1RZd2Mw",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Основные ошибки Data Scientist’ов в бизнесовом проекте",
+      "speaker": "Павел Мягких",
+      "description": "Prod stage. Секция Failconf"
+   },
+   "tags": ["ml economics", "business", "failconf"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 311,
+      "length": "19:58",
+      "img": "___eB4VfG7WLPY",
+      "link": "https://www.youtube.com/watch?v=eB4VfG7WLPY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "«Наташа» — библиотека для извлечения структурированной информации из текстов на русском языке",
+      "speaker": "Кукушкин Александр",
+      "description": "Space stage. Секция PyData"
+   },
+   "tags": ["nlp", "ner", "ds tools"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 312,
+      "length": "24:51",
+      "img": "___UdmA7f2byIY",
+      "link": "https://www.youtube.com/watch?v=UdmA7f2byIY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "RadIO и CardIO - библиотеки для распознавания медицинских изображений",
+      "speaker": "Кожевин Алексей",
+      "description": "Space stage. Секция PyData"
+   },
+   "tags": ["computer vision", "medicine", "ds tools"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 313,
+      "length": "28:47",
+      "img": "___zOiG-NeZqdw",
+      "link": "https://www.youtube.com/watch?v=zOiG-NeZqdw",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "CatBoost - как и зачем обучать градиентный бустинг на GPU",
+      "speaker": "Ершов Василий",
+      "description": "Space stage. Секция PyData"
+   },
+   "tags": ["ml models", "ds tools"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 321,
+      "length": "21:48",
+      "img": "___lL7R0sBvMCE",
+      "link": "https://www.youtube.com/watch?v=lL7R0sBvMCE",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Тематическое моделирование в BigARTM: новые возможности",
+      "speaker": "Константин Воронцов",
+      "description": "Space stage. Секция BigARTM workshop\n"
+   },
+   "tags": ["nlp", "topic modelling", "ds tools"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 322,
+      "length": "14:48",
+      "img": "___Rp-vjT8dYoY",
+      "link": "https://www.youtube.com/watch?v=Rp-vjT8dYoY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Иерархические тематические модели для разведочного поиска",
+      "speaker": "Анастасия Янина",
+      "description": "Space stage. Секция BigARTM workshop\n"
+   },
+   "tags": ["nlp", "topic modelling", "information retrieval"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 323,
+      "length": "9:21",
+      "img": "___Rg-Y4Zg03QQ",
+      "link": "https://www.youtube.com/watch?v=Rg-Y4Zg03QQ",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Тематическая сегментация текста",
+      "speaker": "Николай Скачков",
+      "description": "Space stage. Секция BigARTM workshop\n"
+   },
+   "tags": ["nlp", "topic modelling"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 324,
+      "length": "8:00",
+      "img": "___FjvhcIS5c1I",
+      "link": "https://www.youtube.com/watch?v=FjvhcIS5c1I",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Гиперграфовые тематические модели транзакционных данных",
+      "speaker": "Илья Жариков",
+      "description": "Space stage. Секция BigARTM workshop\n"
+   },
+   "tags": ["nlp", "topic modelling", "finance"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 325,
+      "length": "18:07",
+      "img": "___nWKv_fyv9ro",
+      "link": "https://www.youtube.com/watch?v=nWKv_fyv9ro",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Как BigARTM помогает составлять плей-листы",
+      "speaker": "Геннадий Штех",
+      "description": "Space stage. Секция BigARTM workshop\n"
+   },
+   "tags": ["nlp", "topic modelling", "recsys"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 326,
+      "length": "12:28",
+      "img": "___wECD7EQCDo",
+      "link": "https://www.youtube.com/watch?v=_wECD7EQCDo",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Как BigARTM помогает отбирать релевантных кандидатов по резюме",
+      "speaker": "Арина Агеева",
+      "description": "Space stage. Секция BigARTM workshop\n"
+   },
+   "tags": ["nlp", "topic modelling", "recsys"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 330,
+      "length": "10:48",
+      "img": "___hjiUmPAy5Ww",
+      "link": "https://www.youtube.com/watch?v=hjiUmPAy5Ww",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Обусловленные генераторы определений слов",
+      "speaker": "Гадецкий Артём",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "nlp"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 331,
+      "length": "8:23",
+      "img": "___tCrWDC9J-SE",
+      "link": "https://www.youtube.com/watch?v=tCrWDC9J-SE",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Применение глубинного обучения для поиска лекарств",
+      "speaker": "Полыковский Даниил",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "medicine"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 332,
+      "length": "10:13",
+      "img": "___tikV8oVsrSU",
+      "link": "https://www.youtube.com/watch?v=tikV8oVsrSU",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Дисперсионные сети",
+      "speaker": "Молчанов Дмитрий",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 333,
+      "length": "12:20",
+      "img": "___4je6xYm-b8Y",
+      "link": "https://www.youtube.com/watch?v=4je6xYm-b8Y",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Вариационный дропаут для разреживания нейронных сетей",
+      "speaker": "Ашуха Арсений",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 334,
+      "length": "9:12",
+      "img": "___KAqBtX4Ud8Q",
+      "link": "https://www.youtube.com/watch?v=KAqBtX4Ud8Q",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Байесовское разреживание рекуррентных нейронных сетей",
+      "speaker": "Чиркова Надежда",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 335,
+      "length": "9:36",
+      "img": "____wUbj_rbH5E",
+      "link": "https://www.youtube.com/watch?v=_wUbj_rbH5E",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Стохастический батчнорм для оценки неопределенности",
+      "speaker": "Атанов Андрей",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 336,
+      "length": "11:29",
+      "img": "___SAneiKICpLQ",
+      "link": "https://www.youtube.com/watch?v=SAneiKICpLQ",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Нейробайесовское восстановление пропущенных данных",
+      "speaker": "Иванов Олег",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 337,
+      "length": "11:11",
+      "img": "___ehQA_cCJIYY",
+      "link": "https://www.youtube.com/watch?v=ehQA_cCJIYY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Тензорные разложения и их использование в машинном обучении",
+      "speaker": "Новиков Александр",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["bayesian", "tensor", "factorization"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 338,
+      "length": "14:43",
+      "img": "___2ZRTb3L50BI",
+      "link": "https://www.youtube.com/watch?v=2ZRTb3L50BI",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Тензорный взгляд на дискретные вариационные автоэнкодеры",
+      "speaker": "Кузнецов Максим",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "tensor"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 339,
+      "length": "13:13",
+      "img": "___Zf740DBJjqw",
+      "link": "https://www.youtube.com/watch?v=Zf740DBJjqw",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Методы оптимизации и сэмплирования для нейросетей через K-FAC",
+      "speaker": "Кропотов Дмитрий",
+      "description": "Space stage. Секция DeepBayes workshop"
+   },
+   "tags": ["deep learning", "bayesian", "optimisation"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 341,
+      "length": "14:22",
+      "img": "___rwhDSUuPn-I",
+      "link": "https://www.youtube.com/watch?v=rwhDSUuPn-I",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Управление наличностью в банкоматах и офисах",
+      "speaker": "Александр Ульянов",
+      "description": "Space stage. Секция True story case-club"
+   },
+   "tags": ["business", "finance"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 342,
+      "length": "13:55",
+      "img": "___R2LQegaE6_M",
+      "link": "https://www.youtube.com/watch?v=R2LQegaE6_M",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Оптимизация производства холода в пустыне",
+      "speaker": "Роман Чеботарев",
+      "description": "Space stage. Секция True story case-club"
+   },
+   "tags": ["business", "manufacturing"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 343,
+      "length": "16:47",
+      "img": "___UNegf9Rgpnw",
+      "link": "https://www.youtube.com/watch?v=UNegf9Rgpnw",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Рассылка персональных сообщений физ-лицам клиентам банка",
+      "speaker": "Александр Фонарев",
+      "description": "Space stage. Секция True story case-club"
+   },
+   "tags": ["business", "marketing"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 344,
+      "length": "14:28",
+      "img": "___qkQJn8sCvK0",
+      "link": "https://www.youtube.com/watch?v=qkQJn8sCvK0",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Проведение A/B теста в оффлайн ритейле",
+      "speaker": "Павел Нестеров",
+      "description": "Space stage. Секция True story case-club"
+   },
+   "tags": ["business", "testing"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 345,
+      "length": "11:50",
+      "img": "___0_vX5eW-DfE",
+      "link": "https://www.youtube.com/watch?v=0_vX5eW-DfE",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Персонализация скидок в интернет-магазине",
+      "speaker": "Алексей Чернобровов",
+      "description": "Space stage. Секция True story case-club"
+   },
+   "tags": ["business", "e-commerce"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 346,
+      "length": "14:21",
+      "img": "___yImkZN-C5Dc",
+      "link": "https://www.youtube.com/watch?v=yImkZN-C5Dc",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Необычные рекомендации для Pandao.ru",
+      "speaker": "Всеволод Викулин",
+      "description": "Space stage. Секция True story case-club"
+   },
+   "tags": ["business", "recsys"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 351,
+      "length": "12:28",
+      "img": "___Wrbxk1RCyKw",
+      "link": "https://www.youtube.com/watch?v=Wrbxk1RCyKw",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Взгляд организатора",
+      "speaker": "Возняк Иван",
+      "description": "Space stage. Секция DS in E-sports"
+   },
+   "tags": ["e-sport"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 352,
+      "length": "21:20",
+      "img": "___leaHulCYYCg",
+      "link": "https://www.youtube.com/watch?v=leaHulCYYCg",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Взгляд комментатора",
+      "speaker": "Романов Алексей",
+      "description": "Space stage. Секция DS in E-sports"
+   },
+   "tags": ["e-sport"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 353,
+      "length": "22:38",
+      "img": "___fu_zzIpaP_Y",
+      "link": "https://www.youtube.com/watch?v=fu_zzIpaP_Y",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Кейс с тренировкой команды CS:GO",
+      "speaker": "Литвяков Борис",
+      "description": "Space stage. Секция DS in E-sports"
+   },
+   "tags": ["e-sport"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 354,
+      "length": "24:32",
+      "img": "___yIqPtcLOgBY",
+      "link": "https://www.youtube.com/watch?v=yIqPtcLOgBY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Вводное про eSports, взгляд игрока",
+      "speaker": "Кирилл Чуваков",
+      "description": "Space stage. Секция DS in E-sports"
+   },
+   "tags": ["e-sport"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 521,
+      "length": "21:00",
+      "img": "___yvNmZZb4Hmc",
+      "link": "https://www.youtube.com/watch?v=yvNmZZb4Hmc",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Моделирование предпочтений пользователей с помощью тензорных методов",
+      "speaker": "Евгений Фролов",
+      "description": "Секция DeepTensor workshop"
+   },
+   "tags": ["tensor", "recsys"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 522,
+      "length": "19:09",
+      "img": "___wncKRFz_d1w",
+      "link": "https://www.youtube.com/watch?v=wncKRFz_d1w",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Атаки на нейронные сети",
+      "speaker": "Валентин Хрульков",
+      "description": "Секция DeepTensor workshop"
+   },
+   "tags": ["adversarial", "deep learning"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 523,
+      "length": "13:30",
+      "img": "___Va2UC7nokw0",
+      "link": "https://www.youtube.com/watch?v=Va2UC7nokw0",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Тензоры и рекуррентные нейронные сети",
+      "speaker": "Александр Новиков",
+      "description": "Секция DeepTensor workshop"
+   },
+   "tags": ["tensor", "deep learning"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 524,
+      "length": "15:54",
+      "img": "___1q0Oe8o2wF4",
+      "link": "https://www.youtube.com/watch?v=1q0Oe8o2wF4",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Deep Multigrid",
+      "speaker": "Александр Катруца",
+      "description": "Секция DeepTensor workshop"
+   },
+   "tags": ["tensor", "deep learning"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 525,
+      "length": "15:57",
+      "img": "___5fwbaNv8HKM",
+      "link": "https://www.youtube.com/watch?v=5fwbaNv8HKM",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Сжатие нейронных сетей при помощи тензорных методов",
+      "speaker": "Алексей Гринчук",
+      "description": "Секция DeepTensor workshop"
+   },
+   "tags": ["tensor", "deep learning"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 531,
+      "length": "30:02",
+      "img": "___DwZvLOEeILo",
+      "link": "https://www.youtube.com/watch?v=DwZvLOEeILo",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Что внутри у диалоговой системы?",
+      "speaker": "Валентин Малых",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["nlp", "dialog"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 532,
+      "length": "16:01",
+      "img": "___fmMJIqGJuu0",
+      "link": "https://www.youtube.com/watch?v=fmMJIqGJuu0",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Open source для чат ботов и диалоговых систем",
+      "speaker": "Александр Селиверстов",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["nlp", "dialog"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 533,
+      "length": "11:04",
+      "img": "___SSXVSo1lDVA",
+      "link": "https://www.youtube.com/watch?v=SSXVSo1lDVA",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Распознавание именованных сущностей",
+      "speaker": "Михаил Архипов",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["nlp", "ner"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 534,
+      "length": "9:31",
+      "img": "___ZTEFhkSnI4g",
+      "link": "https://www.youtube.com/watch?v=ZTEFhkSnI4g",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Классификация текстов",
+      "speaker": "Диляра Баймурзина",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["nlp", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 535,
+      "length": "15:08",
+      "img": "____RUeoE9xcSI",
+      "link": "https://www.youtube.com/watch?v=_RUeoE9xcSI",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Гибридный диалоговый бот",
+      "speaker": "Мария Вихрева",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["nlp", "dialog"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 536,
+      "length": "7:41",
+      "img": "___DAbhpyjoLYU",
+      "link": "https://www.youtube.com/watch?v=DAbhpyjoLYU",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Использование ранжирования",
+      "speaker": "Леонид Пугачев",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["nlp", "recsys"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 537,
+      "length": "6:59",
+      "img": "___uRdatvcch7Q",
+      "link": "https://www.youtube.com/watch?v=uRdatvcch7Q",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Поиск ответа в тексте",
+      "speaker": "Юрий Куратов",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["nlp", "search"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 538,
+      "length": "13:58",
+      "img": "___gO2I4x_YnQY",
+      "link": "https://www.youtube.com/watch?v=gO2I4x_YnQY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "A few research ideas",
+      "speaker": "Максим Кретов",
+      "description": "Секция iPavlov workshop"
+   },
+   "tags": ["deep learning", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 541,
+      "length": "23:46",
+      "img": "___XwZNrIU0mN0",
+      "link": "https://www.youtube.com/watch?v=XwZNrIU0mN0",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Что у вас болит? Применение методов NLP в drug discovery",
+      "speaker": "Елена Тутубалина",
+      "description": "Секция WiML workshop"
+   },
+   "tags": ["nlp", "medicine"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 542,
+      "length": "26:58",
+      "img": "___Hv6l3efUWMs",
+      "link": "https://www.youtube.com/watch?v=Hv6l3efUWMs",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Компьютерное зрение в беспилотном транспорте",
+      "speaker": "Олеся Криндач",
+      "description": "Секция WiML workshop"
+   },
+   "tags": ["computer vision", "self-driving"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 543,
+      "length": "46:34",
+      "img": "___0tIaQ0jHUVQ",
+      "link": "https://www.youtube.com/watch?v=0tIaQ0jHUVQ",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Машинное обучение в промышленном масштабе: специфика работы с \"тяжелыми\" отраслями",
+      "speaker": "Эмели Драль",
+      "description": "Секция WiML workshop"
+   },
+   "tags": ["manufacturing", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 411,
+      "length": "10:59",
+      "img": "___p-C3hhTR55g",
+      "link": "https://youtu.be/p-C3hhTR55g",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Предсказание победы в Dota 2 (Sberbank AI-Academy), 1 место",
+      "speaker": "Александр Мамаев",
+      "description": "Секция ML trainings"
+   },
+   "tags": ["ml competition", "e-sport"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 412,
+      "length": "11:05",
+      "img": "___IgprIH4M48M",
+      "link": "https://youtu.be/IgprIH4M48M",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Поиск релевантных реплик (Yandex Algorithm ML Track), 1 место",
+      "speaker": "Денис Антюхов",
+      "description": "Секция ML trainings"
+   },
+   "tags": ["ml competition", "nlp"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 413,
+      "length": "8:55",
+      "img": "___ZUWfikUGxro",
+      "link": "https://youtu.be/ZUWfikUGxro",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Предсказание вызовов в 112 (MTS GeoHack.112), 1 место",
+      "speaker": "Павел Логачёв",
+      "description": "Секция ML trainings"
+   },
+   "tags": ["ml competition", "geo-spatial"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 414,
+      "length": "13:31",
+      "img": "___0MNgY36x9p0",
+      "link": "https://youtu.be/0MNgY36x9p0",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Распознавание и сегментация ядер клеток (Kaggle Data Science Bowl 2018), 1 место",
+      "speaker": "Александр Буслаев, Селим Сефербеков",
+      "description": "Секция ML trainings"
+   },
+   "tags": ["ml competition", "segmentation", "deep learning"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 421,
+      "length": "24:38",
+      "img": "___5G4ekFfbvr8",
+      "link": "https://youtu.be/5G4ekFfbvr8",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Поиск влиятельных примеров для градиентного бустинга",
+      "speaker": "Борис Шарчилев",
+      "description": "Секция RecSys"
+   },
+   "tags": ["recsys", "ml interpretability", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 422,
+      "length": "40:23",
+      "img": "___nRnV5pfSEGM",
+      "link": "https://youtu.be/nRnV5pfSEGM",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Обзор нейросетевых рекомендательных систем",
+      "speaker": "Дмитрий Ушанов",
+      "description": "Секция RecSys"
+   },
+   "tags": ["recsys", "deep learning", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 431,
+      "length": "33:53",
+      "img": "___FyUhnjuOEXo",
+      "link": "https://youtu.be/FyUhnjuOEXo",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Deep Image Prior",
+      "speaker": "Дмитрий Ульянов",
+      "description": "Секция Deep CV workshop"
+   },
+   "tags": ["computer vision", "deep learning"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 432,
+      "length": "24:26",
+      "img": "___1tmjXukwsXY",
+      "link": "https://youtu.be/1tmjXukwsXY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Instance Segmentation by Deep Coloring",
+      "speaker": "Виктор Куликов",
+      "description": "Секция Deep CV workshop"
+   },
+   "tags": ["computer vision", "deep learning", "segmentation"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 433,
+      "length": "24:56",
+      "img": "___STSseuHttI8",
+      "link": "https://youtu.be/STSseuHttI8",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Image Manipulation with Perceptual GANs",
+      "speaker": "Егор Захаров",
+      "description": "Секция Deep CV workshop"
+   },
+   "tags": ["computer vision", "deep learning", "gan"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 434,
+      "length": "28:13",
+      "img": "___2pHaMoXkLaQ",
+      "link": "https://youtu.be/2pHaMoXkLaQ",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Set2Model Networks: Learning Discriminatively To Learn Generative Models",
+      "speaker": "Александр Вахитов",
+      "description": "Секция Deep CV workshop"
+   },
+   "tags": ["computer vision", "deep learning", "gan"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 441,
+      "length": "31:22",
+      "img": "___nKnakTWkIsI",
+      "link": "https://youtu.be/nKnakTWkIsI",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Object-oriented sentiment and affects extraction",
+      "speaker": "Виталий Радченко",
+      "description": "Секция NLP in industry"
+   },
+   "tags": ["nlp", "sysml", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 442,
+      "length": "29:23",
+      "img": "___UaYqZDw0oTY",
+      "link": "https://youtu.be/UaYqZDw0oTY",
+      "lang": "en"
+   },
+   "content": {
+      "title": "Relation Extraction from Biomedical Texts",
+      "speaker": "Hrant Khachatrian",
+      "description": "Секция NLP in industry"
+   },
+   "tags": ["nlp", "information retrieval"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 443,
+      "length": "25:19",
+      "img": "___TaCbj1kaDQY",
+      "link": "https://youtu.be/TaCbj1kaDQY",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Языковые модели на все случаи жизни",
+      "speaker": "Анатолий Востряков",
+      "description": "Секция NLP in industry"
+   },
+   "tags": ["nlp", "sysml"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 451,
+      "length": "4:03",
+      "img": "___dM7sUDe7l60",
+      "link": "https://youtu.be/dM7sUDe7l60",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Мемы и Sigbovik intro",
+      "speaker": "Артур Чахвадзе, Андрей Киселев",
+      "description": "Секция Sigbovik"
+   },
+   "tags": ["sigbovik"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 452,
+      "length": "9:45",
+      "img": "___Go0ETFrtYn4",
+      "link": "https://youtu.be/Go0ETFrtYn4",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Крякен",
+      "speaker": "Александр Мамаев",
+      "description": "Секция Sigbovik"
+   },
+   "tags": ["sigbovik", "career", "projects"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 453,
+      "length": "11:53",
+      "img": "___49PURRCjhpM",
+      "link": "https://youtu.be/49PURRCjhpM",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "AIm bot",
+      "speaker": "Игорь Рекун, Андрей Киселев",
+      "description": "Секция Sigbovik"
+   },
+   "tags": ["sigbovik", "e-sport", "projects"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 454,
+      "length": "19:09",
+      "img": "___h_dt3e9y9z4",
+      "link": "https://youtu.be/h_dt3e9y9z4",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Что-то про Двач",
+      "speaker": "Михаил Свешников",
+      "description": "Секция Sigbovik"
+   },
+   "tags": ["sigbovik", "nlp", "projects"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 111,
+      "length": "33:12",
+      "img": "___y1x7hiLyB7Y",
+      "link": "https://youtu.be/y1x7hiLyB7Y",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Наука и бизнес в одном FLACONе: возгонка цифровой экономики",
+      "speaker": "Константин Воронцов",
+      "description": "Секция Russian ML keynotes, part 1"
+   },
+   "tags": ["science", "business", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 112,
+      "length": "31:12",
+      "img": "___EL2gKesfVjI",
+      "link": "https://youtu.be/EL2gKesfVjI",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Ранжирование новых форматов в Дзене",
+      "speaker": "Евгений Соколов",
+      "description": "Секция Russian ML keynotes, part 1"
+   },
+   "tags": ["business", "recsys"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 113,
+      "length": "24:59",
+      "img": "___qFETfg5SqQE",
+      "link": "https://youtu.be/qFETfg5SqQE",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Embeddings for Graph Classification",
+      "speaker": "Евгений Бурнаев",
+      "description": "Секция Russian ML keynotes, part 1"
+   },
+   "tags": ["sna", "embedding"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 121,
+      "length": "22:36",
+      "img": "___BvpCFjSHSno",
+      "link": "https://youtu.be/BvpCFjSHSno",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "A new deep model of natural images",
+      "speaker": "Виктор Лемпицкий",
+      "description": "Секция Russian ML keynotes, part 2"
+   },
+   "tags": ["deep learning", "computer vision"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 122,
+      "length": "23:35",
+      "img": "___hwD48q6lKmo",
+      "link": "https://youtu.be/hwD48q6lKmo",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Разговорный интеллект сегодня",
+      "speaker": "Михаил Бурцев",
+      "description": "Секция Russian ML keynotes, part 2"
+   },
+   "tags": ["nlp", "dialog", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 123,
+      "length": "29:45",
+      "img": "___TXq4A0g4vXk",
+      "link": "https://youtu.be/TXq4A0g4vXk",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Deep Learning: more questions than answers",
+      "speaker": "Дмитрий Ветров",
+      "description": "Секция Russian ML keynotes, part 2"
+   },
+   "tags": ["deep learning", "bayesian", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 131,
+      "length": "36:44",
+      "img": "___BQHZLEf4jnY",
+      "link": "https://youtu.be/BQHZLEf4jnY",
+      "lang": "en"
+   },
+   "content": {
+      "title": "Machine Translation at Alibaba in Cross-border E-Commerce Domain: Research and Application",
+      "speaker": "Luo Weihua",
+      "description": "Секция International ML keynotes"
+   },
+   "tags": ["nlp", "deep learning", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 132,
+      "length": "27:43",
+      "img": "___Ik6Tp7PzZzs",
+      "link": "https://youtu.be/Ik6Tp7PzZzs",
+      "lang": "en"
+   },
+   "content": {
+      "title": "Quantum Machine Learning",
+      "speaker": "Jacob Daniel Biamonte",
+      "description": "Секция International ML keynotes"
+   },
+   "tags": ["ml models", "quantum", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 141,
+      "length": "27:18",
+      "img": "___4_-rw1SgtwA",
+      "link": "https://youtu.be/4_-rw1SgtwA",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "AI в продуктах Mail.Ru Group: обзор кейсов и технологий",
+      "speaker": "Михаил Фирулик",
+      "description": "Секция ML in business"
+   },
+   "tags": ["business", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 142,
+      "length": "30:27",
+      "img": "___LMeEl2-GBHg",
+      "link": "https://youtu.be/LMeEl2-GBHg",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "Data Science в телекоме",
+      "speaker": "Николай Шадрин, Данила Савенков",
+      "description": "Секция ML in business"
+   },
+   "tags": ["business", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 143,
+      "length": "29:55",
+      "img": "___R6FYJut4Lws",
+      "link": "https://youtu.be/R6FYJut4Lws",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "DS и ML в банковских задачах",
+      "speaker": "Максим Еременко",
+      "description": "Секция ML in business"
+   },
+   "tags": ["business", "finance", "overview"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 151,
+      "length": "14:42",
+      "img": "___N3_xzi_6VS0",
+      "link": "https://youtu.be/N3_xzi_6VS0",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "ML puzzler A/B tests",
+      "speaker": "Павел Нестеров",
+      "description": "Секция ML in Make ML Great Again, развлекательно-познавательный формат загадок про DS, ML и несовершенство мира."
+   },
+   "tags": ["puzzle", "testing"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 152,
+      "length": "9:20",
+      "img": "___nHdS_0CYNmA",
+      "link": "https://youtu.be/nHdS_0CYNmA",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "ML puzzler NLP",
+      "speaker": "Валентин Малых",
+      "description": "Секция ML in Make ML Great Again, развлекательно-познавательный формат загадок про DS, ML и несовершенство мира."
+   },
+   "tags": ["puzzle", "nlp"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 153,
+      "length": "12:50",
+      "img": "___Pt_K9HnQ8Bw",
+      "link": "https://youtu.be/Pt_K9HnQ8Bw",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "ML puzzler Boosting",
+      "speaker": "Данила Савенков",
+      "description": "Секция ML in Make ML Great Again, развлекательно-познавательный формат загадок про DS, ML и несовершенство мира."
+   },
+   "tags": ["puzzle", "ml models"]
+},
+ {
+   "event": {
+      "date": "2018.04.28",
+      "name": "Data Fest⁵",
+      "link": "http://datafest.ru/5/"
+   },
+   "video": {
+      "order": 154,
+      "length": "16:08",
+      "img": "___dqQzVtFl0ds",
+      "link": "https://youtu.be/dqQzVtFl0ds",
+      "lang": "ru"
+   },
+   "content": {
+      "title": "ML puzzler Python",
+      "speaker": "Владимир Яшин",
+      "description": "Секция ML in Make ML Great Again, развлекательно-познавательный формат загадок про DS, ML и несовершенство мира."
+   },
+   "tags": ["puzzle", "ds tools"]
+}
 
     ]
 }
