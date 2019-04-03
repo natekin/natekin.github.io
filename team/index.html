@@ -148,7 +148,7 @@
 	    	                	<span class="nav-icon"><div class="ods_emoji em_100"></div></span> 
 	    	                	<span class="nav-span">Все Data Fest-ы</span>
 	    	                </a></li>
-	    	                <li style="opacity: 0.33; background: #fff!important; pointer-events: none;"><a href="./">
+	    	                <li><a href="../video/">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_movie"></div></span> 
 	    	                	<span class="nav-span">Все видеозаписи</span>
 	    	                </a></li>
@@ -335,7 +335,7 @@
 		}
 
 		//render all orgs from one single data list
-		$.getJSON( "../static/data/team.txt?v=1.4.0", function( data ) {
+		$.getJSON( "../static/data/team.txt?v=1.4.1", function( data ) {
 			var items = [];
 
 		  	var orgs_section = render_section(data.section, '<h3>Организаторы секций и программный комитет:</h3>');

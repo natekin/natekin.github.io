@@ -185,7 +185,7 @@
             "display": 1
         },
         {
-            "name": "Project pitch-session",
+            "name": "Pitch-session, Interpretable ML",
             "order": 163,
             "org": "Ирина<br>Голощапова",
             "photo": "ig",
@@ -259,7 +259,7 @@
             "order": 233,
             "org": "Сергей<br>Николенко",
             "photo": "sn",
-            "display": 1
+            "display": 0
         },
         {
             "name": "Sigbovik",
@@ -311,7 +311,7 @@
             "display": 1
         },
         {
-            "name": "EDA & visualisation",
+            "name": "EDA & visualisation, Interpretable ML",
             "order": 262,
             "org": "Андрей<br>Лукьяненко",
             "photo": "al2",
