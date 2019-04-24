@@ -43,6 +43,13 @@
             "display": 1
         },
         {
+            "name": "Head of security",
+            "order": 3,
+            "org": "Сергей<br>Брянский",
+            "photo": "sb2",
+            "display": 1
+        },
+        {
             "name": "Технический директор",
             "order": 4,
             "org": "Антон<br>Фадин",
@@ -83,7 +90,7 @@
             "name": "Manufacturing applications",
             "order": 132,
             "org": "Сергей<br>Свиридов",
-            "photo": "ss",
+            "photo": "ss_upd",
             "display": 1
         },
         {
@@ -101,11 +108,11 @@
             "display": 1
         },
         {
-            "name": "E-commerce applications",
+            "name": "E-com & retail applications",
             "order": 141,
-            "org": "",
-            "photo": "",
-            "display": 0
+            "org": "Екатерина Забавина",
+            "photo": "ez",
+            "display": 1
         },
         {
             "name": "Banking<br>applications",
