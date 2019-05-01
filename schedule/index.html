@@ -82,6 +82,7 @@
 	/*a few extra DT tweaks*/
 	.mdl-data-table td, .mdl-data-table th {
 	    padding: 2px 7px;
+	    padding-bottom: 7px;
 	}
 
 	.dataTable th h4{
@@ -113,17 +114,17 @@
 		width:100%;
 		min-width: 120px; 
 		white-space: normal; 
-		height: 80px;
+		height: 60px;
 	}
 
 	.schedule_slot_inner{
 		display: table-cell; 
 		vertical-align: middle; 
-		padding: 5px 10px;
+		padding: 3px 5px;
 	}
 
 	.schedule_slot_inner h4{		
-		font-size: 13px;
+		font-size: 12px;
 		font-weight: 600;
 		color: #fff;
 	}
@@ -131,10 +132,10 @@
 	@media (max-width: 1100px) {
 		.schedule_slot{
 			width: 110px;
-			height: 75px;
+			height: 60px;
 		}    
 		.mdl-data-table td, .mdl-data-table th {
-		    padding: 15px 2px;
+		    padding: 5px 2px;
 		}
 		.schedule_slot_inner h4{		
 			font-size: 12px;
@@ -191,6 +192,81 @@
 	.slot_business{
 		background: #199919;
 	}
+
+
+	.contain_date_switch{
+
+	}
+
+
+
+.day-1, .day-2{
+	opacity: 0.25;
+}
+
+.day-active{
+	opacity: 1.0!important;
+}
+
+.day-1:hover, .day-2:hover{
+	opacity: 1.0!important;
+	transition: all 0.25s ease-out;
+}
+
+.gradient-box {
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    color: #FFF;
+    background: #fff;
+    background-clip: padding-box;
+    border: solid 5px transparent;
+    border-radius: 1em;
+}
+
+.gradient-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: inherit;
+}
+
+.day-1 .gradient-box:before {
+    background: linear-gradient(315deg, #fa1e57 10%, #eaaf0c 30% 60%, #199919 90%);
+}
+
+.day-2 .gradient-box:before {
+    background: linear-gradient(45deg, #fa1e57 10%, #9C27B0 30% 60%, #4c7bff 90%);
+}
+
+.header h4 {
+    padding: 0 10px;
+    margin-top: 10px;
+ }
+
+@media (max-width: 992px){
+	.content_title {
+	    font-size: 16px;
+	    line-height: 1.4;
+	}
+	
+	.content_speaker {
+    	font-size: 13px;	
+    }
+
+    h6, .h6 {
+	    font-size: 0.75em;
+	}
+}
+
+.video_description_shrink{
+	margin-top: 7px;
+}
 
 
 
@@ -307,42 +383,76 @@
 
 	    	<div id="fest_social_header_container" style="min-height: 27px; min-width: 30px;"></div>
 
-	    	<h4 style="margin-top: 20px;">
-	    		Международная серия бесплатных конференций, объединяющих всех связанных с Data Science исследователей, инженеров и разработчиков.
+
+			<h4 style="margin-top: 20px;">
+	    		Data Fest это обширная конференция по самым разным направлениям. Секции делятся 5 основных видов и обычно сгруппированы по залам:
 	    	</h4>		
 
-	    	<ul class="ods-main-ul" style="margin-top: 20px;">
-				<li>
-					<h4>
-						<div class="ods-main-ul-sep"><span class="nav-icon"><div class="ods_emoji em_tada" style="margin-bottom: -1px;"></div></span></div>
-						<div class="ods-main-ul-txt">Насыщенная программа из секций и воркшопов на любой вкус.</div>
-					</h4>
-				</li>
-				<li>
-					<h4>
-						<div class="ods-main-ul-sep"><span class="nav-icon"><div class="ods_emoji em_100" style="margin-bottom: -1px;"></div></span></div>
-						<div class="ods-main-ul-txt">Лучшие спикеры с передовыми результатами и разработками.</div>
-					</h4>
-				</li>
-
-				<li>
-					<h4>
-						<div class="ods-main-ul-sep"><span class="nav-icon"><div class="ods_emoji em_fire"></div></span></div> 
-						<div class="ods-main-ul-txt">Отличная компания и нетворкинг с Data Science сообществом.</div>
-					</h4>
-				</li>			 
-			</ul>
-
+	    	<div class="text-center">
+				<div style="max-width: 1200px; margin: auto;">				
+					<div class="overview_block">
+						<div class="schedule_slot slot_business">
+		                	<div class="schedule_slot_inner">
+		                		<h4>Бизнес</h4>
+		                	</div>
+		                </div>   
+		                <h4 style="font-size: 14px;">
+		                	Важные темы со стороны бизнеса
+		                </h4>             
+					</div>
+					<div class="overview_block">
+						<div class="schedule_slot slot_industry">
+		                	<div class="schedule_slot_inner">
+		                		<h4>Индустрия</h4>
+		                	</div>
+		                </div>
+		                <h4 style="font-size: 14px;">
+		                	Применение DS/ML в индустрии
+		                </h4>             
+					</div>
+					<div class="overview_block">
+						<div class="schedule_slot slot_engineering">
+		                	<div class="schedule_slot_inner">
+		                		<h4>Инженерия</h4>
+		                	</div>
+		                </div>
+		                <h4 style="font-size: 14px; margin-left: -8px;">
+		                	Технические секции, как это работает
+		                </h4>            
+					</div>
+					<div class="overview_block">
+						<div class="schedule_slot slot_science">
+		                	<div class="schedule_slot_inner">
+		                		<h4>Наука</h4>
+		                	</div>
+		                </div>
+		                <h4 style="font-size: 14px;">
+		                	Научные секции по самым горячим темам
+		                </h4>             
+					</div>
+					<div class="overview_block">
+						<div class="schedule_slot slot_community">
+		                	<div class="schedule_slot_inner">
+		                		<h4>Сообщество</h4>
+		                	</div>
+		                </div>
+		                <h4 style="font-size: 14px;">
+		                	Жизнь сообщества и специалистов
+		                </h4>              
+					</div>				
+	           	</div>		
+		    </div>
 		</div>
     	<div class="ods-bg-new hidden-xs header-bg-right"></div>
 	    <div class="ods-bg-new hidden-xs header-bg-left"></div>
     </div>
 
     
-    <div style="margin-top: -30px;">
+    <div style="margin-top: -30px; display: none;">
     	<div class="text-center" style="margin-bottom: 30px;">
     		<h1>Программа Data&nbsp;Fest</h1>
     	</div>
+    	<!--
     	<div class="container hidden-xs">
 			<div class="col-md-8 col-md-offset-2 text-center" style="margin-bottom: 5px; margin-top: -25px;">				
                 <h4 style="line-height: 1.5; ">
@@ -425,87 +535,46 @@
 					</div>
 				</div>
 			</a>
-		
-		
 
     	</div>	
-    	<div class="container" style="margin-top: 15px;">
-			<div class="col-md-8 col-md-offset-2 text-center" style="margin-bottom: 5px; margin-top: -25px;">				
-                <h4 style="line-height: 1.5; ">
-					Data Fest это обширная конференция по самым разным направлениям. Секции делятся 5 основных видов и обычно сгруппированы по залам:
-				</h4>
+    -->
+	</div>
+
+
+	<div style="margin-top: -50px;">
+		<div class="container">
+			<div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 text-center contain_date_switch day-1 day-active" style="margin-bottom: 0px; margin-top: 10px;">	
+				<div style="max-width: 450px; margin: auto;" class="gradient-box ">			
+	                <h2 style="margin-top: 10px;">
+	                	10&nbsp;Мая
+	                </h2>
+	                <h4 style="font-weight: 500; margin-top: -10px;">Индустриальный день</h4>
+	                <h5 style="line-height: 1.5; font-size: 14px; padding: 0px 20px;">
+						Насыщенный день, полный реальными Data Science и Machine Learning приложениям в самых бурно развивающихся областях.
+					</h5>
+				</div>
+			</div>
+			<div class="col-lg-5 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 text-center contain_date_switch day-2" style="margin-bottom: 0px; margin-top: 10px;">			
+				<div style="max-width: 450px; margin: auto;" class="gradient-box">		
+	                <h2 style="margin-top: 10px;">
+	                	11&nbsp;Мая
+	                </h2>
+	                <h4 style="font-weight: 500; margin-top: -10px;">Научный день</h4>
+	                <h5 style="line-height: 1.5; font-size: 14px; padding: 0px 20px;">
+						Все самые горячие исследовательские и инженерные темы, а также новые форматы и море секций от сообщества для сообщества.
+					</h5>
+				</div>
 			</div>
 		</div>
-		<div class="text-center">
-			<div style="max-width: 1200px; margin: auto;">				
-				<div class="overview_block">
-					<div class="schedule_slot slot_business">
-	                	<div class="schedule_slot_inner">
-	                		<h4>Бизнес</h4>
-	                	</div>
-	                </div>   
-	                <h4 style="font-size: 14px;">
-	                	Важные темы со стороны бизнеса
-	                </h4>             
-				</div>
-				<div class="overview_block">
-					<div class="schedule_slot slot_industry">
-	                	<div class="schedule_slot_inner">
-	                		<h4>Индустрия</h4>
-	                	</div>
-	                </div>
-	                <h4 style="font-size: 14px;">
-	                	Применение DS/ML в индустрии
-	                </h4>             
-				</div>
-				<div class="overview_block">
-					<div class="schedule_slot slot_engineering">
-	                	<div class="schedule_slot_inner">
-	                		<h4>Инженерия</h4>
-	                	</div>
-	                </div>
-	                <h4 style="font-size: 14px; margin-left: -8px;">
-	                	Технические секции, как это работает
-	                </h4>            
-				</div>
-				<div class="overview_block">
-					<div class="schedule_slot slot_science">
-	                	<div class="schedule_slot_inner">
-	                		<h4>Наука</h4>
-	                	</div>
-	                </div>
-	                <h4 style="font-size: 14px;">
-	                	Научные секции по самым горячим темам
-	                </h4>             
-				</div>
-				<div class="overview_block">
-					<div class="schedule_slot slot_community">
-	                	<div class="schedule_slot_inner">
-	                		<h4>Сообщество</h4>
-	                	</div>
-	                </div>
-	                <h4 style="font-size: 14px;">
-	                	Жизнь сообщества и специалистов
-	                </h4>              
-				</div>				
-           	</div>		
-	    </div>
 	</div>
 
 
 
-	<div style="margin-top: 30px;">
-		<div class="container">
-			<div class="col-md-8 col-md-offset-2 text-center" style="margin-bottom: 0px;">				
-                <h2>
-                	10&nbsp;Мая: индустриальный день
-                </h2>
-                <h4 style="line-height: 1.5; ">
-					Насыщенный день, полный реальными Data Science и Machine Learning приложениям в самых бурно развивающихся областях.
-				</h4>
-			</div>
-		</div>
-    	<div class="text-center" style="width: 100%; overflow-x: auto; max-width: 1200px; margin: auto;">
+	<div style="margin-top: 30px;" id="day-1-table">
+		<div class="container" style="margin-top: 0px; margin: auto;">
+    		<h2 style="margin-top: 10px; margin-left: 15px; margin-bottom: -10px;">Сетка секций:</h2>
+    	</div>
+		<div class="text-center" style="width: 100%; overflow-x: auto; max-width: 1150px; margin: auto;">
     		<div class="col-lg-12" style="margin-top: 0px;">
 				<table id="dt-schedule1" class="display mdl-data-table" style="width: 100%;">
 					<thead>
@@ -544,18 +613,11 @@
     </div>
 
 
-	<div style="margin-top: 30px;">
-		<div class="container">
-			<div class="col-md-8 col-md-offset-2 text-center" style="margin-bottom: 0px;">				
-                <h2>
-                	11&nbsp;Мая: научный день
-                </h2>
-                <h4 style="line-height: 1.5; ">
-					Все самые горячие исследовательские и инженерные темы, а также новые форматы и море секций от сообщества для сообщества.
-				</h4>
-			</div>
-		</div>
-    	<div class="text-center" style="width: 100%; overflow-x: auto; max-width: 1200px; margin: auto;">
+	<div style="margin-top: 30px; display: none;" id="day-2-table">
+		<div class="container" style="margin-top: 0px; margin: auto;">
+    		<h2 style="margin-top: 10px; margin-left: 15px; margin-bottom: -10px;">Сетка секций:</h2>
+    	</div>
+    	<div class="text-center" style="width: 100%; overflow-x: auto; max-width: 1150px; margin: auto;">
     		<div class="col-lg-12" style="margin-top: 0px;">
 				<table id="dt-schedule2" class="display mdl-data-table" style="width: 100%;">
 					<thead>
@@ -593,7 +655,75 @@
 		</div>
     </div>
 
-    <div style="margin-top: 40px;">
+    <div style="margin-top: 10px; margin-bottom: 50px;">
+    	<div class="container" id="container_video_magic" style="margin-top: 0px; margin: auto;">
+    		<h2 style="margin-top: 10px; margin-left: 15px;">Полное расписание докладов:</h2>
+    		<div class="col-md-2" id="date_filter" style=" display: none;">    			
+    			<h4>
+    				Дата:
+				</h4>	
+				<div id="date_place" style="margin-top: -5px;">
+					...				
+				</div>
+			</div>
+			<div class="col-md-5" id="time_filter">    			
+    			<h4>
+    				Время секции:
+				</h4>	
+				<div id="time_place" style="margin-top: -5px;">
+					...	
+				</div>
+			</div>					
+    		<div class="col-md-7 tag_storage" id="place_filter" style="margin-top: -5px; margin-bottom: -20px;">    			
+    			<h4>
+    				Площадки и залы:
+				</h4>	
+				<div id="place_place" style="min-height: 10px;">
+					...
+				</div>	
+			</div>				
+    		<div class="col-md-12 tag_storage" id="section_filter" style="margin-top: 10px; display: none;">    			
+    			<h4>
+    				Все секции:
+				</h4>	
+				<div class="video_description_container">
+					<div id="section_place" class="video_description" style="min-height: 30px;">
+						...
+					</div>		
+				</div>
+				<div class="video_extend_expand_container">
+					<h6 class="video_description_expand">развернуть</h6>
+					<h6 class="video_description_shrink" style="display: none;">свернуть</h6>
+				</div>
+			</div>
+			<div class="col-lg-12" style="margin-top: 0px;">
+				<table id="dt-schedule" class="display mdl-data-table" style="width: 100%;">
+					<thead>
+						<tr>
+							<th style="display: none;">main.date</th>
+							<th>Время</th>							
+							<th style="display: none;">main.time_end</th>
+							<th style="display: none;">main.section</th>
+							<th style="display: none;">main.order</th>
+							<th style="display: none;">main.type</th>
+							<th style="display: none;">main.place</th>
+							<th style="display: none;">main.level</th>
+							<th class="hidden-xs">Спикер</th>
+							<th style="display: none;">render.img</th>
+							<th style="display: none;">render.lang</th>
+							<th>Описание</th>
+							<th style="display: none;">content.speaker</th>
+							<th style="display: none;">content.description</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>				
+				</table>
+			</div>
+		</div>
+    </div>
+
+    <div style="margin-top: 40px; margin-bottom: 70px;">
     	<div class="text-center" style="margin-bottom: 30px;">
     		<h2>Другие активности на Data&nbsp;Fest</h2>
     	</div>
@@ -605,7 +735,7 @@
 			</div>
 		</div>
 		<div class="text-center">
-			<div style="max-width: 1200px; margin: auto;">				
+			<div style="max-width: 1150px; margin: auto;">				
 				<div class="overview_block">
 					<div class="schedule_slot slot_community">
 	                	<div class="schedule_slot_inner">
@@ -657,12 +787,12 @@
 	                </h4>              
 				</div>
 				<br>
-				<a href="https://goo.gl/DCBgUG" class="fancy-button pop-onhover bg-btn-main-l"><span>Стать&nbsp;участником</span></a>
+				<!--<a href="https://goo.gl/DCBgUG" class="fancy-button pop-onhover bg-btn-main-l"><span>Стать&nbsp;участником</span></a>-->
            	</div>		
 	    </div>
 	</div>
 
-    <div class="container">
+    <div class="container" style="display: none;">
     	<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center" style="margin-top: 30px; margin-bottom: 30px;">
 				<h2>Полная программа по спикерам</h2>
@@ -707,6 +837,7 @@
 	<script type="text/javascript" language="javascript" src="../static/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" language="javascript" src="../static/js/dataTables.colReorder.min.js"></script>	
 	<script type="text/javascript" language="javascript" src="../static/js/dataTables.material.min.js"></script>
+	<script type="text/javascript" language="javascript" src="../static/js/dt-speakers.js?v=0.2.7"></script>
 	<script type="text/javascript" language="javascript" class="init">
 	
 
@@ -779,7 +910,7 @@
 		}
 
 
-		$.getJSON( "../static/data/schedule.txt?v=1.3", function( data ) {		
+		$.getJSON( "../static/data/schedule.txt?v=1.4.2", function( data ) {		
 			
 		  	
 
@@ -965,6 +1096,79 @@
 		        }
 
 		    } );
+
+		    function meaningful_combo(clicked_index){
+				if(clicked_index.row == 0 | clicked_index.column*0.5 == 0) return false
+				if(clicked_index.row == 3) return false
+				if(clicked_index.row == 6){
+					if(clicked_index.column*0.5 > 1 & clicked_index.column*0.5 < 7) return false
+				}
+				return true;
+			}
+
+			// Make interactive table
+			//
+			//
+		    $('#dt-schedule1 tbody').on( 'click', 'td', function () {
+			    //everythin is already +1 for direct mapping, but lunch adds and extra +1
+			   	var clicked_index = table_events1.cell( this ).index();
+
+			   	if(meaningful_combo(clicked_index)){
+			   		//fix numbers for mapping
+			   		clicked_index.column *= 0.5;
+			   		if(clicked_index.row > 3) clicked_index.row -= 1;
+
+			   		//make selectors
+			   		var selector_row = "#time_place #" + clicked_index.row;
+			    	var selector_col = "#place_place #" + clicked_index.column;
+
+			    	//trigger clicks
+			    	if(!($(selector_row).hasClass("active-badge"))) $(selector_row).click();
+			    	if(!($(selector_col).hasClass("active-badge"))) $(selector_col).click();
+			   	}
+			} );
+
+			$('#dt-schedule2 tbody').on( 'click', 'td', function () {
+			    //everythin is already +1 for direct mapping, but lunch adds and extra +1
+			   	var clicked_index = table_events2.cell( this ).index();
+
+			   	if(meaningful_combo(clicked_index)){
+			   		//fix numbers for mapping
+			   		clicked_index.column *= 0.5;
+			   		if(clicked_index.row > 3) clicked_index.row -= 1;
+
+			   		//make selectors
+			   		var selector_row = "#time_place #" + clicked_index.row;
+			    	var selector_col = "#place_place #" + clicked_index.column;
+
+			    	//trigger clicks
+			    	if(!($(selector_row).hasClass("active-badge"))) $(selector_row).click();
+			    	if(!($(selector_col).hasClass("active-badge"))) $(selector_col).click();
+			   	}
+			} );
+
+
+		    $(".day-1").click(function(){
+		    	var is_active = $(this).hasClass("day-active");
+		    	if(!is_active){
+		    		$(".day-active").toggleClass("day-active");
+		    		$("#day-1-table").toggle();
+		    		$("#day-2-table").toggle();
+		    		$(this).toggleClass("day-active");
+		    		$("#10may").click();
+		    	}			  
+			});
+			$(".day-2").click(function(){
+		    	var is_active = $(this).hasClass("day-active");
+		    	if(!is_active){
+		    		$(".day-active").toggleClass("day-active");
+		    		$("#day-1-table").toggle();
+		    		$("#day-2-table").toggle();
+		    		$(this).toggleClass("day-active");
+		    		$("#11may").click();
+		    	}			  
+			});
+
 
 		});
 

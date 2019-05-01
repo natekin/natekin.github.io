@@ -250,8 +250,15 @@
         {
             "name": "ML training",
             "order": 231,
-            "org": "Эмиль<br>Каюмов",
-            "photo": "ek",
+            "org": "Нонна<br>Шахова",
+            "photo": "ns",
+            "display": 1
+        },
+        {
+            "name": "ML training",
+            "order": 231,
+            "org": "Петр<br>Ромов",
+            "photo": "pr",
             "display": 1
         },
         {
