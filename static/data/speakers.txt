@@ -2928,28 +2928,6 @@
         },
         {
             "main": {
-                "date": "11",
-                "time_start": "15:30",
-                "time_end": "17:15",
-                "section": "BigARTM workshop", 
-                "order": "2",              
-                "type": "Science",
-                "place": "4",
-                "level": "3"
-            },
-            "render": {
-                "order": "s",
-                "img": "0.svg",
-                "lang": "ru"
-            },
-            "content": {
-                "title": "iPavlov workshop",
-                "speaker": "Проект BigARTM, МФТИ",
-                "description": "Состав секции появится позже!<br>Посмотреть, как прошла секция BigARTM workshop в прошлом году, можно на странице <a href='../video/' target='_blank'>видео всех Data Fest-ов</a>, написав в поиске \"BigARTM workshop\" "
-            }
-        },
-        {
-            "main": {
                 "date": "10",
                 "time_start": "13:00",
                 "time_end": "13:15",
