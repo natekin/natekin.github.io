@@ -1741,8 +1741,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "11:50",
-                "time_end": "12:15",
+                "time_start": "12:15",
+                "time_end": "12:40",
                 "section": "Reinforcement learning", 
                 "order": "1",              
                 "type": "Science",

@@ -92,7 +92,7 @@
 			//build the table
 			var table_schedule = $('#dt-schedule').DataTable( {
 				//"ajax": "static/data/videos.txt",
-				"ajax": "../static/data/speakers.txt?v=0.0.4",
+				"ajax": "../static/data/speakers.txt?v=0.0.5",
 				"autoWidth": false,
 				"deferRender": true,
 				"responsive": true,
