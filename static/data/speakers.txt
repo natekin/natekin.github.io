@@ -4131,7 +4131,7 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "Face Anti-Spoofing",
+                "title": "Anti-Spoofing in Modern Biometric Systems",
                 "speaker": "Евгений Макаров",
                 "description": "We provide review of anti-spoofing techniques used in modern biometric systems. Give overview of active and passive approaches of liveness detection. Discuss datasets and competitions in the field"
             }
