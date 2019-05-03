@@ -1469,9 +1469,9 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "Deep Learning for third party risk identification and evaluation at Dow Jones",
-                "speaker": "Юлия Звягельская",
-                "description": "The attendees will learn how Dow Jones Risk & Compliance leverage latest deep learning and natural language processing techniques to develop and deploy internal risk management and regulatory compliance research tools."
+                "title": "Computer vision API: highload ML on GPU",
+                "speaker": "Юлиана Лихолай",
+                "description": "Computer Vision API - это несколько десятков нейросеток работающих в продакшене Mail.ru в продуктах Облако, Почта, Vision и других. Я расскажу, как нам удается поддерживать различные фреймворки (pytroch, TF, caffe, ...), в чем польза от nvidia-docker и как мы используем Kubernetes для шедулинга моделей, чтобы достичь максимальной утилизации железа."
             }
         },
         {
@@ -1513,9 +1513,9 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "Computer vision API: highload ML on GPU",
-                "speaker": "Юлиана Лихолай",
-                "description": "Computer Vision API - это несколько десятков нейросеток работающих в продакшене Mail.ru в продуктах Облако, Почта, Vision и других. Я расскажу, как нам удается поддерживать различные фреймворки (pytroch, TF, caffe, ...), в чем польза от nvidia-docker и как мы используем Kubernetes для шедулинга моделей, чтобы достичь максимальной утилизации железа."
+                "title": "Опыт внедрения машинного обучения \"с нуля\"",
+                "speaker": "Олеся Криндач",
+                "description": "Расскажу об опыте внедрения машинного обучения в своей компании. Затрону как проблемы технического плана: очистку данных, их структуризацию, так и организационного плана: налаживание коммуникаций, объяснение заказчикам метрик и тп."
             }
         },
         {
@@ -3472,7 +3472,7 @@
             },
             "content": {
                 "title": "Поиск пропавших домашних животных",
-                "speaker": "Михаил Салаватов",
+                "speaker": "Михаил Усков",
                 "description": "Презентация текущих проектов"
             }
         },
