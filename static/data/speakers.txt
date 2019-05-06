@@ -1411,8 +1411,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:00",
-                "time_end": "18:30",
+                "time_start": "18:30",
+                "time_end": "19:30",
                 "section": "Industry speech", 
                 "order": "4",              
                 "type": "Industry",
@@ -1433,8 +1433,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:30",
-                "time_end": "19:00",
+                "time_start": "18:00",
+                "time_end": "18:30",
                 "section": "Industry speech", 
                 "order": "4",              
                 "type": "Industry",
@@ -3061,8 +3061,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "13:15",
-                "time_end": "13:30",
+                "time_start": "13:30",
+                "time_end": "13:45",
                 "section": "Data collection & labeling", 
                 "order": "2",              
                 "type": "Industry",
@@ -3083,8 +3083,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "13:30",
-                "time_end": "13:45",
+                "time_start": "13:45",
+                "time_end": "14:00",
                 "section": "Data collection & labeling", 
                 "order": "2",              
                 "type": "Industry",
@@ -3105,8 +3105,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "13:45",
-                "time_end": "14:00",
+                "time_start": "13:15",
+                "time_end": "13:30",
                 "section": "Data collection & labeling", 
                 "order": "2",              
                 "type": "Industry",
