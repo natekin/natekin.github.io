@@ -4206,7 +4206,7 @@
             "main": {
                 "date": "11",
                 "time_start": "13:00",
-                "time_end": "13:45",
+                "time_end": "13:40",
                 "section": "ML keynotes, CV", 
                 "order": "2",              
                 "type": "Science",
@@ -4227,7 +4227,7 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "13:45",
+                "time_start": "13:40",
                 "time_end": "14:10",
                 "section": "ML keynotes, CV", 
                 "order": "2",              
