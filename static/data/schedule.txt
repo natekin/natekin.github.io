@@ -111,7 +111,7 @@
             "main_stage_desc": ".",
             "pain_stage": "DS processes",
             "pain_stage_desc": "..",            
-            "black_stage": "CV & Learning to Match",
+            "black_stage": "Computer Vision & Learning&nbsp;to Match",
             "black_stage_desc": "...",
             "space_stage": "Smartphone applications",
             "space_stage_desc": "....",
