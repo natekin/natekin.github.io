@@ -553,8 +553,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "17:30",
-                "time_end": "18:00",
+                "time_start": "18:30",
+                "time_end": "19:00",
                 "section": "Failconf", 
                 "order": "4",              
                 "type": "engineering",
@@ -597,8 +597,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "18:30",
-                "time_end": "19:00",
+                "time_start": "17:30",
+                "time_end": "18:00",
                 "section": "Failconf", 
                 "order": "4",              
                 "type": "engineering",
@@ -3121,7 +3121,7 @@
             "content": {
                 "title": "RuBERT: training and fine-tuning for SQuAD and Classification",
                 "speaker": "Юрий Куратов",
-                "description": "Описание появится позже!"
+                "description": "Transformer based Masked Language Models (BERT). Transfer Learning для русскоязычной модели BERT из мультиязычного домена. Fine-tuning моделей RuBERT для русскоязычных задач классификации и Question Answering."
             }
         },
         {
@@ -3142,8 +3142,8 @@
             },
             "content": {
                 "title": "RuBERT NER",
-                "speaker": "Мария Вихрева",
-                "description": "Описание появится позже!"
+                "speaker": "Мария Трофимова",
+                "description": "NER для русского с помощью RuBERT.<br>NER для 100 языков и 19 классов с помощью мультиязычного BERT."
             }
         },
         {
@@ -3165,7 +3165,7 @@
             "content": {
                 "title": "RuBERT for Retrieval",
                 "speaker": "Леонид Пугачев",
-                "description": "Описание появится позже!"
+                "description": "Применение BERT и RuBERT для Retrieval задач. Representation-based vs. Interaction-based подходы. N-pair, Triplet semi-hard, Contrastive losses."
             }
         },
         {
@@ -3187,7 +3187,7 @@
             "content": {
                 "title": "Knowledge Base QA",
                 "speaker": "Михаил Архипов",
-                "description": "Описание появится позже!"
+                "description": "Построение вопросно-ответной системы на Базе Знаний. Как отвечать на вопросы с помощью Wikidata."
             }
         },
         {
@@ -3209,7 +3209,7 @@
             "content": {
                 "title": "NeuroEvolution",
                 "speaker": "Диляра Баймурзина",
-                "description": "Описание появится позже!"
+                "description": "Эволюционные алгоритмы для подбора архитектуры нейросетей. Эксперименты c Natural Language Inference."
             }
         },
         {
@@ -3231,7 +3231,29 @@
             "content": {
                 "title": "Оценка качества эмбеддингов предложений с DeepPavlovEval",
                 "speaker": "Владислав Лялин",
-                "description": "Владислав Лялин"
+                "description": "Инструмент для сравнительного анализа качества векторных представлений предложений для русского языка. Сравнение fastText, ELMo, BERT."
+            }
+        },
+        {
+            "main": {
+                "date": "11",
+                "time_start": "14:30",
+                "time_end": "14:45",
+                "section": "iPavlov workshop", 
+                "order": "2",              
+                "type": "Science",
+                "place": "4",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "RuBERT vs TF-IDF",
+                "speaker": "Евгений Ботвиновский",
+                "description": "Тестирование русскоязычной модели BERT на задаче классификации. Как готовить BERT, чтобы он бил baseline на небольших данных."
             }
         },
         {
@@ -4550,7 +4572,7 @@
             },
             "content": {
                 "title": "Strategic keynote",
-                "speaker": "Алексей Натекин, Максим Еременко, Максим Федоров, Александр Крайнов",
+                "speaker": "Алексей Натекин, Александр Крайнов, Владимир Авербах, Максим Еременко, Аркадий Сандлер, Александр Ханин",
                 "description": "Открытие дня. О стратегиях развития Искусственного Интеллекта."
             }
         },
