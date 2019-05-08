@@ -43,13 +43,6 @@
             "display": 1
         },
         {
-            "name": "Head of security",
-            "order": 3,
-            "org": "Сергей<br>Брянский",
-            "photo": "sb2",
-            "display": 1
-        },
-        {
             "name": "Технический директор",
             "order": 4,
             "org": "Антон<br>Фадин",
@@ -357,6 +350,13 @@
             "order": 303,
             "org": "Олег<br>Прут",
             "photo": "op",
+            "display": 1
+        },
+        {
+            "name": "Head of security",
+            "order": 3,
+            "org": "Сергей<br>Брянский",
+            "photo": "sb2",
             "display": 1
         },
         {
