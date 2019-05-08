@@ -3,8 +3,8 @@
         {
             "main": {
                 "date": "10",                
-                "time_start": "11:00",
-                "time_end": "11:20",
+                "time_start": "11:40",
+                "time_end": "12:00",
                 "section": "ML economics",
                 "order": "1",
                 "type": "industry",
@@ -25,8 +25,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "11:20",
-                "time_end": "11:40",
+                "time_start": "11:00",
+                "time_end": "11:20",
                 "section": "ML economics", 
                 "order": "1",              
                 "type": "industry",
@@ -47,8 +47,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "11:40",
-                "time_end": "12:00",                
+                "time_start": "11:20",
+                "time_end": "11:40",                
                 "section": "ML economics", 
                 "order": "1",              
                 "type": "industry",
@@ -1279,8 +1279,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "17:30",
-                "time_end": "17:45",
+                "time_start": "18:15",
+                "time_end": "18:30",
                 "section": "Industry NLP", 
                 "order": "4",              
                 "type": "Industry",
@@ -1323,8 +1323,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:00",
-                "time_end": "18:15",
+                "time_start": "18:30",
+                "time_end": "18:45",
                 "section": "Industry NLP", 
                 "order": "4",              
                 "type": "Industry",
@@ -1345,8 +1345,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:15",
-                "time_end": "18:30",
+                "time_start": "18:45",
+                "time_end": "19:00",
                 "section": "Industry NLP", 
                 "order": "4",              
                 "type": "Industry",
@@ -1367,8 +1367,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:30",
-                "time_end": "18:45",
+                "time_start": "17:30",
+                "time_end": "17:45",
                 "section": "Industry NLP", 
                 "order": "4",              
                 "type": "Industry",
@@ -1383,14 +1383,14 @@
             "content": {
                 "title": "From multi-class to multi-label classification ",
                 "speaker": "Виталий Радченко",
-                "description": "Переход от классификации до мультилейблинга - как решить задачу мультилейблинга, если можно собрать данные только для классификации. Со всякими semisuprvised обучениям и итеративным улучшением разметки"
+                "description": "На примере решения задачи тематической классификации Виталий расскажет как в условиях ограниченных данных перейти от multiclass к multi-label подходу, про фишки тренировки модели и метрики, которые удовлетворяют бизнес."
             }
         },
         {
             "main": {
                 "date": "10",
-                "time_start": "18:45",
-                "time_end": "19:00",
+                "time_start": "18:00",
+                "time_end": "18:15",
                 "section": "Industry NLP", 
                 "order": "4",              
                 "type": "Industry",
@@ -1623,7 +1623,7 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "Скилл рецептов для Яндекс АлисыСкилл рецептов для Яндекс Алисы",
+                "title": "Скилл рецептов для Яндекс Алисы",
                 "speaker": "Карпова Екатерина, Матвеевский Олег, Бакалец Илья",
                 "description": "Презентация проекта"
             }
@@ -2775,8 +2775,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "13:20",
-                "time_end": "13:40",
+                "time_start": "13:40",
+                "time_end": "14:00",
                 "section": "Manufacturing applications", 
                 "order": "2",              
                 "type": "Industry",
@@ -2797,8 +2797,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "13:40",
-                "time_end": "14:00",
+                "time_start": "13:20",
+                "time_end": "13:40",
                 "section": "Manufacturing applications", 
                 "order": "2",              
                 "type": "Industry",
@@ -4381,8 +4381,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "17:30",
-                "time_end": "17:40",
+                "time_start": "17:50",
+                "time_end": "18:00",
                 "section": "Mythbusters", 
                 "order": "4",              
                 "type": "Industry",
@@ -4403,8 +4403,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "17:40",
-                "time_end": "17:50",
+                "time_start": "18:20",
+                "time_end": "18:30",
                 "section": "Mythbusters", 
                 "order": "4",              
                 "type": "Industry",
@@ -4425,8 +4425,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "17:50",
-                "time_end": "18:00",
+                "time_start": "17:40",
+                "time_end": "17:50",
                 "section": "Mythbusters", 
                 "order": "4",              
                 "type": "Industry",
@@ -4447,8 +4447,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:00",
-                "time_end": "18:10",
+                "time_start": "18:10",
+                "time_end": "18:20",
                 "section": "Mythbusters", 
                 "order": "4",              
                 "type": "Industry",
@@ -4469,8 +4469,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:10",
-                "time_end": "18:20",
+                "time_start": "17:30",
+                "time_end": "17:40",
                 "section": "Mythbusters", 
                 "order": "4",              
                 "type": "Industry",
@@ -4491,8 +4491,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:20",
-                "time_end": "18:30",
+                "time_start": "18:00",
+                "time_end": "18:10",
                 "section": "Mythbusters", 
                 "order": "4",              
                 "type": "Industry",
@@ -4513,8 +4513,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "18:20",
-                "time_end": "18:30",
+                "time_start": "18:30",
+                "time_end": "19:00",
                 "section": "Mythbusters", 
                 "order": "4",              
                 "type": "Industry",
