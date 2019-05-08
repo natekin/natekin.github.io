@@ -267,8 +267,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "15:55",
-                "time_end": "16:20",                
+                "time_start": "16:45",
+                "time_end": "17:10",                
                 "section": "DS process", 
                 "order": "3",              
                 "type": "industry",
@@ -289,8 +289,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "16:20",
-                "time_end": "16:45",                
+                "time_start": "15:55",
+                "time_end": "16:20",                
                 "section": "DS process", 
                 "order": "3",              
                 "type": "industry",
@@ -311,8 +311,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "16:45",
-                "time_end": "17:10",                
+                "time_start": "16:20",
+                "time_end": "16:45",                
                 "section": "DS process", 
                 "order": "3",              
                 "type": "industry",
@@ -745,7 +745,7 @@
             "content": {
                 "title": "Как мы сделали распознавание коров по видео",
                 "speaker": "Динар Ахматнуров",
-                "description": "Мы расскажем как создавалась система с 0. Как собирались и размечались данные, в частности, о нашем опыте использования Толоки. Также расскажем о технических деталях реализации системы: на какие статьи опирались, что полетело а что нет"
+                "description": "Современная молочная ферма, это тысячи коров. Работники фермы не успевают выявлять болезни и из-за этого несут большие убытки.<br><br>Мы в Cattle Care делаем инструмент для автоматического детектирования болезней и расскажем вам, как решали задачу распознавания коров на одной из ферм нашего клиента в Калифорнии:<br>- как собирали данные<br>- как размечали данные<br>- на какие статьи опирались<br>- какие подходы сработали, а какие нет"
             }
         },
         {
@@ -1169,8 +1169,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "17:30",
-                "time_end": "17:45",
+                "time_start": "18:00",
+                "time_end": "18:15",
                 "section": "Sigbovik", 
                 "order": "4",              
                 "type": "Community",
@@ -1191,8 +1191,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "17:45",
-                "time_end": "18:00",
+                "time_start": "17:30",
+                "time_end": "17:45",
                 "section": "Sigbovik", 
                 "order": "4",              
                 "type": "Community",
@@ -1213,8 +1213,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "18:00",
-                "time_end": "18:15",
+                "time_start": "18:30",
+                "time_end": "18:45",
                 "section": "Sigbovik", 
                 "order": "4",              
                 "type": "Community",
@@ -1257,8 +1257,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "18:30",
-                "time_end": "18:45",
+                "time_start": "17:45",
+                "time_end": "18:00",
                 "section": "Sigbovik", 
                 "order": "4",              
                 "type": "Community",
@@ -1272,7 +1272,7 @@
             },
             "content": {
                 "title": "Инференс нейронок в облаке, бесплатно",
-                "speaker": "Игорь Рекун",
+                "speaker": "Антон Васильков",
                 "description": "Инференсим imagenet-сетки в google sheets "
             }
         },
@@ -1587,8 +1587,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "17:30",
-                "time_end": "17:45",
+                "time_start": "18:30",
+                "time_end": "18:45",
                 "section": "ODS projects", 
                 "order": "4",              
                 "type": "Community",
@@ -1609,8 +1609,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "17:45",
-                "time_end": "18:00",
+                "time_start": "18:00",
+                "time_end": "18:15",
                 "section": "ODS projects", 
                 "order": "4",              
                 "type": "Community",
@@ -1631,8 +1631,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "18:00",
-                "time_end": "18:15",
+                "time_start": "17:45",
+                "time_end": "18:00",
                 "section": "ODS projects", 
                 "order": "4",              
                 "type": "Community",
@@ -1653,8 +1653,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "18:15",
-                "time_end": "18:30",
+                "time_start": "17:30",
+                "time_end": "17:45",
                 "section": "ODS projects", 
                 "order": "4",              
                 "type": "Community",
@@ -1675,8 +1675,8 @@
         {
             "main": {
                 "date": "11",
-                "time_start": "18:30",
-                "time_end": "18:45",
+                "time_start": "18:15",
+                "time_end": "18:30",
                 "section": "ODS projects", 
                 "order": "4",              
                 "type": "Community",
@@ -1713,7 +1713,7 @@
             "content": {
                 "title": "Deep Reinforcement Learning for Combinatorial Optimization",
                 "speaker": "Сергей Свиридов",
-                "description": "Описание в разработке"
+                "description": "Мы посмотрим как можно применить Deep Reinforcement Learning для решения распространенных задач комбинаторной оптимизации, таких как Traveling Salesman Problem, Vehicle Routing Problem, Bin Packing Problem, а также ряда других. Будут рассмотрены несколько публикаций, предложенные в них подходы и полученные результаты."
             }
         },
         {
@@ -1940,6 +1940,72 @@
             "main": {
                 "date": "10",
                 "time_start": "13:00",
+                "time_end": "13:15",
+                "section": "Telecom applications", 
+                "order": "2",              
+                "type": "Industry",
+                "place": "5",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Вступление",
+                "speaker": "Виталий Щербаков",
+                "description": "О секции и проектах компании МегаФон."
+            }
+        },
+        {
+            "main": {
+                "date": "10",
+                "time_start": "13:15",
+                "time_end": "13:40",
+                "section": "Telecom applications", 
+                "order": "2",              
+                "type": "Industry",
+                "place": "5",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Почему сложно рассчитать индивидуальные предложения для десятков миллионов абонентов и как выбрать оптимальное предложение для абонента здесь и сейчас",
+                "speaker": "Павел Петров",
+                "description": "Почему сложно рассчитать индивидуальные предложения для десятков миллионов абонентов и как выбрать оптимальное предложение для абонента здесь и сейчас"
+            }
+        },
+        {
+            "main": {
+                "date": "10",
+                "time_start": "13:40",
+                "time_end": "14:05",
+                "section": "Telecom applications", 
+                "order": "2",              
+                "type": "Industry",
+                "place": "5",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Как использовать гео данные в ритейле",
+                "speaker": "Максим Кожевников",
+                "description": "Как использовать гео данные в ритейле"
+            }
+        },
+        {
+            "main": {
+                "date": "10",
+                "time_start": "14:05",
                 "time_end": "14:30",
                 "section": "Telecom applications", 
                 "order": "2",              
@@ -1948,14 +2014,14 @@
                 "level": "3"
             },
             "render": {
-                "order": "s",
+                "order": "n",
                 "img": "0.svg",
                 "lang": "ru"
             },
             "content": {
-                "title": "Telecom applications",
-                "speaker": "Команда Мегафон",
-                "description": "Состав секции появится позже!"
+                "title": "Что такое граф ембединги и как их готовить. Проблемы использования Spark.",
+                "speaker": "Егор Кузнецов, Сергей Паршуков",
+                "description": "Что такое граф ембединги и как их готовить. Проблемы использования Spark."
             }
         },
         {
@@ -3018,6 +3084,116 @@
             "main": {
                 "date": "11",
                 "time_start": "15:30",
+                "time_end": "15:50",
+                "section": "BigARTM workshop", 
+                "order": "3",              
+                "type": "Science",
+                "place": "4",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "BigARTM: от лего-конструктора тематических моделей к сервисам разведочного поиска.",
+                "speaker": "Константин Воронцов",
+                "description": "Тематическое моделирование текстовых коллекций: что это такое и с чем это едят. Шесть основных механизмов BigARTM. Как строить тематические эмбеддинги. С какими проблемами мы сталкиваемся при практическом применении тематического моделирования. Как будет развиваться эта технология дальше."
+            }
+        },
+        {
+            "main": {
+                "date": "11",
+                "time_start": "15:50",
+                "time_end": "16:05",
+                "section": "BigARTM workshop", 
+                "order": "3",              
+                "type": "Science",
+                "place": "4",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Тематический разведочный поиск по медицинским статьям.",
+                "speaker": "Максим Филин",
+                "description": "Кто пользователи разведочного поиска и каковы их поисковые потребности. Как построить движок тематического поиска. Какие ещё технологии NLP надо использовать кроме BigARTM. Как оценивать качества поиска."
+            }
+        },
+        {
+            "main": {
+                "date": "11",
+                "time_start": "16:05",
+                "time_end": "16:20",
+                "section": "BigARTM workshop", 
+                "order": "3",              
+                "type": "Science",
+                "place": "4",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Оценивание сложности текста для представления результатов разведочного поиска.",
+                "speaker": "Максим Еремеев",
+                "description": "Хотим автоматизировать не только поиск знаний, но также их понимание и систематизацию. Но как подсказать пользователю, с чего лучше начать, что читать в первую очередь? Видимо, надо начинать с простого"
+            }
+        },
+        {
+            "main": {
+                "date": "11",
+                "time_start": "16:20",
+                "time_end": "16:35",
+                "section": "BigARTM workshop", 
+                "order": "3",              
+                "type": "Science",
+                "place": "4",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Тематизация диалогов контакт-центра: первый шаг к обучению чат-бота",
+                "speaker": "Артем Попов",
+                "description": "Чтобы обучить чат-бота, нужна обучающая выборка. Но как понять, на сколько классов размечать обращения клиентов? Сколько всего клиентских интентов, и какие они? И как сделать разметку в условиях, когда ответы операторов далеки от идеала."
+            }
+        },
+        {
+            "main": {
+                "date": "11",
+                "time_start": "16:35",
+                "time_end": "16:50",
+                "section": "BigARTM workshop", 
+                "order": "3",              
+                "type": "Science",
+                "place": "4",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Тематическая модель потребительского поведения розничных клиентов банка.",
+                "speaker": "Евгений Егоров",
+                "description": "Банки хотят лучше понимать своих клиентов. Если историю транзакций рассматривать как «документ», а коды продавцов как «слова», то темами окажутся типы потребительского поведения клиентов. Какие сложности мы встречаем на пути к цифровому портрету клиента."
+            }
+        },
+        {
+            "main": {
+                "date": "11",
+                "time_start": "16:50",
                 "time_end": "17:15",
                 "section": "BigARTM workshop", 
                 "order": "3",              
@@ -3026,14 +3202,14 @@
                 "level": "3"
             },
             "render": {
-                "order": "s",
+                "order": "n",
                 "img": "0.svg",
                 "lang": "ru"
             },
             "content": {
-                "title": "BigARTM workshop",
-                "speaker": "Команда BigARTM, МФТИ",
-                "description": "Состав секции появится позже!"
+                "title": "Тематическая модель экономической деятельности корпоративных клиентов банка.",
+                "speaker": "Кирилл Хрыльченко",
+                "description": "Если историю транзакций компании рассматривать как «документ», а компании-контрагенты как «слова», то темами окажутся виды экономической деятельности. Зная поставщиков и потребителей продукции компании, можно понять, чем она занимается, кто ещё работает на этом рынке, и как компания смотрится на их фоне."
             }
         },
         {
@@ -4558,7 +4734,7 @@
             "main": {
                 "date": "10",
                 "time_start": "15:30",
-                "time_end": "17:15",
+                "time_end": "16:15",
                 "section": "Data-driven culture", 
                 "order": "3",              
                 "type": "Industry",
@@ -4566,14 +4742,36 @@
                 "level": "3"
             },
             "render": {
-                "order": "x",
+                "order": "n",
                 "img": "0.svg",
                 "lang": "ru"
             },
             "content": {
-                "title": "Data-driven culture",
-                "speaker": "Состав участников будет опубликован в ближайшее время!",
-                "description": "Как DS/ML меняет крупнейшие организации. В программе Сбербанк, МЧС, Газпромнефть."
+                "title": "Machine Learning в МЧС",
+                "speaker": "Виктор Ничипорчук",
+                "description": "Описание появится в ближайшее время!"
+            }
+        },
+        {
+            "main": {
+                "date": "10",
+                "time_start": "16:15",
+                "time_end": "17:00",
+                "section": "Data-driven culture", 
+                "order": "3",              
+                "type": "Industry",
+                "place": "1",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "AI transformation в банке",
+                "speaker": "Андрей Черток",
+                "description": "Описание появится в ближайшее время!"
             }
         },
         {
