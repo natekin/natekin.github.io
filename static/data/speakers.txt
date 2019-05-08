@@ -2907,10 +2907,10 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "11:00",
-                "time_end": "12:45",
+                "time_start": "13:00",
+                "time_end": "14:30",
                 "section": "Poster pitch-session", 
-                "order": "1",              
+                "order": "2",              
                 "type": "Community",
                 "place": "7",
                 "level": "3"
@@ -2929,10 +2929,10 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "13:00",
-                "time_end": "14:30",
+                "time_start": "11:00",
+                "time_end": "12:45",
                 "section": "ODS Q&A", 
-                "order": "2",              
+                "order": "1",              
                 "type": "Community",
                 "place": "7",
                 "level": "3"
