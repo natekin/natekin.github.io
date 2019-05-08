@@ -1735,7 +1735,7 @@
             "content": {
                 "title": "Reinforcement learning, pre-production case",
                 "speaker": "Иван Жук",
-                "description": "Описание в разработке"
+                "description": "Reinforcement learning (RL) одна из самых перспективных и сложных областей машинного обучения. Не смотря на заявление о близости RL к Artificial General Intelligence, каждая задача все еще требует вдумчивого, индивидуального подхода.<br><br>Нам было интересно разобраться в том, насколько RL близок и сложен для применения в настоящих, жизненных окружениях.<br>В докладе мы рассмотрим production ready case использования RL для настоящей игрушки на Unity3D. А также, проведем небольшую экскурсию по улице граблей"
             }
         },
         {
@@ -3369,8 +3369,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "15:30",
-                "time_end": "15:40",
+                "time_start": "17:00",
+                "time_end": "17:10",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3391,8 +3391,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "15:40",
-                "time_end": "15:50",
+                "time_start": "17:10",
+                "time_end": "17:20",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3413,8 +3413,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "15:50",
-                "time_end": "16:00",
+                "time_start": "16:50",
+                "time_end": "17:00",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3435,8 +3435,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "16:00",
-                "time_end": "16:10",
+                "time_start": "15:40",
+                "time_end": "15:50",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3457,8 +3457,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "16:10",
-                "time_end": "16:20",
+                "time_start": "16:30",
+                "time_end": "16:40",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3479,30 +3479,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "16:20",
-                "time_end": "16:30",
-                "section": "Project pitch-session", 
-                "order": "3",              
-                "type": "Business",
-                "place": "6",
-                "level": "3"
-            },
-            "render": {
-                "order": "n",
-                "img": "0.svg",
-                "lang": "ru"
-            },
-            "content": {
-                "title": "Мета - Автоматизированный подбор эффективного и комфортного психотерапевта",
-                "speaker": "Максим Осипов",
-                "description": "Презентация своего проекта."
-            }
-        },
-        {
-            "main": {
-                "date": "10",
-                "time_start": "16:30",
-                "time_end": "16:40",
+                "time_start": "16:40",
+                "time_end": "16:50",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3523,8 +3501,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "16:40",
-                "time_end": "16:50",
+                "time_start": "16:00",
+                "time_end": "16:10",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3545,8 +3523,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "16:50",
-                "time_end": "17:00",
+                "time_start": "15:50",
+                "time_end": "16:00",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3567,8 +3545,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "17:00",
-                "time_end": "17:10",
+                "time_start": "16:10",
+                "time_end": "16:20",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3589,8 +3567,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "17:10",
-                "time_end": "17:20",
+                "time_start": "16:20",
+                "time_end": "16:30",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -3603,16 +3581,16 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "Labeler Machine - Отлейбли свои данные по максимуму",
-                "speaker": "Репушко Антон",
+                "title": "Comix.ai - Создай комикс из любимого видео",
+                "speaker": "Илья Сергеев",
                 "description": "Презентация своего проекта."
             }
         },
         {
             "main": {
                 "date": "10",
-                "time_start": "17:20",
-                "time_end": "17:30",
+                "time_start": "15:30",
+                "time_end": "15:40",
                 "section": "Project pitch-session", 
                 "order": "3",              
                 "type": "Business",
@@ -4140,7 +4118,7 @@
             "main": {
                 "date": "10",
                 "time_start": "11:00",
-                "time_end": "11:20",
+                "time_end": "11:25",
                 "section": "E-com & retail applications", 
                 "order": "1",              
                 "type": "Industry",
@@ -4161,8 +4139,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "11:20",
-                "time_end": "11:40",
+                "time_start": "11:25",
+                "time_end": "11:50",
                 "section": "E-com & retail applications", 
                 "order": "1",              
                 "type": "Industry",
@@ -4183,30 +4161,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "11:40",
-                "time_end": "12:00",
-                "section": "E-com & retail applications", 
-                "order": "1",              
-                "type": "Industry",
-                "place": "4",
-                "level": "3"
-            },
-            "render": {
-                "order": "n",
-                "img": "0.svg",
-                "lang": "ru"
-            },
-            "content": {
-                "title": "Как оценивать качество прогнозов?",
-                "speaker": "Денис Абитов",
-                "description": "О метриках (технических, бизнесовых) оценки прогнозов спроса на товары"
-            }
-        },
-        {
-            "main": {
-                "date": "10",
-                "time_start": "12:00",
-                "time_end": "12:20",
+                "time_start": "11:50",
+                "time_end": "12:15",
                 "section": "E-com & retail applications", 
                 "order": "1",              
                 "type": "Industry",
@@ -4227,7 +4183,7 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "12:20",
+                "time_start": "12:15",
                 "time_end": "12:40",
                 "section": "E-com & retail applications", 
                 "order": "1",              
