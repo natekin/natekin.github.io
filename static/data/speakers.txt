@@ -2379,8 +2379,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "15:30",
-                "time_end": "15:50",
+                "time_start": "16:15",
+                "time_end": "16:30",
                 "section": "Smartphone applications", 
                 "order": "3",              
                 "type": "Industry",
@@ -2401,8 +2401,8 @@
         {
             "main": {
                 "date": "10",
-                "time_start": "15:50",
-                "time_end": "16:10",
+                "time_start": "15:30",
+                "time_end": "15:45",
                 "section": "Smartphone applications", 
                 "order": "3",              
                 "type": "Industry",
@@ -2416,14 +2416,36 @@
             },
             "content": {
                 "title": "Current challenges and solutions in speech synthesis on mobile devices",
-                "speaker": "Yulia Matveeva",
+                "speaker": "Юлия Матвеева",
                 "description": "As a member of the Speech Synthesis team in the Huawei Saint-Petersburg Research Center I shall make an overview of the current approaches to speech synthesis, Discuss the general challenges that one meets in the field as well as the ones that arise specifically in the use case of synthesis on mobile devices. The plan: <br>1.  Problem statement and explanation<br>2.  Why speech synthesis stands out in the machine learning tasks <br>3.  Data preparation and data preprocessing techniques<br>4.  Types of architectures of TTS systems: pros and cons<br>5.  End-2-end systems<br>6.  SPSS systems: different ways of overcoming the challenges"
             }
         },
         {
             "main": {
                 "date": "10",
-                "time_start": "16:10",
+                "time_start": "15:45",
+                "time_end": "16:00",
+                "section": "Smartphone applications", 
+                "order": "3",              
+                "type": "Industry",
+                "place": "4",
+                "level": "3"
+            },
+            "render": {
+                "order": "n",
+                "img": "0.svg",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Платформа Huawei HiAIEngine. Приложение StorySign для глухих детей и о распознавании символов OCR (optical character recognition).",
+                "speaker": "Денис Пархоменко",
+                "description": "В двух словах о состоянии дел в Оптическом Распознавании символов в Хуавей.<br>О том, как ИИ помогает глухим. И  о том как каждый может сделать что-то подобное на смартфонах Хуавей."
+            }
+        },
+        {
+            "main": {
+                "date": "10",
+                "time_start": "16:15",
                 "time_end": "16:30",
                 "section": "Smartphone applications", 
                 "order": "3",              
@@ -2437,16 +2459,16 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "SorySign as a HiAiEngine result",
-                "speaker": "Денис Пархоменко",
-                "description": "Описание появится позже!"
+                "title": "Детектирование объектов в реальном времени на мобильных телефонах Huawei.",
+                "speaker": "Сиднев Алексей",
+                "description": "Ограниченные вычислительные возможности и заряд аккумулятора - это основные особенности детектирования объектов на мобильных телефонах. Нагрузка на ЦП не должна быть большой, а качество детектирования должно быть на достаточно высоком уровне. В докладе будет рассказано как можно добиться отличных результатов детектирования на современных мобильных центральных процессорах с использованием различных подходов детектирования и трекинга объектов."
             }
         },
         {
             "main": {
                 "date": "10",
                 "time_start": "16:30",
-                "time_end": "16:50",
+                "time_end": "16:45",
                 "section": "Smartphone applications", 
                 "order": "3",              
                 "type": "Industry",
@@ -2459,16 +2481,16 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "Real-time object detection on mobile phones",
-                "speaker": "Сиднев Алексей",
-                "description": "Описание появится позже!"
+                "title": "End-to-end speech recognition. It's coming",
+                "speaker": "Кузьмин Василий, Соколов Артем",
+                "description": "В докладе речь пойдет об End-to-end подходе, приходящим на смену классическому (гибридному) в задаче распознавания речи. Автоматическая система распознавания речи, использующая End-to-end модели, позволяет напрямую предсказывать выходные последовательности символов или слов для заданной входной речи, не требуя промежуточного фонетического представления. Отдельное внимание будет уделено подходам, использующимся для создания внешней языковой модели, позволяющей улучшить качество распознавания End-to-end решений. "
             }
         },
         {
             "main": {
                 "date": "10",
-                "time_start": "16:50",
-                "time_end": "17:10",
+                "time_start": "16:45",
+                "time_end": "17:00",
                 "section": "Smartphone applications", 
                 "order": "3",              
                 "type": "Industry",
@@ -2481,9 +2503,9 @@
                 "lang": "ru"
             },
             "content": {
-                "title": "End-to-end speech recognition",
-                "speaker": "Кузьмин Василий, Соколов Артем",
-                "description": "Описание появится позже!"
+                "title": "Are virtual assistants becoming really smart: deep learning for dialog systems",
+                "speaker": "Ирина Пионтковская",
+                "description": "Алгоритмы глубокого обучения с успехом применяются в NLP. Однако стоит ли ждать в ближайшее время качественного улучшения диалоговых агентов? Рассмотрим задачи, в которых deep learning  действительно может помочь."
             }
         },
         {
@@ -4726,7 +4748,7 @@
             },
             "content": {
                 "title": "Innovation board panel",
-                "speaker": "Состав участников будет опубликован в ближайшее время!",
+                "speaker": "Андрей Черток, Александр Крайнов, Антон Уваров",
                 "description": "Как компании взаимодействуют с DS/ML командами и стартапами? Какие типовые ошибки делают стартапы? Что компании ждут от стартапов? Взгляд со стороны компаний."
             }
         },
