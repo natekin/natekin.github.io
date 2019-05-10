@@ -160,7 +160,7 @@
 		        	$.each(all_places, function( index, value ){ all_places[index] = '<span class="badge badge-pill place_filter text-center"  style="font-size:14px; font-weight: 500;" id="' + value + '">' + dict_place(value) + '</span>'; });
 		        	$("#place_place").html(all_places);
 
-		        	table_schedule.columns( 0 ).search("10").draw();
+		        	table_schedule.columns( 0 ).search("11").draw();
 		        }
 
 		    } );
