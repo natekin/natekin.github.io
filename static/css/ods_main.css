@@ -460,7 +460,7 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 
 /*EMOJI SPRITES*/
 .ods_emoji{
-    background: url(../img/design/ods_emoji_icons_upd.png?v=1.1); 
+    background: url(../img/design/ods_emoji_icons_upd.png?v=1.2); 
     width: 25px; 
     height: 25px; 
     margin: 0; 
@@ -570,6 +570,14 @@ h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
 
 .em_map{
     background-position: -75px -25px;
+}
+
+.em_partner{
+    background-position: -75px -50px;
+}
+
+.em_job{
+    background-position: -75px -100px;
 }
 
 .em_ru_dt{

@@ -42,7 +42,7 @@
     <link href="static/css/bootstrap.min.css" rel="stylesheet" />
     <link href="static/css/material-kit.css?v=1.3" rel="stylesheet"/>
     <link href="static/css/dataTables.material.css" rel="stylesheet"/>
-    <link href="static/css/ods_main.css?v=2.3.1" rel="stylesheet"/>
+    <link href="static/css/ods_main.css?v=2.4.0" rel="stylesheet"/>
     <link href="static/css/dt_videos.css?v=1.2" rel="stylesheet"/>
 
 
@@ -133,13 +133,30 @@
 
         	<div class="collapse navbar-collapse">
         		<ul class="nav navbar-nav navbar-right">
-					<li class="hidden-md hidden-lg hidden-sm">
+        			<li class="hidden-md hidden-lg hidden-sm">
 						<a href="./" class="dropdown-toggle " data-toggle="dropdown">             
 	                		<span class="nav-icon">
 	                			<div style="background: url(../static/img/fest-logo.svg); background-size: 25px; width: 25px; height: 25px; display: inline-block; margin-bottom: -4px; margin-right: 1px;"></div>
 	                		</span> 
 							<span>Главная</span>
 	    	            </a>
+					</li>					
+					<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
+	                		<span class="nav-icon"><div class="ods_emoji em_partner"></div></span> 
+							<span>Партнеры</span>
+		    	            <b class="caret"></b>
+	    	            </a>
+	    	            <ul class="dropdown-menu">
+	    	                <li><a href="../jobs/">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_job"></div></span> 
+	    	                	<span class="nav-span">Вакансии</span>
+	    	                </a></li>	    	                
+	    	                <li><a href="mailto:a@datasouls.com">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_diamond"></div></span> 
+	    	                	<span class="nav-span">Стать партнером</span>
+	    	                </a></li>        
+	    	            </ul>
 					</li>
 					<li>
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
@@ -156,14 +173,18 @@
 	    	                	<span class="nav-icon"><div class="ods_emoji em_muscle"></div></span> 
 	    	                	<span class="nav-span">Команда</span>
 	    	                </a></li>
+	    	                <li><a href="https://tele.gg/ODS_DataFest_bot" target="_blank">
+	    	                	<span class="nav-icon"><div class="ods_emoji em_bot"></div></span> 
+								<span>Fest-бот</span>	 
+	    	                </a></li>
 	    	                <li><a href="../map/">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_map"></div></span> 
 	    	                	<span class="nav-span">Как добраться</span>	    	                	
-	    	                </a></li>		
-	    	                <li><a href="https://goo.gl/forms/K1N24b57yXpME8qF2">
+	    	                </a></li>	
+	    	                <li style="display: none;"><a href="https://goo.gl/forms/K1N24b57yXpME8qF2">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_homer"></div></span> 
 	    	                	<span class="nav-span">Регистрация</span>
-	    	                </a></li>  
+	    	                </a></li>  	    	                
 	    	                <li style="display: none;"><a style="background: #fff!important;">
 	    	                	<span class="nav-icon"><div class="ods_emoji em_popcorn"></div></span> 
 	    	                	<span class="nav-span">Трансляция</span>
@@ -191,12 +212,6 @@
 	    	                </a></li>
 	    	            </ul>
 					</li>
-	    	        <li>
-        				<a href="https://tele.gg/ODS_DataFest_bot" target="_blank">
-        					<span class="nav-icon"><div class="ods_emoji em_bot"></div></span> 
-							<span>Fest-бот</span>	
-						</a>
-        			</li>
 					<li class="dropdown" >
     					<a href="#" class="dropdown-toggle " data-toggle="dropdown">             
 	                		<span class="nav-icon"><div class="ods_emoji em_flag_ru"></div></span>
@@ -265,20 +280,67 @@
 	<div style="padding-bottom: 0px; margin-top: 10px; ">
 		<div class="container" style="margin-bottom: 40px; margin-top: -30px;">
 			<div class="text-center col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-	    		<h1>Data Fest на этой неделе!</h1>
+	    		<h1>Data Fest<span style="font-weight: 200; font-size: 80%; margin-left: 3px;">⁶</span> завершен!</h1>
 	    		<h4>
-					Два полных дня, <a href="/schedule/">60 секций</a> и более 200 топовых докладчиков по самым важным Data Science темам ждут вас на самом эпичном Фесте в <a href="http://flacon.ru/contacts/">FLACON-е</a>!
+	    			Спасибо что были с нами! Спасибо нашим замечательным <a href="../jobs/">партнерам</a>. И конечно же низкий поклон <a href="../team/">команде</a>, которая сделала этот Data Science праздник.
+				</h4>
+	    	</div>
+	    	<div class="col-sm-12">
+	    		<img src="../static/img/design/team.jpg" style="width: 100%; height: auto; margin: 10px 0px;">
+	    	</div>
+	    	<div class="text-center col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	    		<h4>
+	    			Мы раздали более 5000 бейджиков, а по рамкам металлодетекторов туда-обратно прошло больше 9000 человек. Истина где-то между этими цифрами :)
+				</h4>
+				<h2>
+	    			Все важное после Феста:
+				</h2>
+	    		<h4>
+	    			<ul style="text-align: left; padding: 0;">
+	    				<ol style="font-size: 120%; font-weight: 300; margin: 7px; padding-left: 10px;">
+	    					<b>1. Обратная связь:</b> какие секции, активности и выступления вам понравились больше всего. Ваши идеи и впечатления. Помогите нам <a href="https://forms.gle/RtuBA97W9YhmCqKPA">сделать Фест еще лучше</a>!</ol>
+	    				<ol style="font-size: 120%; font-weight: 300; margin: 7px; padding-left: 10px;">
+	    					<b>2. Вакансии партнеров:</b> наши партнеры не только помогают Фесту состояться, но и активно нанимают к себе. Посмотрите <a href="../jobs/">вакансии сильнейших DS/ML команд</a> России.</ol>
+	    				<ol style="font-size: 120%; font-weight: 300; margin: 7px; padding-left: 10px;">
+	    					<b>3. Patreon Data Fest:</b> если вам понравился Фест, то вы можете лично <a href="https://www.patreon.com/datafest">поддержать нас через Patreon</a>. К тому же на нем можно добыть наши толстовки и мантии.</ol>
+	    				<ol style="font-size: 120%; font-weight: 300; margin: 7px; padding-left: 10px;">
+	    					<b>4. Фото:</b> несколько тысяч фотографий мероприятия <a href="https://forms.gle/RtuBA97W9YhmCqKPA">ждут вас в конце нашего опросника</a> :) Все материалы Феста будут выкладываться по мере их готовности.</ol>
+	    			</ul>
 				</h4>
 	    	</div>
 	    </div>
-	    <div class="container" style="margin-top: -40px; margin-bottom: 50px;">
-
-	    	<div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-0 text-center">
-				<a href="/schedule/" class="fancy-button pop-onhover bg-btn-main-r" style="margin: 15px;"><span style="font-size: 100%; padding: 20px 20px; min-width: 220px;">Программа</span></a>
-			</div>
-			<div class="col-md-4 col-sm-6 text-center">
-				<a href="/map/" class="fancy-button pop-onhover bg-btn-main-l" style="margin: 15px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Как добраться</span></a>
-			</div>
+	    <div class="container text-center" style="margin-top: -20px; margin-bottom: 10px;">
+	    	<a href="https://forms.gle/RtuBA97W9YhmCqKPA" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Опросник</span></a>
+			<a href="../jobs/" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Вакансии</span></a>
+			<a href="https://www.patreon.com/datafest" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Patreon</span></a>
+			<a href="./" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px; opacity: 0.5;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">&nbsp;<div style="margin-top: -26px; position: absolute; text-align: center; width: 80%; color: #fff">Фото<br><p style="font-size: 60%; color: #ffffff; margin-top: -5px;">(в конце опроса)</p></div></a>
+	    </div>
+	    <div class="container" style="margin-bottom: 50px;">
+			<div class="text-center col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	    		<h2>
+	    			Наши следующие мероприятия:
+				</h2>
+				<ul class="ods-main-ul" style="margin-top: 20px;">
+					<li>
+						<h4>
+							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="ods_emoji em_tada" style="margin-bottom: -1px;"></div></span></div>
+							<div class="ods-main-ul-txt"><b>31 августа</b>, суббота: Moscow Data Science Major. Это мини-Фест от нашей команды, который проходит в Mail.Ru Group.</div>
+						</h4>
+					</li>
+					<li>
+						<h4>
+							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="em_fireball" style="margin-bottom: -1px;"></div></span></div>
+							<div class="ods-main-ul-txt"><b>28 сентября</b>, суббота: Data Fest Siberia²! Мы вновь соберем всю Сибирь и топовую научно-инженерную программу на Фесте в Новосибирске.</div>
+						</h4>
+					</li>		
+					<li>
+						<h4>
+							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="ods_emoji em_homer" style="margin-bottom: -1px;"></div></span></div>
+							<div class="ods-main-ul-txt"><b>май 2020</b>: Data Fest<sup>7</sup> - Data Fest поколесит по миру и вновь вернется в Москву! Подробности в конце осени.</div>
+						</h4>
+					</li>		 
+				</ul>
+	    	</div>
 	    </div>
 	    <div class="container">
 			<div class="col-md-6" style="margin-bottom: 15px;">				
@@ -296,17 +358,27 @@
 							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="em_fireball" style="margin-bottom: -1px;"></div></span></div>
 							<div class="ods-main-ul-txt"><b>11 мая</b>, суббота: научный день, все самые горячие исследовательские и инженерные темы, воркшопы, а также новые форматы сообщества!</div>
 						</h4>
-					</li>			 
+					</li>		
+					<li>
+						<h4>
+							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="em_fireball" style="margin-bottom: -1px; opacity: 0;"></div></span></div>
+							<div class="ods-main-ul-txt">Записи трансляций и презентации, которыми разрешили поделиться, уже доступны: </div>
+						</h4>
+					</li>		 
 				</ul>
-				<div style="margin-left: 25px; margin-top: -5px;" class="hidden-xs hidden-sm">
-					<a href="https://goo.gl/forms/K1N24b57yXpME8qF2" class="fancy-button pop-onhover bg-btn-main-l"><span style="font-size: 130%; padding: 25px 50px;">Регистрация</span></a>
+				<div style="margin-left: 48px; margin-top: 15px;" class="hidden-xs hidden-sm">
+					<a href="https://goo.gl/forms/K1N24b57yXpME8qF2" class="fancy-button pop-onhover bg-btn-main-l" style=" display: none;"><span style="font-size: 130%; padding: 25px 50px;">Регистрация</span></a>
+					<a href="https://www.youtube.com/channel/UCM9ECBAZtlLeEr-m3ldZ7Tw/videos" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Трансляция</span></a>
+					<a href="https://drive.google.com/drive/folders/1LOmOoh1WLqmhSqTKjvdOQx-YOTyBgG-i" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Презентации</span></a>
 				</div>
 			</div>
 			<div class="col-md-6 hidden-xs hidden-sm" style="text-align: right;">
 				<img src="static/img/design/fest-collage-small.jpg" class="header-logo collage" style="width: 100%; height: auto; max-height: 430px; max-width: 480px;">
 			</div>
 			<div style="margin-left: 25px; margin-top: -5px;" class="hidden-md hidden-lg text-center">
-				<a href="https://goo.gl/forms/K1N24b57yXpME8qF2" class="fancy-button pop-onhover bg-btn-main-l"><span style="font-size: 130%; padding: 25px 50px;">Регистрация</span></a>
+				<a href="https://goo.gl/forms/K1N24b57yXpME8qF2" class="fancy-button pop-onhover bg-btn-main-l" style="display: none;"><span style="font-size: 130%; padding: 25px 50px;">Регистрация</span></a>
+				<a href="https://www.youtube.com/channel/UCM9ECBAZtlLeEr-m3ldZ7Tw/videos" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Трансляция</span></a>
+					<a href="https://drive.google.com/drive/folders/1LOmOoh1WLqmhSqTKjvdOQx-YOTyBgG-i" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 100%; padding: 20px 20px;min-width: 220px;">Презентации</span></a>
 			</div>
 	    </div>
 	</div>

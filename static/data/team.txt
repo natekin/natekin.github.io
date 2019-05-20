@@ -49,7 +49,421 @@
             "photo": "af",
             "display": 1
         }
-    ], 
+    ],  "vol": [        
+        {
+            "name": "Fest-bot",
+            "order": 3,
+            "org": "Стас<br>Гафаров",
+            "photo": "sg",
+            "display": 1
+        },
+        {
+            "name": "Fest-bot",
+            "order": 3,
+            "org": "Павел<br>Шевченко",
+            "photo": "ps",
+            "display": 1
+        },
+        {
+            "name": "Fest-bot",
+            "order": 3,
+            "org": "Михаил<br>Свешников",
+            "photo": "ms",
+            "display": 1
+        },
+        {
+            "name": "Mass-отслушка",
+            "order": 3,
+            "org": "Тимур<br>Охинько",
+            "photo": "to",
+            "display": 1
+        },
+        {
+            "name": "Head of security",
+            "order": 3,
+            "org": "Сергей<br>Брянский",
+            "photo": "sb2",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Александр<br>Иванов",
+            "photo": "vol/Александр Иванов1",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Александр<br>Салынский",
+            "photo": "vol/Александр Салынский",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Александра<br>Дахина",
+            "photo": "vol/Александра Дахина",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Алексей<br>Троицкий",
+            "photo": "vol/Алексей Троицкий",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Андрей<br>Варкентин",
+            "photo": "vol/Андрей Варкентин",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Андрей<br>Тоток",
+            "photo": "vol/Андрей Тоток",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Анна<br>Смагина",
+            "photo": "vol/Анна Смагина",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Артём<br>Никитин",
+            "photo": "vol/Артём Никитин",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Артём<br>Чевычелов",
+            "photo": "vol/Артём Чевычелов",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Владимир<br>Семеновых",
+            "photo": "vol/Владимир Семеновых",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Гасанов<br>Юнус",
+            "photo": "vol/Гасанов Юнус",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Дарья<br>Лукаш",
+            "photo": "vol/Дарья Лукаш",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Евгений<br>Белозерских",
+            "photo": "vol/Евгений Белозерских",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Евгения<br>Кретова",
+            "photo": "vol/Евгения Кретова",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Егор<br>Урванов",
+            "photo": "vol/Егор Урванов",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Егор<br>Швецов",
+            "photo": "vol/Егор Швецов",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Ильдар<br>Белялов",
+            "photo": "vol/Ильдар Белялов",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Карина<br>Гафарова",
+            "photo": "vol/Карина Гафарова",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Магомедали<br>Гасанзаде",
+            "photo": "vol/Магомедали Гасанзаде",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Максим<br>Попилин",
+            "photo": "vol/Максим Попилин",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Мария<br>Потапова",
+            "photo": "vol/Мария Потапова",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Нина<br>Шевченко",
+            "photo": "vol/Нина Шевченко",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Павел<br>Семенов",
+            "photo": "vol/Павел Семенов",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Реваз<br>Гергедава",
+            "photo": "vol/Реваз Гергедава",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Ренат<br>Сембаев",
+            "photo": "vol/Ренат Сембаев",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Родион<br>Трегубов",
+            "photo": "vol/Родион Трегубов",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Роман<br>Черёмухин",
+            "photo": "vol/Роман Черёмухин",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Света<br>Калинина",
+            "photo": "vol/Света Калинина",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Святослав<br>Гулаков",
+            "photo": "vol/Святослав Гулаков",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Сергей<br>Емельянов",
+            "photo": "vol/Сергей Емельянов",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "София<br>Кириллова",
+            "photo": "vol/София Кириллова",
+            "display": 1
+        },
+        {
+            "name": "Волонтер",
+            "order": 1,
+            "org": "Станислав<br>Коленский",
+            "photo": "vol/Станислав Коленский",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Алексей<br>Когай",
+            "photo": "listen/Алексей Когай",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Андрей<br>Белоусов",
+            "photo": "listen/Андрей Белоусов",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Андрей<br>Кузнецов",
+            "photo": "listen/Андрей Кузнецов",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Антон<br>Кудинов",
+            "photo": "listen/Антон Кудинов",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Антон<br>Ставинский",
+            "photo": "listen/Антон Ставинский",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Артём<br>Золкин",
+            "photo": "listen/Артём Золкин",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Артём<br>Церех",
+            "photo": "listen/Артём Церех",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Валерия<br>Радзивон",
+            "photo": "listen/Валерия Радзивон",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Даша<br>Сердюк",
+            "photo": "listen/Даша Сердюк",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Дмитрий<br>Блеклов",
+            "photo": "listen/Дмитрий Блеклов",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Дмитрий<br>Колодезев",
+            "photo": "listen/Дмитрий Колодезев",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Егор<br>Проходцев",
+            "photo": "listen/Егор Проходцев",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Екатерина<br>Урванова",
+            "photo": "listen/Екатерина Урванова",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Илья<br>Богунов",
+            "photo": "listen/Илья Богунов",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Константин<br>Кузминов",
+            "photo": "listen/Константин Кузминов",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Марина<br>Пожидаева",
+            "photo": "listen/Марина Пожидаева",
+            "display": 1
+        },        
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Николай<br>Карелин",
+            "photo": "listen/Николай Карелин",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Олег<br>Поливин",
+            "photo": "listen/Олег Поливин",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Оля<br>Козлова",
+            "photo": "listen/Оля Козлова",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Сергей<br>Устьянцев",
+            "photo": "listen/Сергей Устьянцев",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Филиппов<br>Игорь",
+            "photo": "listen/Филиппов Игорь",
+            "display": 1
+        },
+        {
+            "name": "Отслушка",
+            "order": 1,
+            "org": "Юрий<br>Гаврилин",
+            "photo": "listen/Юрий Гаврилин",
+            "display": 1
+        }
+    ],          
     "section": [
         {
             "name": "ML economics, Mythbusters",
@@ -234,6 +648,13 @@
             "display": 1
         },
         {
+            "name": "Fit ML",
+            "order": 400,
+            "org": "Дмитрий Коробченко",
+            "photo": "dk",
+            "display": 1
+        },
+        {
             "name": "Failconf",
             "order": 224,
             "org": "Арсений<br>Кравченко",
@@ -353,24 +774,10 @@
             "display": 1
         },
         {
-            "name": "Head of security",
-            "order": 3,
-            "org": "Сергей<br>Брянский",
-            "photo": "sb2",
-            "display": 1
-        },
-        {
             "name": "Сетка секций и Main Stage",
             "order": 400,
             "org": "Алексей<br>Натекин",
             "photo": "an",
-            "display": 1
-        },
-        {
-            "name": "Следите за обновлениями!",
-            "order": 400,
-            "org": "Список будет пополняться",
-            "photo": "xxx",
             "display": 1
         }
     ]
