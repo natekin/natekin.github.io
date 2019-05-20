@@ -425,7 +425,7 @@
             "name": "Отслушка",
             "order": 1,
             "org": "Николай<br>Карелин",
-            "photo": "listen/Николай Карелин111",
+            "photo": "listen/nk111",
             "display": 1
         },
         {
