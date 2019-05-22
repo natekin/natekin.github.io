@@ -70,6 +70,13 @@
             "org": "Тимур<br>Охинько",
             "photo": "to",
             "display": 1
+        },           
+        {
+            "name": "Mass-прослушивания",
+            "order": 3,
+            "org": "Антон<br>Лебедевич",
+            "photo": "al",
+            "display": 1
         },        
         {
             "name": "Head of security",
@@ -319,6 +326,13 @@
         {
             "name": "Прослушивания",
             "order": 1,
+            "org": "Алексей<br>Смирнов",
+            "photo": "listen/Алексей Смирнов",
+            "display": 1
+        },
+        {
+            "name": "Прослушивания",
+            "order": 1,
             "org": "Андрей<br>Белоусов",
             "photo": "listen/Андрей Белоусов",
             "display": 1
@@ -328,6 +342,13 @@
             "order": 1,
             "org": "Андрей<br>Кузнецов",
             "photo": "listen/Андрей Кузнецов",
+            "display": 1
+        },
+        {
+            "name": "Прослушивания",
+            "order": 1,
+            "org": "Андрей<br>Малахов",
+            "photo": "listen/Андрей Малахов",
             "display": 1
         },
         {
@@ -403,6 +424,13 @@
         {
             "name": "Прослушивания",
             "order": 1,
+            "org": "Иван<br>Хомяков",
+            "photo": "listen/Иван Хомяков",
+            "display": 1
+        },
+        {
+            "name": "Прослушивания",
+            "order": 1,
             "org": "Илья<br>Богунов",
             "photo": "listen/Илья Богунов",
             "display": 1
@@ -426,6 +454,13 @@
             "order": 1,
             "org": "Николай<br>Карелин",
             "photo": "listen/nk111",
+            "display": 1
+        },        
+        {
+            "name": "Прослушивания",
+            "order": 1,
+            "org": "Николай<br>Марков",
+            "photo": "listen/Николай Марков",
             "display": 1
         },
         {
