@@ -118,8 +118,8 @@
 		        if(!(row.content.description === "")){
 		        	var desc_container = '<div class="video_description_container"><div class="video_description">' + row.content.description + '</div></div>';
 		        	var desc_toggles = '<div class="video_extend_expand_container">' + 
-		        		'<h6 class="video_description_expand">развернуть</h6>' + 
-		        		'<h6 class="video_description_shrink" style="display: none;">свернуть</h6>' + 
+		        		'<h6 class="video_description_expand">expand</h6>' + 
+		        		'<h6 class="video_description_shrink" style="display: none;">collapse</h6>' + 
 		        		'</div>';
 		        	content_more = desc_container + desc_toggles;
 		        }
@@ -133,10 +133,7 @@
 				"autoWidth": false,
 				"deferRender": true,
 				"responsive": true,
-				"lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "Все"]],				
-				"language": {
-		            "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Russian.json"
-		        },
+				"lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "Все"]],
 		        "columns": [
 		            { "data": "event.date" },
 		            { "data": "event.name" },

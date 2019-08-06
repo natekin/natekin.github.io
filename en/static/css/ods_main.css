@@ -1,0 +1,656 @@
+/* MAIN STUFF*/
+
+body{
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, select, textarea, label, div, .title, .attachment-span, .progress{
+    font-family: "Open Sans"!important; font-style: normal!important; font-variant: normal!important; 
+    color: #000;
+}
+
+/*general purpose links*/
+
+h4 a{   
+    font-weight: 300;
+    color: rgb(60, 72, 88);
+    border-bottom: 2px solid #ff6f61;
+}
+
+h4 a:hover, h4 a:focus, h4 a:visited, h4 a:active {
+    /*font-weight: 400;*/
+    text-shadow: 0 0.25px 0px #000, 0px -0.25px 0px #000, -0.25px 0px 0px #000, 0.25px 0px 0px #000;
+    color: #000!important;
+}
+
+
+
+/* HEADER AND FOOTER SECTIONS */
+.header{    
+    padding-bottom: 80px; 
+    min-height: 600px; 
+}
+
+.header-logo{
+    width: auto; 
+    height: 100%; 
+    max-height: 180px; 
+    margin-top: -7px;
+}
+
+/*logo patch*/
+.header-logo{
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    transition: all 0.15s ease-out;
+    cursor: pointer;
+    will-change: transform, filter;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.header-logo:hover{
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+        
+      transition: all 0.15s ease-out;
+}
+
+.header h1{
+    margin-top: -15px;
+}
+
+.header h4{
+    padding: 0 10px; 
+    margin-top: 30px;
+}
+
+.footer{
+    background: #fff; 
+    position: relative;
+}
+
+.footer .container{
+    height: 320px;
+}
+
+.footer h3{
+    margin-top: -5px; 
+    line-height: 1.1;
+}
+
+.footer h4{
+    margin-top: 5px; 
+    line-height: 1.2; 
+    margin-bottom: 30px;
+}
+
+
+
+/* HEADER BG DECORATIONS */
+
+.ods-header{    
+    max-width: 600px;
+    margin: 0 auto;     
+    background: #fff;
+    margin-top: 10px;
+    z-index: 1111;
+}
+
+.ods-bg-new{
+    position: absolute; 
+    width: calc(50% - 320px); 
+    max-width: 500px;
+    height: 520px;
+    margin-top: 60px;
+    top: 0px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /*background: rgba(255, 0, 0, 0.5);*/   
+}
+
+.header-bg-right{
+    right: 0px; 
+    background-image: url('../img/design/ods-hed-r-6-compressor.png'); 
+    background-position: center left;
+}
+
+.header-bg-left{
+    left: 0px; 
+    background-image: url('../img/design/ods-hed-l-6-compressor.png'); 
+    background-position: center right;
+}
+
+.footer-bg-right{
+    max-width: 250px; 
+    top: inherit; 
+    bottom: 0px; 
+    margin: 0px; 
+    right: 0px; 
+    background-image: url('../img/design/ods-bot-r2-6-compressor.png'); 
+    background-position: bottom left;
+}
+
+.footer-bg-left{
+    max-width: 250px; 
+    top: inherit; 
+    bottom: 0px; 
+    margin: 0px; 
+    left: 0px; 
+    background-image: url('../img/design/ods-bot-l2-6-compressor.png'); 
+    background-position: bottom right;
+}
+
+
+
+/*NAVIGATION FIXES*/
+
+.navbar .container{
+    margin-top: -10px;
+}
+
+.navbar .navbar-toggle .icon-bar{
+    color: #ef645e;
+}
+
+.nav-icon{
+    vertical-align: -0.15em;
+    font-size: 20px;
+}
+
+.navbar.navbar-primary .dropdown-menu .active>a {
+    background: transparent;
+    text-shadow: .5px .5px 0px #3c3839;
+    box-shadow: none;
+    color: #3c3839;
+}
+
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus, .navbar .navbar-collapse .open .dropdown-menu>li>a:hover {
+    background: #eee!important;
+    /*text-shadow: .5px .5px 0px #3c3839!important;*/
+    box-shadow: none;
+    color: #3c3839!important;
+}
+
+.dropdown-menu li > a{
+    padding: 10px 15px;
+}
+
+.navbar .navbar-nav > li.open > .dropdown-menu {
+    margin-top: -4px;
+}
+
+.navbar .navbar-nav .caret {
+    margin-top: -2px;
+}
+
+.nav-logo{
+    width: 160px; 
+    height: 40px; 
+    margin-top: 5px; 
+    margin-left: -12px;
+}
+
+.navbar-brand{
+    padding: 0px 15px!important;
+}
+/*
+.dropdown-menu .nav-span{
+    margin-left: 5px;
+}
+*/
+.ods-nav{
+    height: 30px; 
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+
+
+
+
+/*ICONS AND EMOJI*/
+
+.ods-emoji{
+    width: auto;
+    height: 23px;
+    display: inline-block;
+    margin-top: -2px;
+    margin-right: 2px;
+    margin-left: -1px;
+}
+
+.fa-lg{
+    margin: 0px 2px;
+}
+
+.ods-social-container{
+    width: 25px; 
+    height: 25px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin: 1px 1px; 
+    vertical-align: middle;
+}
+
+.ods-social-fab{
+    color: #fff; 
+    font-size: 19px; 
+    vertical-align: middle; 
+    margin-top: 1px;
+}
+
+/*logo patch*/
+.ods-social-container{
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    transition: all 0.15s ease-out;
+    cursor: pointer;
+    will-change: transform, filter;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.ods-social-container:hover{
+    -webkit-transform: scale(1.14);
+            transform: scale(1.14);
+        
+      transition: all 0.15s ease-out;
+}
+
+
+
+
+
+
+/* LISTS FOR HEADER AND OTHER CONTENT */
+
+.ods-main-ul{
+    text-align: left; 
+    margin-left: -25px;
+    margin-top: 15px;
+}
+
+.ods-main-ul h4{
+    margin-top: 10px;
+}
+
+.ods-main-ul li{
+    list-style-type: none; 
+    margin-top: 15px;
+}
+
+.ods-main-ul li .nav-icon{
+    margin-right: 6px;
+    font-size: 28px;
+}
+
+.ods-main-ul-sep{
+    display: inline-block; 
+    vertical-align: top; 
+    width: 35px;    
+}
+
+.ods-main-ul-txt{
+    display: inline-block; 
+    vertical-align: top; 
+    width: calc(100% - 50px);
+}
+
+
+
+
+
+/* BUTTONS */
+.button--moema {
+  padding: 1.5em 3em;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.more_button{
+  color: #785cb4; 
+}
+
+.more_button:hover{
+  color: #ffffff;
+}
+
+
+.epic-button{
+    background: linear-gradient(135deg, rgba(255,101,66,1) 0%, rgba(255,0,132,1) 100%)!important; 
+    color: #fff; 
+    font-size: 18px;
+    padding: 30px 60px;
+    border-radius: 72px;
+}
+
+
+
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 991px) {
+ 
+}
+
+
+@media (max-width: 768px) {
+    .epic-button{
+        font-size: 14px;
+        padding: 14px 28px;
+    }
+
+    .navbar .navbar-collapse .open .dropdown-menu > li > a {
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar .navbar-nav .caret {
+        margin-top: 11px;
+    }
+
+    .nav-open .navbar-collapse {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+}
+@media (max-width: 600px) {
+    
+}
+
+
+
+
+
+/* fancy Button */
+
+.bg-btn-main-l span, .bg-btn-main-l:before {
+    color: #fff;
+    background: #ef645e;
+    background-image: linear-gradient(45deg, #ef645e, #eb1e6f);
+}
+
+.bg-btn-main-r span, .bg-btn-main-r:before {
+    color: #fff;
+    background: #ef645e;
+    background-image: linear-gradient(215deg, #ef645e, #eb1e6f);
+}
+
+.fancy-button {
+  display: inline-block;
+  margin: 30px;  
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;  
+}
+.fancy-button:before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  z-index: -1;
+  border-radius: 5px;
+  -webkit-filter: blur(20px) brightness(0.95);
+          filter: blur(20px) brightness(0.95);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.3s ease-out;
+}
+.fancy-button span {
+  font-weight: 400;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+  will-change: transform, filter;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.3s ease-out;
+}
+.fancy-button:focus, .fancy-button:active, .fancy-button:hover {
+  color: #ffffff;
+}
+.fancy-button.pop-onhover:before {
+  opacity: 0;
+  bottom: 10px;
+}
+.fancy-button.pop-onhover:hover:before {
+  bottom: -7px;
+  opacity: 1;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+.fancy-button.pop-onhover:hover span {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+.fancy-button.pop-onhover:hover:active span {
+  -webkit-filter: brightness(1) contrast(1);
+          filter: brightness(1) contrast(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: all 0.15s ease-out;
+}
+.fancy-button.pop-onhover:hover:active:before {
+  bottom: 0;
+  -webkit-filter: blur(10px) brightness(0.95);
+          filter: blur(10px) brightness(0.95);
+  transition: all 0.2s ease-out;
+}
+
+
+
+
+
+
+
+/*EMOJI SPRITES*/
+.ods_emoji{
+    background: url(../img/design/ods_emoji_icons_upd.png?v=1.2); 
+    width: 25px; 
+    height: 25px; 
+    margin: 0; 
+    background-size: 300px 150px; 
+    display: inline-block; 
+    margin-bottom: -4px;
+    margin-right: 2px;
+}
+
+.em_catshake{
+    background: url(../img/design/ods_emoji_shake.gif); 
+    width: 25px; 
+    height: 25px; 
+    margin: 0; 
+    background-size: 25px 25px; 
+    display: inline-block; 
+    margin-bottom: -4px;
+    margin-right: 2px;
+}
+
+.em_fireball{
+    background: url(../img/design/ods_emoji_fireball.gif); 
+    width: 25px; 
+    height: 25px; 
+    margin: 0; 
+    background-size: 25px 25px; 
+    display: inline-block; 
+    margin-bottom: -4px;
+    margin-right: 2px;
+}
+
+.em_top{
+    background-position: 0px 0px;
+}
+
+.em_calendar{
+    background-position: -25px 0px;
+}
+
+.em_popcorn{
+    background-position: -50px 0px;
+}
+
+.em_bot{
+    background-position: 0px -25px;
+}
+
+.em_homer{
+    background-position: -25px -25px;
+}
+
+.em_tada{
+    background-position: -50px -25px;
+}
+
+.em_search{
+    background-position: 0px -50px;
+}
+
+.em_telebot{
+    background-position: -25px -50px;
+}
+
+.em_movie{
+    background-position: -50px -50px;
+}
+
+.em_100{
+    background-position: 0px -75px;
+}
+
+.em_terminator{
+    background-position: -25px -75px;
+}
+
+.em_diamond{
+    background-position: -50px -75px;
+}
+
+.em_fire{
+    background-position: 0px -100px;
+}
+
+.em_muscle{
+    background-position: -25px -100px;
+}
+
+.em_faq{
+    background-position: -50px -100px;
+}
+
+.em_flag_ru{
+    background-position: 0px -125px;
+}
+
+.em_flag_ua{
+    background-position: -25px -125px;
+}
+
+.em_flag_gb{
+    background-position: -50px -125px;
+}
+
+.em_slack{
+    background-position: -75px 0px;
+}
+
+.em_map{
+    background-position: -75px -25px;
+}
+
+.em_partner{
+    background-position: -75px -50px;
+}
+
+.em_job{
+    background-position: -75px -100px;
+}
+
+.em_ru_dt{
+    background: url(../img/design/ods_emoji_icons.png); 
+    width: 18px; 
+    height: 18px; 
+    margin: 0; 
+    background-size: 216px 108px; 
+    background-position: 0px -90px;
+    display: inline-block; 
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.em_ua_dt{
+    background: url(../img/design/ods_emoji_icons.png); 
+    width: 18px; 
+    height: 18px; 
+    margin: 0; 
+    background-size: 216px 108px; 
+    background-position: -18px -90px;
+    display: inline-block; 
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.em_gb_dt{
+    background: url(../img/design/ods_emoji_icons.png); 
+    width: 18px; 
+    height: 18px; 
+    margin: 0; 
+    background-size: 216px 108px; 
+    background-position: -36px -90px;
+    display: inline-block; 
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+
+/*team page*/
+
+.team_block{
+    margin: 10px 5px; 
+    display: inline-block; 
+    width: 130px; 
+    height: auto; 
+    vertical-align: top;
+}
+
+.team_block img{
+    display: inline-block;
+    width: 80px;
+    height: 80px; 
+    border-radius: 50px; 
+    margin-bottom: 20px;
+}
+
+.team_block h5{
+    margin-top: -5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    white-space: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

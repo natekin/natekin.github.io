@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+	<!-- TITLE OF SITE -->
+	<title>31 августа, Moscow Data Science Major</title>
+
+	<!-- META DATA -->
+	<meta name="description" content="Крупнейшая Data Science конференция Сибири" />
+	<meta name="keywords" content="data, fest, data fest, data science, big data, machine learning, ai, ml, ds, dl, deep learning, artificial intelligence" />
+	<meta name="author" content="Open Data Science ods.ai">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!--
+	<meta property="og:image" content="http://datafest.ru/images/vk_fest.png"/>
+	-->
+	<link rel="apple-touch-icon" sizes="57x57" href="static/img/fav/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="static/img/fav/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="static/img/fav/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="static/img/fav/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="static/img/fav/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="static/img/fav/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="static/img/fav/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="static/img/fav/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/img/fav/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="static/img/fav/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/img/fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="static/img/fav/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/img/fav/favicon-16x16.png">
+	<link rel="manifest" href="static/img/fav/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="static/img/fav/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400i,500,600,700,800" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
+
+	<!-- CSS Files -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="static/css/material-kit.css?v=1.3" rel="stylesheet"/>
+    <link href="static/css/dataTables.material.css" rel="stylesheet"/>
+    <link href="static/css/ods_main.css?v=2.4.2" rel="stylesheet"/>
+
+
+</head>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter42489204 = new Ya.Metrika({
+                    id:42489204,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/42489204" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<style type="text/css">
+
+
+.header{
+	height: 300px;
+	min-height: 300px;
+	padding: 50px;
+	/*background-color: #bada55;*/
+	background-image: url(static/img/design/bg-major-14-compressor.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;		
+	vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.round_bottom {
+    border-radius: 0 0 100vw 100vw/0 0 100px 100px;
+}
+
+.ods-header{
+	background-color: transparent;
+}
+
+.header-logo{
+	vertical-align: middle;
+}
+
+.bg-btn-main-s span, .bg-btn-main-s:before {
+    color: #fff;
+    background: #40894d;
+    background-image: linear-gradient(45deg, #40894d, #195e2f);
+}
+
+
+
+
+
+
+
+
+.red .gradient-box:before, .red .bg-btn-main-l span, .red .bg-btn-main-l:before  {
+    background: #ec2024;
+}
+
+.gold .gradient-box:before, .gold .bg-btn-main-l span, .gold .bg-btn-main-l:before  {
+    background: #f9cb31;
+}
+
+.grey1 .gradient-box:before, .grey1 .bg-btn-main-l span, .grey1 .bg-btn-main-l:before  {
+    background: #acacac;
+}
+
+.grey2 .gradient-box:before, .grey2 .bg-btn-main-l span, .grey2 .bg-btn-main-l:before  {
+    background: #575757;
+}
+
+.blue1 .gradient-box:before, .blue1 .bg-btn-main-l span, .blue1 .bg-btn-main-l:before  {
+    background: #336eb6;
+}
+
+.blue2 .gradient-box:before, .blue2 .bg-btn-main-l span, .blue2 .bg-btn-main-l:before  {
+    background: #48baeb;
+}
+
+.green1 .gradient-box:before, .green1 .bg-btn-main-l span, .green1 .bg-btn-main-l:before  {
+    background: #195e2f;
+}
+
+.green2 .gradient-box:before, .green2 .bg-btn-main-l span, .green2 .bg-btn-main-l:before  {
+    background: #189818;
+}
+
+.orange1 .gradient-box:before, .orange1 .bg-btn-main-l span, .orange1 .bg-btn-main-l:before  {
+    background: #ef9043;
+}
+
+.orange2 .gradient-box:before, .orange2 .bg-btn-main-l span, .orange2 .bg-btn-main-l:before  {
+    background: #ef4927;
+}
+
+.magenta .gradient-box:before, .magenta .bg-btn-main-l span, .magenta .bg-btn-main-l:before  {
+    background: #ee2858;
+}
+
+.section-container{
+	margin-bottom: 0px; 
+	margin-top: 10px; 
+	display: inline-block; 
+	width: 250px; 
+	padding: 10px;
+}
+
+.gradient-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -4px;
+    border-radius: inherit;
+}
+
+.gradient-box {
+	min-height: 150px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    background: #fff;
+    background-clip: padding-box;
+    border: solid 5px transparent;
+    border-radius: 1em;
+}
+
+.gradient-box h4{
+	margin-top: 12px; 
+	font-size: 22px;
+}
+
+.gradient-box h5{
+	margin-top: -5px; 
+	font-size: 14px; 
+	padding: 0px 10px;
+}
+
+@media (max-width: 550px) {
+	.section-container{
+		width: 90%; 
+	}
+	.gradient-box {
+		min-height: 50px;
+	}
+}
+
+
+</style>
+
+<body>
+	<nav class="navbar navbar-transparentt navbar-fixed-top navbar-color-on-scrolll ods-nav" color-on-scrolll="100">
+    	<div class="container">
+    		<div class="navbar-header" >
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<!--<a class="navbar-brand" href="http://ods.ai"><img src="static/img/ods_logo_wide.svg" class="nav-logo"></a>-->
+        		<a class="navbar-brand" href="../"><img src="static/img/df_logo_wide.svg" class="nav-logo"></a>
+        	</div>
+
+        	<div class="collapse navbar-collapse">
+        		<ul class="nav navbar-nav navbar-right">
+        			<li class="hidden-md hidden-lg hidden-sm">
+						<a href="../">             
+	                		<span class="nav-icon">
+	                			<div style="background: url(../static/img/fest-logo.svg); background-size: 25px; width: 25px; height: 25px; display: inline-block; margin-bottom: -4px; margin-right: 1px;"></div>
+	                		</span> 
+							<span>Главная Data Fest</span>
+	    	            </a>
+					</li>
+					<li>
+						<div style="margin-top: 12px;" class="hidden-xs">
+							<a href="https://opendatascience.slack.com/messages/data_fest/" style="padding: 5px;">
+								<div class="ods-social-container text-center" style="background:#461b47;"><span class="nav-icon"><div class="ods_emoji em_slack" style="margin-bottom: -1px; transform: scale(0.85);"></div></span></div>
+							</a>
+						</div>
+						<a href="https://opendatascience.slack.com/messages/data_fest/" style="padding: 5px; padding-left: 13px;" class="hidden-md hidden-lg hidden-sm">
+							<div class="ods-social-container text-center" style="background:#461b47;"><span class="nav-icon"><div class="ods_emoji em_slack" style="margin-bottom: -1px; transform: scale(0.85);"></div></span></div>
+							<span style="padding-left: 3px;">ODS #slack</span>
+						</a>
+					</li>					
+					<li>
+						<div style="margin-top: 12px;" class="hidden-xs">
+							<a href="https://t.me/ods_ru" style="padding: 5px;">
+								<div class="ods-social-container text-center" style="background:#00ade9;"><i class="fab fa-telegram-plane ods-social-fab" style="margin-left: -2px; margin-top: -2px;"></i></div>
+							</a>
+						</div>
+						<a href="https://t.me/ods_ru" style="padding: 5px; padding-left: 13px;" class="hidden-md hidden-lg hidden-sm">
+							<div class="ods-social-container text-center" style="background:#00ade9;"><i class="fab fa-telegram-plane ods-social-fab" style="margin-left: -2px; "></i></div>
+							<span style="padding-left: 3px;">Data Fest telegram</span>
+						</a>
+					</li>
+
+
+					<li>
+						<div style="margin-top: 12px;" class="hidden-xs">
+							<a href="https://vk.com/datafest" style="padding: 5px;">
+								<div class="ods-social-container text-center" style="background:#4c75a3;"><i class="fab fa-vk ods-social-fab" style="margin-left: -1px; margin-top: -2px;"></i></div>
+							</a>
+						</div>
+						<a href="https://vk.com/datafest" style="padding: 5px; padding-left: 13px;" class="hidden-md hidden-lg hidden-sm">
+							<div class="ods-social-container text-center" style="background:#4c75a3;"><i class="fab fa-vk ods-social-fab" style="margin-left: -1px;"></i></div>
+							<span style="padding-left: 3px;">Data Fest vk</span>
+						</a>
+					</li>
+
+					<li>
+						<div style="margin-top: 12px;" class="hidden-xs">
+							<a href="https://www.patreon.com/datafest" style="padding: 5px;">
+								<div class="ods-social-container text-center" style="background:#f96854;"><i class="fab fa-patreon ods-social-fab" style="margin-left: 1px; margin-top: -1px;"></i></div>
+							</a>
+						</div>
+						<a href="https://www.patreon.com/datafest" style="padding: 5px; padding-left: 13px;" class="hidden-md hidden-lg hidden-sm">
+							<div class="ods-social-container text-center" style="background:#f96854;"><i class="fab fa-patreon ods-social-fab" style="margin-left: 1px; "></i></div>
+							<span style="padding-left: 3px;">Patreon & merch</span>
+						</a>
+					</li>
+
+					<li>
+						<div style="margin-top: 12px;" class="hidden-xs">
+							<a href="https://www.youtube.com/channel/UCM9ECBAZtlLeEr-m3ldZ7Tw?view_as=subscriber" style="padding: 5px;">
+								<div class="ods-social-container text-center" style="background:red;"><i class="fas fa-play ods-social-fab" style="margin-left: 0px; margin-top: -2px; font-size: 11px;"></i></div>
+							</a>
+						</div>
+						<a href="https://www.youtube.com/channel/UCM9ECBAZtlLeEr-m3ldZ7Tw?view_as=subscriber" style="padding: 5px; padding-left: 13px;" class="hidden-md hidden-lg hidden-sm">
+							<div class="ods-social-container text-center" style="background:red;"><i class="fas fa-play ods-social-fab" style="margin-left: 0px; font-size: 11px;"></i></div>
+							<span style="padding-left: 3px;">Data Fest youtube</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://corp.mail.ru/ru/press/events/624/" class="fancy-button pop-onhover bg-btn-main-l text-center" style="margin: 8px; padding: 0;">
+							<span style="font-size: 120%; padding: 8px 25px; line-height: 18px; font-weight: 500;">Регистрация</span>
+						</a>
+					</li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+
+
+    <div class="section header round_bottom text-center">    	
+		<img src="static/img/design/logo-major-compressor.png" class="header-logo" style="min-height: 300px; margin-top: 30px;">	    	
+    </div>
+    
+	<div style="padding-bottom: 100px; margin-top: 55px; ">
+		<div class="container text-center" style="max-width: 460px;">
+	    	
+	    	<h1 style="margin-bottom: 0px;">Moscow Data Science Major</h1>
+	    	<h3 style="margin-top: 5px; margin-bottom: 20px;">31 августа, офис Mail.ru Group</h3>
+	    	
+
+    	<div class="ods-bg-new hidden-xs header-bg-right" style="margin-top: 80px;"></div>
+	    <div class="ods-bg-new hidden-xs header-bg-left"  style="margin-top: 80px;"></div>
+		
+		</div>
+
+
+	    <div class="container">
+	    	<div class="col-md-12 text-center " style="margin-bottom: 30px; margin-top: 0px;">			
+				<a href="http://ods.ai"><div style="margin: 0px 10px; display: inline-block; width: 160px; height: 70px;">
+					<img src="static/img/ods_logo_wide.svg" style="width: 100%; height: auto;">
+				</div></a> 
+				<img src="static/img/partners/and_connect.png" style="width: 30px; height: auto;">
+				<a href="https://corp.mail.ru/ru/"><div style="margin: 0px 10px; display: inline-block; width: 160px; height: 70px;">
+					<img src="static/img/partners/mrg-logo.png" style="width: 100%; height: auto;">
+				</div></a>
+				<h3 style="line-height: 1.5; margin-top: 0px;">представляют:</h3>
+			</div>
+
+			<div class="col-md-6" style="margin-bottom: 15px;">		
+				<h3 style="margin-top: 0px; text-align: center;">Осенний мини Data Fest</h3>		
+                <h4 style="margin-top: 0px; ">
+                	Встречаем новый учебный год ударной дозой Data Science. Почти как Data Fest, только в гостях и чуть почаще:
+				</h4>
+
+                <ul class="ods-main-ul" style="margin-top: 20px;">
+					<li>
+						<h4>
+							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="ods_emoji em_top" style="margin-bottom: -1px;"></div></span></div>
+							<div class="ods-main-ul-txt">Топовые спикеры и доклады, никакого буллшита</div>
+						</h4>
+					</li>
+					<li>
+						<h4>
+							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="em_fireball" style="margin-bottom: -1px;"></div></span></div>
+							<div class="ods-main-ul-txt">Море новых знаний, скиллов и знакомств</div>
+						</h4>
+					</li>
+					<li>
+						<h4>
+							<div class="ods-main-ul-sep"><span class="nav-icon"><div class="ods_emoji em_tada" style="margin-bottom: -1px;"></div></span></div>
+							<div class="ods-main-ul-txt">Не просто конференция, а праздник сообщества</div>
+						</h4>
+					</li>
+				</ul>
+				<div class="text-center" style="margin-top: 20px;">
+					<a href="https://corp.mail.ru/ru/press/events/624/" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 120%; padding: 20px 20px;min-width: 250px;">Регистрация</span></a>
+				</div>
+			</div>
+			<div class="col-md-6 text-center" >
+				<h3 style="margin-top: 0px;">Как это было в прошлом году</h3>
+				<a href="1/">	
+					<img src="static/img/design/major-prev-compressor.jpg" class="" style="width: 90%; height: auto; max-height: 500px; margin-top: 0px;">
+				</a>
+				<h4 style="margin-top: 10px;"><a href="https://habr.com/ru/company/mailru/blog/420711/">Программа</a>, 
+	                        <a href="https://www.youtube.com/playlist?list=PLXggmPzAxFwpsE3EEfheIaQKvp0gkBKxS">видео</a>
+			</div>
+	    </div>
+
+		<div class="container" style="margin-bottom: 0px; margin-top: 40px;">
+			<div class="text-center col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	    		<h1>Секции в программе</h1>
+	    		<h4>
+	    			 В наших лучших традициях, горячие темы вокруг Data&nbsp;Science и Machine&nbsp;Learning на любой вкус, от ведущих экспертов и практиков:
+				</h4>
+	    	</div>
+
+
+			<div class="row" style="margin-top: 15px;">
+				<div class="container text-center">
+							
+					<div class="orange2 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	🏄‍♂️ Summer ML conf
+			                </h4>
+			                <h5>
+			                	Обзор последних новинок с топовых летних ML конференций: ICML, CVPR, KDD и другие.
+							</h5>					
+						</div>
+					</div>
+	
+
+					<div class="grey1 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	⚒️ SysML
+			                </h4>
+			                <h5>
+			                	ML Engineering — машинное обучение в продакшене: особенности реальных систем и больших нагрузок.
+							</h5>					
+						</div>
+					</div>
+
+					<div class="green1 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	💰 Fail/cess story
+			                </h4>
+			                <h5>
+			                	Поучительные истории успехов и провалов машинного обучения в реальных кейсах.
+							</h5>					
+						</div>
+					</div>	
+
+					<div class="gold text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	🏆 ML trainings
+			                </h4>
+			                <h5>
+			                	Классическая ML тренировка: выступления с решениями победителей недавних ML соревнований.
+							</h5>					
+						</div>
+					</div>	
+
+					<div class="grey2 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	🎰 A/B testing
+			                </h4>
+			                <h5>
+			                	Повторение одной из самых горячих секций Феста: про ML, A/B тесты и их использование.
+							</h5>					
+						</div>
+					</div>
+
+					<div class="blue1 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	📄 NLP
+			                </h4>
+			                <h5>
+			                	Современные алгоритмы и подходы ко всему, что связано с анализом текста и естественного языка.
+							</h5>					
+						</div>
+					</div>	
+
+					<div class="orange1 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	🐍 PyData
+			                </h4>
+			                <h5>
+			                	Про хранение, визуализацию, обработку и анализ данных с применением языка Python.
+							</h5>					
+						</div>
+					</div>
+
+					<div class="blue2 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	☀️ ML4SG
+			                </h4>
+			                <h5>
+			                	Социальные ML проекты сообщества, которые помогают делать жизнь людей и мир лучше.
+							</h5>					
+						</div>
+					</div>
+
+					<div class="red text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	🖼️ <span style="font-size: 95%; line-height: 1;">CV/Learn to match</span>
+			                </h4>
+			                <h5>
+			                	Сиквел эпичной секции Data Fest-а про крутые приложения компьютерного зрения и не только.
+							</h5>					
+						</div>
+					</div>	
+
+					<div class="green2 text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	💪 <span style="font-size: 75%; line-height: 1;">DS 4 Human well-being</span>
+			                </h4>
+			                <h5>
+			                	Анализ данных и ML на пользе психологического благополучия и здоровья человека.
+							</h5>					
+						</div>
+					</div>	
+
+					<div class="magenta text-center section-container">			
+						<div class="gradient-box">		
+			                <h4>
+			                	🍻 Random beer
+			                </h4>
+			                <h5>
+			                	Нетворкинг, случайные знакомства и встречи друг с другом через нашего <a href="https://tele.gg/ODS_DataFest_bot">Fest&nbsp;bot-а</a>.
+							</h5>					
+						</div>
+					</div>	
+
+				</div>
+			</div>
+
+			<div class="text-center col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="margin-top: 20px;">
+	    		<h4 style=" margin-bottom: 30px;">
+	    			 Полное расписание с докладами и спикерами появится в середине августа.
+	    			 <br>
+	    			 Открыта подача докладов — если вам есть чем поделиться, оставьте заявку! 
+				</h4>
+				<a href="https://forms.gle/3D6gpeFDW74avBui7" class="fancy-button pop-onhover bg-btn-main-l text-center" style=" margin: 7px 7px;"><span style="font-size: 120%; padding: 20px 20px;min-width: 250px;">Подать доклад</span></a>
+	    	</div>
+	    </div>
+	</div>
+
+
+<div style="background: transparent; padding-bottom: 100px; margin-top: -30px; ">
+		<div class="text-center" style="margin-bottom: 10px; margin-top: -30px;">
+    		<h1 style="margin-bottom: 00px;">F.A.Q.</h1>
+    	</div>
+	    <div class="container">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row" style="margin: 0;">
+					<div class="col-md-6">
+						<h4>
+							Что такое Moscow Data Science Major?
+						</h4>
+						<span style="padding-right: 30px; padding-bottom: 30px;">
+							 Major, или MDSM - серия крупных мероприятий от команды Data Fest. Он вырос из Московского Data Science Meetup-а и сейчас его масштаб сравним с Data Fest <a href="../4/">пару лет назад</a>.
+						</span>
+						<br><br>
+					</div>
+					<div class="col-md-6">
+						<h4>
+							Где будет проходить MDSM?
+						</h4>
+						<span style="padding-right: 30px; padding-bottom: 30px;">
+							MDSM пройдёт в офисе Mail.ru Group,  г. Москва, м. «Аэропорт», Ленинградский пр-т, д. 39, стр. 79. Если вдруг забудете - мы это напоминаем на всех страницах и анкетах.
+						</span>
+						<br><br>
+					</div>
+				</div>
+				<div class="row" style="margin: 0;">
+					<div class="col-md-6">
+						<h4>
+							Участие бесплатно?
+						</h4>
+						<span style="padding-right: 30px; padding-bottom: 30px;">
+							Все так, мы не берем денег за вход. За выход и материалы, кстати, тоже не берем. С вас только пройти регистрацию, получить приглашение (не бойтесь), и приехать.
+						</span>
+						<br><br>
+					</div>
+					<div class="col-md-6">
+						<h4>
+							Что делать, если я из другого города?
+						</h4>
+						<span style="padding-right: 30px; padding-bottom: 30px;">
+							Приезжать! Всех, кто едет из других городов и стран, мы приглашаем автоматически. Так что смело берите билеты. Главное - не забудьте зарегистрироваться.
+						</span>
+						<br><br>
+					</div>
+				</div>
+			</div>
+	    </div>
+	</div>
+
+<footer class="footer">
+    	<div class="container text-center">
+    		<a href="https://ods.ai"><img src="static/img/ods_logo.svg" class="header-logo"></a>
+	    	<h3>
+				Open Data Science				
+			</h3>
+	    	<div id="ods_social_footer_container"></div>
+	    	<h4>
+	    		<br>&copy; 2015–<script>document.write(new Date().getFullYear())</script> 
+	    	</h4>	
+		</div>
+    	<div class="ods-bg-new hidden-xs footer-bg-right"></div>
+	    <div class="ods-bg-new hidden-xs footer-bg-left"></div>
+</footer>
+
+
+</body>
+
+	<!--   Core JS Files   -->
+	<!--<script src="static/js/jquery.min.js" type="text/javascript"></script>-->
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="static/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="static/js/material.min.js"></script>
+	<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/   -->
+	<script src="static/js/bootstrap-tagsinput.js"></script>
+	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
+	<script src="static/js/material-kit.js?v=1.2.1" type="text/javascript"></script>
+	<script type="text/javascript" language="javascript" class="init">
+	$(document).ready(function() {
+
+		//generic function to render social element
+		function render_social_button(element){
+			var social_start_a = '<a href="' + element.link + '" style="padding: 1px;">';
+			var social_div = '<div class="ods-social-container text-center" style="background:' + element.background + ';">'
+			var social_end = element.content + '</div></a>'
+			return element.display == "1" ? social_start_a + social_div + social_end : "";
+		}
+
+		function render_social_links(data){
+			var all_links = '';
+			$.each( data, function( key, val ) { 
+		    	all_links = all_links + render_social_button(val);
+		  	});
+			return all_links;
+		}
+
+		$.getJSON( "static/data/social.txt?v=1.3", function( data ) {
+			var ods_footer = render_social_links(data.ods);
+		  	$("#ods_social_footer_container").html(ods_footer);
+		  	var fest_header = render_social_links(data.fest);
+		  	$("#fest_social_header_container").html(fest_header);
+		});
+	});	
+	</script>
+
+
+
+
+</html>

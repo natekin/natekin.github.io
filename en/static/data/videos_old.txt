@@ -1,0 +1,261 @@
+{
+    "data": [
+        {
+            "date": "2018.10.13",
+            "event": {
+                "name": "PyData Moscow",
+                "section" : "Retail",
+                "link": "https://events.yandex.ru/events/ds/13-october-2018/"
+            },
+            "venue": {
+                "city": "Moscow",
+                "host": "Yandex"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "32:46",
+                "img": "pydata-m-3-1.jpg",
+                "link": "https://www.youtube.com/watch?v=nK2Ra0Xq0So",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Процесс полуавтоматической разметки данных",
+                "speaker": "Кирилл Данилюк",
+                "description": ""
+            },
+            "tags": [
+                "pydata",
+                "labeling",
+                "semi-supervised"
+            ]
+        },
+        {
+            "date": "2018.10.15",
+            "event": {
+                "name": "PyData Moscow",
+                "section" : "",
+                "link": "https://events.yandex.ru/events/ds/13-october-2018/"
+            },
+            "venue": {
+                "city": "Moscow",
+                "host": "Yandex"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "19:36",
+                "img": "pydata-m-3-2.jpg",
+                "link": "https://youtu.be/h-vbysp1Tso",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Canary deployment, мониторинг и тестирование моделей силами одного специалиста",
+                "speaker": "Александр Дмитриев",
+                "description": ""
+            },
+            "tags": [
+                "pydata",
+                "ml testing",
+                "ml in prod"
+            ]
+        },
+        {
+            "date": "2017.04.22",
+            "event": {
+                "name": "Data Fest Kyiv¹",
+                "section" : "",
+                "link": "http://kyiv.fest.ai/1/"
+            },
+            "venue": {
+                "city": "Киев",
+                "host": "Ciklum"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "49:43",
+                "img": "fest-kyiv-1-1.jpg",
+                "link": "https://youtu.be/T_YWBGApUgs?t=463",
+                "lang": "en"
+            },
+            "content": {
+                "title": "And Why Did You Make This Prediction, Machine?",
+                "speaker": "Сергей Юргенсон",
+                "description": "Often, users want to know why an algorithm made a specific prediction. Why do we need to listen to those requests? And how can we make “black box model” predictions easier to understand?"
+            },
+            "tags": [
+                "ml interpretability",
+                "ml models"
+            ]
+        },
+        {
+            "date": "2017.04.22",
+            "event": {
+                "name": "Data Fest Kyiv¹",
+                "section" : "",
+                "link": "http://kyiv.fest.ai/1/"
+            },
+            "venue": {
+                "city": "Киев",
+                "host": "Ciklum"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "46:40",
+                "img": "fest-kyiv-1-2.jpg",
+                "link": "https://youtu.be/T_YWBGApUgs?t=3580",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Face Recognition and Search at Scale",
+                "speaker": "Сергей Овчаренко",
+                "description": "The talk will discuss the current state of face recognition technology, common pipelines and the nuts and bolts of building robust, large-scale face recognition systems like the FindFace app."
+            },
+            "tags": [
+                "computer vision",
+                "deep learning",
+                "face recognition"
+            ]
+        },
+        {
+            "date": "2017.04.22",
+            "event": {
+                "name": "Data Fest Kyiv¹",
+                "section" : "",
+                "link": "http://kyiv.fest.ai/1/"
+            },
+            "venue": {
+                "city": "Киев",
+                "host": "Ciklum"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "66:16",
+                "img": "fest-kyiv-1-3.jpg",
+                "link": "https://youtu.be/T_YWBGApUgs?t=7367",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "Time-series Analysis in the ML Era: an Overview",
+                "speaker": "Алексей Натёкин",
+                "description": "Forecasting has been the go-to application for several generations of statisticians, machine learners and domain specialists. We will start the day with a review of the most popular methods and approaches for time-series analysis, and will discuss modern models used in practice. In particular, we will play around with different feature engineering approaches used for forecasting-like problems in casual machine learning tasks: financial predictions, industrial monitoring, neuro-prosthetics and a few others."
+            },
+            "tags": [
+                "time series",
+                "tutorial"
+            ]
+        },
+        {
+            "date": "2017.04.22",
+            "event": {
+                "name": "Data Fest Kyiv¹",
+                "section" : "",
+                "link": "http://kyiv.fest.ai/1/"
+            },
+            "venue": {
+                "city": "Киев",
+                "host": "Ciklum"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "53:34",
+                "img": "fest-kyiv-1-4.jpg",
+                "link": "https://youtu.be/T_YWBGApUgs?t=17629",
+                "lang": "en"
+            },
+            "content": {
+                "title": "Automatic Annotation of Speakers in Phone Conversations",
+                "speaker": "Юрий Гуц",
+                "description": "Indexing and searching multimedia content is becoming increasingly important for many analytical tasks. One such technique is speaker diarization, the purpose of which is to answer the question \"Who spoke when?\" without any a priori information about the speakers present in the audio recording. In this talk, we'll discuss the approaches and challenges of speaker diarization for phone conversations."
+            },
+            "tags": [
+                "speech recognition",
+                "speaker diarization"
+            ]
+        },
+        {
+            "date": "2017.04.22",
+            "event": {
+                "name": "Data Fest Kyiv¹",
+                "section" : "",
+                "link": "http://kyiv.fest.ai/1/"
+            },
+            "venue": {
+                "city": "Киев",
+                "host": "Ciklum"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "46:13",
+                "img": "fest-kyiv-1-5.jpg",
+                "link": "https://youtu.be/T_YWBGApUgs?t=21524",
+                "lang": "ru"
+            },
+            "content": {
+                "title": "ML Test Rubric",
+                "speaker": "Роман Дегтярев",
+                "description": "ML test rubruc: how to handle with machine learning in production"
+            },
+            "tags": [
+                "sysml",
+                "ml in prod"
+            ]
+        },
+        {
+            "date": "2017.04.22",
+            "event": {
+                "name": "Data Fest Kyiv¹",
+                "section" : "",
+                "link": "http://kyiv.fest.ai/1/"
+            },
+            "venue": {
+                "city": "Киев",
+                "host": "Ciklum"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "35:49",
+                "img": "fest-kyiv-1-6.jpg",
+                "link": "https://youtu.be/T_YWBGApUgs?t=25102",
+                "lang": "en"
+            },
+            "content": {
+                "title": "Motion Deblurring Using Generative Adversarial Networks",
+                "speaker": "Орест Купин",
+                "description": "We will present a new GAN-based solution to the problem of image motion deblurring. We’ll briefly talk about existing solutions in blind image debarring and discuss their pros and cons. Also, we will describe multi-scale CNN architecture and give a quick overview of the Wasserstein Generative Adversarial Network model, which claims to solve most of the problems related to GAN training. Finally, we’ll discuss new synthetic blur methods which help to overcome the problem with limited datasets and achieve state-of-the-art performance."
+            },
+            "tags": [
+                "deep learning",
+                "gan",
+                "deblurring"
+            ]
+        },
+        {
+            "date": "2017.04.22",
+            "event": {
+                "name": "Data Fest Kyiv¹",
+                "section" : "",
+                "link": "http://kyiv.fest.ai/1/"
+            },
+            "venue": {
+                "city": "Киев",
+                "host": "Ciklum"
+            },
+            "video": {
+                "host": "youtube",
+                "length": "63:10",
+                "img": "fest-kyiv-1-7.jpg",
+                "link": "https://youtu.be/T_YWBGApUgs?t=28560",
+                "lang": "ua"
+            },
+            "content": {
+                "title": "Neural Attention Mechanism in NLP",
+                "speaker": "Oleksiy Syvokon, Dmitry Unkovsky",
+                "description": "In this talk, we will showcase a neural attention mechanism. It helps to achieve state-of-the-art results on a number of sequence-to-sequence modelling tasks. We will briefly overview modern NLP pipeline in deep learning and emphasize some limitations that the attention mechanism helps to overcome. Also, along the way, we will present the results of applying attention in machine translation and text entailment tasks."
+            },
+            "tags": [
+                "deep learning",
+                "nlp",
+                "attention"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "data": [
+        {
+            "time": {
+                "date_start": "2019.05.10",
+                "date_end": "2019.05.11"
+            },
+            "venue": {
+                "city": "Москва",
+                "place": "FLACON",
+                "link": "http://flacon.ru/contacts/"
+            },
+            "event": {
+                "title": "Data Fest⁶",
+                "short": "Самая эпичная Data Science конференция года: 60 секций по DS/ML.",
+                "details_link": "http://datafest.ru",
+                "register_link": ""
+            }
+        },        
+        {
+            "time": {
+                "date_start": "2019.03.06",
+                "date_end": "2019.03.06"
+            },
+            "venue": {
+                "city": "Москва",
+                "place": "Яндекс",
+                "link": "https://yandex.ru/maps/213/moscow/?from=api-maps&l=map&ll=37.587093%2C55.733969&mode=poi&origin=jsapi21&poi%5Bpoint%5D=37.588134%2C55.733836&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1124715036&z=17"
+            },
+            "event": {
+                "title": "ML тренировка",
+                "short": "Главная DS/ML конференция в Минске, с самыми эпичными в мире afterparty!",
+                "details_link": "https://events.yandex.ru/events/mltr/09-mar-2019/",
+                "register_link": "https://events.yandex.ru/events/mltr/09-mar-2019/"
+            }
+        },
+        {
+            "time": {
+                "date_start": "2018.04.27",
+                "date_end": "2018.04.27"
+            },
+            "venue": {
+                "city": "Минск",
+                "place": "Галерея «Ў»",
+                "link": "https://goo.gl/maps/9dWwpZ39UoD2"
+            },
+            "event": {
+                "title": "Data Fest Minsk³",
+                "short": "Главная DS/ML конференция в Минске, с самыми эпичными в мире afterparty!",
+                "details_link": "http://datafest.by",
+                "register_link": ""
+            }
+        },
+        {
+            "time": {
+                "date_start": "2018.03.18",
+                "date_end": "2018.03.18"
+            },
+            "venue": {
+                "city": "Москва",
+                "place": "Кутузовский проспект, 32 корп.1",
+                "link": "https://goo.gl/sU5PJg"
+            },
+            "event": {
+                "title": "PyData Moscow #6",
+                "short": "Митап про хранение, визуализацию, обработку и анализ данных с применением языка программирования Python.",
+                "details_link": "https://pydata.moscow",
+                "register_link": "https://pydata.timepad.ru/event/923845/"
+            }
+        }
+    ],
+    "breakfast": [
+        {
+            "time": {
+                "day": "среда",
+                "order": 3,
+                "time": "9:30"
+            },
+            "info": {
+                "city": "Москва",
+                "place": "Райский пирожок",
+                "venue_link": "http://flacon.ru/contacts/",
+                "channel": "#data_breakfast"
+            }
+        },
+        {
+            "time": {
+                "day": "вторник",
+                "order": 2,
+                "time": "8:30"
+            },
+            "info": {
+                "city": "Новосибирск",
+                "place": "Чередуются город/фкадем",
+                "venue_link": "http://flacon.ru/contacts/",
+                "channel": "#_meetings_siberia"
+            }
+        },
+        {
+            "time": {
+                "day": "четверг",
+                "order": 4,
+                "time": "10:00"
+            },
+            "info": {
+                "city": "Санкт-Петербург",
+                "place": "Bonch",
+                "venue_link": "http://flacon.ru/contacts/",
+                "channel": "#_meetings_spb"
+            }
+        },
+        {
+            "time": {
+                "day": "вторник",
+                "order": 2,
+                "time": "8:30"
+            },
+            "info": {
+                "city": "Берлин",
+                "place": "Cafe Einstein",
+                "venue_link": "http://flacon.ru/contacts/",
+                "channel": "#_meetings_de"
+            }
+        },
+        {
+            "time": {
+                "day": "суббота",
+                "order": 6,
+                "time": "10:30"
+            },
+            "info": {
+                "city": "Париж",
+                "place": "Malongo caffe",
+                "venue_link": "http://flacon.ru/contacts/",
+                "channel": "#_meetings_france"
+            }
+        },
+        {
+            "time": {
+                "day": "среда",
+                "order": 3,
+                "time": "9:30"
+            },
+            "info": {
+                "city": "Киев",
+                "place": "Компот",
+                "venue_link": "http://flacon.ru/contacts/",
+                "channel": "#_meetings_ukraine"
+            }
+        },
+        {
+            "time": {
+                "day": "воскресенье",
+                "order": 7,
+                "time": "9:00"
+            },
+            "info": {
+                "city": "Тель-Авив",
+                "place": "Sarona",
+                "venue_link": "http://flacon.ru/contacts/",
+                "channel": "#_meetings_israel"
+            }
+        }
+    ]
+
+}
+
+
+
+
+

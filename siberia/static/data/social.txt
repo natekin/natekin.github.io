@@ -1,0 +1,97 @@
+{
+    "ods": [
+        {
+            "link": "https://opendatascience.slack.com",
+            "background": "#461b47",
+            "content": "<span class='nav-icon'><div class='ods_emoji em_slack' style='margin-bottom: -1px; transform: scale(0.85);'></div></span>",
+            "display": 1
+        },
+        {
+            "link": "https://t.me/ods_ru",
+            "background": "#00ade9",
+            "content": "<i class='fab fa-telegram-plane ods-social-fab' style='margin-left: -2px;'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://www.kaggle.com/open-data-science",
+            "background": "#45c8f0",
+            "content": "<i class='fab fa-kaggle ods-social-fab'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://www.linkedin.com/company/opendatascience/",
+            "background": "#007cb6",
+            "content": "<i class='fab fa-linkedin-in ods-social-fab'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://twitter.com/odsai_en/",
+            "background": "#00ceff",
+            "content": "<i class='fab fa-twitter ods-social-fab'></i>",
+            "display": 1
+        },
+        {
+            "link": "",
+            "background": "#02B875",
+            "content": "<i class='fab fa-medium-m ods-social-fab'></i>",
+            "display": 0
+        },
+        {
+            "link": "https://github.com/open-data-science",
+            "background": "#333333",
+            "content": "<i class='fab fa-github ods-social-fab'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://habr.com/company/ods/",
+            "background": "#82a3b1",
+            "content": "<div style='margin-top: 1px; margin-left: 1px;'><b class='ods-social-fab'>H</b></div>",
+            "display": 1
+        },
+        {
+            "link": "http://instagram.com/ods_ai/",
+            "background": "#d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)",
+            "content": "<i class='fab fa-instagram ods-social-fab'></i>",
+            "display": 1
+        }
+    ],
+    "fest": [
+        {
+            "link": "https://opendatascience.slack.com/messages/data_fest/",
+            "background": "#461b47",
+            "content": "<span class='nav-icon'><div class='ods_emoji em_slack' style='margin-bottom: -1px; transform: scale(0.85);'></div></span>",
+            "display": 1
+        },
+        {
+            "link": "https://t.me/datafest",
+            "background": "#00ade9",
+            "content": "<i class='fab fa-telegram-plane ods-social-fab' style='margin-left: -2px;'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://vk.com/datafest",
+            "background": "#4c75a3",
+            "content": "<i class='fab fa-vk ods-social-fab' style='margin-left: -1px;'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://www.patreon.com/datafest",
+            "background": "#f96854",
+            "content": "<i class='fab fa-patreon ods-social-fab' style='margin-left: 1px;'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://www.youtube.com/channel/UCM9ECBAZtlLeEr-m3ldZ7Tw?view_as=subscriber",
+            "background": "red",
+            "content": "<i class='fas fa-play ods-social-fab' style='margin-left: 0px; font-size: 11px;'></i>",
+            "display": 1
+        },
+        {
+            "link": "https://www.instagram.com/explore/tags/datafest/",
+            "background": "#d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)",
+            "content": "<i class='fab fa-instagram ods-social-fab'></i>",
+            "display": 1
+        }
+    ]
+
+}
