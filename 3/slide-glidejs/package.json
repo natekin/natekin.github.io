@@ -23,7 +23,7 @@
     "responsive"
   ],
   "dependencies": {
-    "jquery": "2.2.*"
+    "jquery": "3.4.*"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
